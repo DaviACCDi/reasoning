@@ -118,3 +118,7 @@ python jobs/subtypes/orchestrate_text_substitution_subtypes.py --subtypes all
 ```
 
 Relatorio agregado: `data/subtypes/text/substitution/_shared/reports/orchestrator_report.json`.
+
+Branches: foundation `feature/text-substitution-foundation` (base operacional, nao e dominio fechado); calibração por subtipo — ver `docs/text_substitution_branching_and_calibration.md`.
+
+Calibração LLM (`custom_mapping` primeiro): `--llm-role reasoning` ou `--llm-role phrases` (requer Ollama + `--subtypes custom_mapping` apenas).

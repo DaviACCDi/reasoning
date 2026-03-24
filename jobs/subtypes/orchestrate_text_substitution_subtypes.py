@@ -7,6 +7,8 @@ import argparse
 import csv
 import json
 import random
+import re
+import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -82,6 +84,101 @@ PROMPTS_V1: dict[str, str] = {
     "number_mapping": "Letters encoded as 1-26 with hyphen per word; decrypt query to lowercase words.",
     "mixed": "Two-step pipeline (Caesar then reverse or reverse then Caesar); verify full pipeline on all pairs.",
 }
+
+DEFAULT_REASONING_FALLBACK = (
+    "The ciphertext-to-plaintext mapping implied by the examples is applied to the final line."
+)
+
+
+def local_model_text(model: str, prompt: str, timeout_seconds: int = 45) -> str:
+    req_data = json.dumps({"model": model, "prompt": prompt, "stream": False}).encode()
+    req = urllib.request.Request(
+        "http://127.0.0.1:11434/api/generate",
+        data=req_data,
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout_seconds) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+            return str(body.get("response", "")).strip()
+    except Exception:
+        return ""
+
+
+def strict_json_object(text: str, required_keys: set[str]) -> dict[str, Any] | None:
+    t = text.strip()
+    if t.startswith("```"):
+        t = re.sub(r"^```[a-zA-Z]*\s*", "", t)
+        if t.endswith("```"):
+            t = t[:-3].strip()
+    start, end = t.find("{"), t.rfind("}")
+    if start == -1 or end <= start:
+        return None
+    try:
+        o = json.loads(t[start : end + 1])
+    except Exception:
+        return None
+    if not isinstance(o, dict) or set(o.keys()) != required_keys:
+        return None
+    return o
+
+
+def valid_plain_phrase(s: str, min_words: int = 2, max_words: int = 10) -> bool:
+    if not s or not s.strip():
+        return False
+    for c in s:
+        if c == " ":
+            continue
+        if not ("a" <= c <= "z"):
+            return False
+    ws = s.split()
+    return min_words <= len(ws) <= max_words
+
+
+def llm_reasoning_only(model: str, timeout_seconds: int) -> str | None:
+    prompt = (
+        'Return ONLY one JSON object with a single key "reasoning". No markdown fences. No other keys.\n'
+        '"reasoning": one short English sentence (max 220 characters) stating that the hidden letter '
+        "mapping shown by the ciphertext -> plaintext examples is applied consistently to decrypt the final line."
+    )
+    raw = local_model_text(model, prompt, timeout_seconds=timeout_seconds)
+    o = strict_json_object(raw, {"reasoning"})
+    if not o:
+        return None
+    r = str(o["reasoning"]).strip()
+    if not r or len(r) > 400:
+        return None
+    return r
+
+
+def llm_phrases_custom_mapping(
+    model: str, example_count: int, timeout_seconds: int
+) -> tuple[list[str], str] | None:
+    shape = (
+        '{"examples_plain":["alice reads the secret","queen follows the dragon"],'
+        '"query_plain":"cat imagines book"}'
+    )
+    prompt = (
+        f"Return ONLY one JSON object. No markdown fences. No text outside JSON.\n"
+        f'Keys exactly: "examples_plain" (JSON array of exactly {example_count} strings) and "query_plain" (one string).\n'
+        "Each string: lowercase English letters and spaces only. Use 2 to 7 words per string. No punctuation.\n"
+        f"Shape example: {shape}\n"
+    )
+    raw = local_model_text(model, prompt, timeout_seconds=timeout_seconds)
+    o = strict_json_object(raw, {"examples_plain", "query_plain"})
+    if not o:
+        return None
+    ex = o["examples_plain"]
+    q = str(o["query_plain"]).strip()
+    if not isinstance(ex, list) or len(ex) != example_count:
+        return None
+    pls = [str(x).strip() for x in ex]
+    for s in pls:
+        if not valid_plain_phrase(s, 2, 7):
+            return None
+    if not valid_plain_phrase(q, 2, 7):
+        return None
+    return pls, q
 
 
 def utc_now() -> str:
@@ -518,6 +615,8 @@ def run_iteration(
     batch_size: int,
     model: str,
     rng: random.Random,
+    llm_role: str,
+    llm_timeout_seconds: int,
 ) -> dict[str, Any]:
     generated: list[dict[str, Any]] = []
     validated: list[dict[str, Any]] = []
@@ -527,7 +626,7 @@ def run_iteration(
     reject_causes: Counter[str] = Counter()
     review_causes: Counter[str] = Counter()
     model_parse_failures = 0
-    raw_parse_success = batch_size
+    raw_parse_success_count = 0
     repaired_parse_success = 0
     unsafe_repair_count = 0
 
@@ -535,22 +634,52 @@ def run_iteration(
         params = random_params(rng, subtype)
         example_count = rng.randint(8, 10)
         example_pairs: list[tuple[str, str]] = []
-        for _ in range(example_count):
-            plain = random_phrase(rng)
-            ciph = encrypt_plain(subtype, plain, params)
-            example_pairs.append((ciph, plain))
+        llm_parse_ok = True
+        generated_reasoning = DEFAULT_REASONING_FALLBACK
 
-        plain_query = random_phrase(rng, 2, 4)
+        if subtype == "custom_mapping" and llm_role == "phrases":
+            got = llm_phrases_custom_mapping(model, example_count, llm_timeout_seconds)
+            if got is None:
+                model_parse_failures += 1
+                llm_parse_ok = False
+                plains = [random_phrase(rng) for _ in range(example_count)]
+                plain_query = random_phrase(rng, 2, 4)
+            else:
+                plains, plain_query = got
+            for plain in plains:
+                ciph = encrypt_plain(subtype, plain, params)
+                example_pairs.append((ciph, plain))
+        else:
+            for _ in range(example_count):
+                plain = random_phrase(rng)
+                ciph = encrypt_plain(subtype, plain, params)
+                example_pairs.append((ciph, plain))
+            plain_query = random_phrase(rng, 2, 4)
+
         cipher_query = encrypt_plain(subtype, plain_query, params)
         generated_problem = build_problem(example_pairs, cipher_query)
-        generated_reasoning = "The ciphertext-to-plaintext mapping implied by the examples is applied to the final line."
         generated_answer = plain_query
 
+        if subtype == "custom_mapping" and llm_role == "reasoning":
+            r = llm_reasoning_only(model, llm_timeout_seconds)
+            if r is None:
+                model_parse_failures += 1
+                llm_parse_ok = False
+                generated_reasoning = DEFAULT_REASONING_FALLBACK
+            else:
+                generated_reasoning = r
+
+        raw_parse_success_count += 1 if llm_parse_ok else 0
+
         parse_meta = {
-            "raw_parse_success": True,
+            "raw_parse_success": llm_parse_ok,
             "repaired_parse_success": False,
             "unsafe_repair": False,
-            "repair_method": f"programmatic_{subtype}",
+            "repair_method": (
+                f"programmatic_{subtype}+llm_{llm_role}"
+                if subtype == "custom_mapping" and llm_role in ("reasoning", "phrases")
+                else f"programmatic_{subtype}"
+            ),
         }
 
         row = {
@@ -563,6 +692,7 @@ def run_iteration(
                 "subgroup": f"substitution/{subtype}",
                 "provider": "local",
                 "model": model,
+                "llm_role": llm_role if subtype == "custom_mapping" else "none",
                 "params": params,
             },
         }
@@ -604,7 +734,7 @@ def run_iteration(
         "average_score": round(sum(float(r["score"]) for r in validated) / batch_size, 6),
         "adversarial_detection_rate": round((detected / adversarial_total) if adversarial_total else 0.0, 6),
         "model_parse_failure_rate": round(model_parse_failures / batch_size, 6),
-        "raw_parse_success_rate": round(raw_parse_success / batch_size, 6),
+        "raw_parse_success_rate": round(raw_parse_success_count / batch_size, 6),
         "repaired_parse_success_rate": round(repaired_parse_success / batch_size, 6),
         "unsafe_repair_rate": round(unsafe_repair_count / batch_size, 6),
         "reject_causes": dict(reject_causes),
@@ -652,7 +782,16 @@ def create_pr_summary(subtype_root: Path, variant: str, final_report: dict[str, 
     (subtype_root / "reports" / "merge_request_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
 
-def run_subtype(root: Path, variant: str, model: str, batch_size: int, max_iterations: int, seed: int) -> dict[str, Any]:
+def run_subtype(
+    root: Path,
+    variant: str,
+    model: str,
+    batch_size: int,
+    max_iterations: int,
+    seed: int,
+    llm_role: str,
+    llm_timeout_seconds: int,
+) -> dict[str, Any]:
     st_root = ensure_subtype_layout(root, variant)
     thresholds_raw = json.loads((st_root / "config" / "quality_thresholds.json").read_text(encoding="utf-8"))
     thresholds = thresholds_raw.get("quality_gate", thresholds_raw)
@@ -679,7 +818,9 @@ def run_subtype(root: Path, variant: str, model: str, batch_size: int, max_itera
 
     for it in range(1, max_iterations + 1):
         state = "CALIBRATING"
-        result = run_iteration(st_root, variant, it, batch_size, model, rng)
+        result = run_iteration(
+            st_root, variant, it, batch_size, model, rng, llm_role, llm_timeout_seconds
+        )
         metrics = result["metrics"]
         passed = (
             metrics["keep_rate"] >= thresholds["min_keep_rate"]
@@ -733,12 +874,21 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--subtypes", default="all", help="Comma-separated variants or 'all'")
     parser.add_argument("--root", default="data/subtypes")
+    parser.add_argument(
+        "--llm-role",
+        choices=("none", "reasoning", "phrases"),
+        default="none",
+        help="custom_mapping only: call Ollama for reasoning JSON or plaintext phrases; other variants ignore.",
+    )
+    parser.add_argument("--llm-timeout", type=int, default=45, help="Ollama HTTP timeout seconds.")
     args = parser.parse_args()
 
     if args.provider != "local":
         raise ValueError("This orchestrator supports only local provider metadata for now.")
 
     chosen = SUBTYPES if args.subtypes == "all" else tuple(x.strip() for x in args.subtypes.split(",") if x.strip())
+    if args.llm_role != "none" and any(v != "custom_mapping" for v in chosen):
+        raise ValueError("--llm-role other than none requires --subtypes custom_mapping (single variant).")
     root = Path(args.root)
     shared_reports = root / "text" / "substitution" / "_shared" / "reports"
     shared_reports.mkdir(parents=True, exist_ok=True)
@@ -747,13 +897,26 @@ def main() -> None:
         "domain": "text/substitution",
         "provider": args.provider,
         "model": args.model,
+        "llm_role": args.llm_role,
+        "llm_timeout_seconds": args.llm_timeout,
+        "foundation_branch_note": "feature/text-substitution-foundation is operational base; subtype branches calibrate LLM.",
         "started_at": utc_now(),
         "states": list(STATES),
         "subtypes": {},
     }
 
     for variant in chosen:
-        overall["subtypes"][variant] = run_subtype(root, variant, args.model, args.batch_size, args.max_iterations, args.seed)
+        llm_role = args.llm_role if variant == "custom_mapping" else "none"
+        overall["subtypes"][variant] = run_subtype(
+            root,
+            variant,
+            args.model,
+            args.batch_size,
+            args.max_iterations,
+            args.seed,
+            llm_role,
+            args.llm_timeout,
+        )
 
     overall["finished_at"] = utc_now()
     out_path = shared_reports / "orchestrator_report.json"
