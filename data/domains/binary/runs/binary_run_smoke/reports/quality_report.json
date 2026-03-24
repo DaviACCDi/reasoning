@@ -1,0 +1,10 @@
+{
+  "run_id": "binary_run_smoke",
+  "approved_count": 140,
+  "rejected_count": 0,
+  "approval_rate": 1.0,
+  "avg_score": 1.0,
+  "reject_causes": {},
+  "duplicate_prompt_rate": 0.0,
+  "duplicate_prompt_rate_ok": true
+}

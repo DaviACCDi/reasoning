@@ -1,0 +1,84 @@
+{
+  "run_id": "binary_run_001",
+  "total_requested": 30000,
+  "total_generated": 30000,
+  "model": "llama3.1:8b",
+  "counts_by_subtype": {
+    "shift": 3600,
+    "rotation": 3600,
+    "xor": 4200,
+    "and": 4200,
+    "or": 4200,
+    "not": 4200,
+    "mixed": 6000
+  },
+  "coverage_summary": {
+    "shift": {
+      "count": 3600,
+      "subtype": "shift",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "rotation": {
+      "count": 3600,
+      "subtype": "rotation",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "xor": {
+      "count": 4200,
+      "subtype": "xor",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "and": {
+      "count": 4200,
+      "subtype": "and",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "or": {
+      "count": 4200,
+      "subtype": "or",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "not": {
+      "count": 4200,
+      "subtype": "not",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "mixed": {
+      "count": 6000,
+      "subtype": "mixed",
+      "mixed_level_distribution": {
+        "L1": 600,
+        "L3": 2401,
+        "L2": 2999
+      },
+      "mixed_operation_distribution": {
+        "shift": 3315,
+        "rotation": 3349,
+        "or": 3263,
+        "not": 3295,
+        "xor": 3224,
+        "and": 3355
+      },
+      "mixed_signature_unique_count": 898,
+      "mixed_signature_max_repetition": 20
+    }
+  }
+}

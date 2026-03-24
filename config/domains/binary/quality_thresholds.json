@@ -1,0 +1,7 @@
+{
+  "min_score_for_approval": 0.95,
+  "max_duplicate_prompt_rate": 0.05,
+  "min_semantic_valid_rate": 0.98,
+  "min_keep_rate": 0.9,
+  "max_reject_rate": 0.1
+}

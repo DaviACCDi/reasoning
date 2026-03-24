@@ -1,0 +1,44 @@
+{
+  "run_id": "binary_run_001",
+  "counts_generated": {
+    "shift": 3600,
+    "rotation": 3600,
+    "xor": 4200,
+    "and": 4200,
+    "or": 4200,
+    "not": 4200,
+    "mixed": 6000
+  },
+  "counts_approved": {
+    "shift": 3600,
+    "rotation": 3600,
+    "xor": 4200,
+    "and": 4200,
+    "or": 4200,
+    "not": 4200,
+    "mixed": 6000
+  },
+  "expected_distribution": {
+    "shift": 0.12,
+    "rotation": 0.12,
+    "xor": 0.14,
+    "and": 0.14,
+    "or": 0.14,
+    "not": 0.14,
+    "mixed": 0.2
+  },
+  "actual_distribution_approved": {
+    "shift": 0.12,
+    "rotation": 0.12,
+    "xor": 0.14,
+    "and": 0.14,
+    "or": 0.14,
+    "not": 0.14,
+    "mixed": 0.2
+  },
+  "mixed_level_distribution_generated": {
+    "L1": 600,
+    "L3": 2401,
+    "L2": 2999
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "binary_run_smoke",
+  "generated_at": "2026-03-24T13:38:53.564715+00:00",
+  "final_count": 140,
+  "final_paths": {
+    "csv": "data/domains/binary/runs/binary_run_smoke/final/binary_train_ready.csv",
+    "jsonl": "data/domains/binary/runs/binary_run_smoke/final/binary_train_ready.jsonl"
+  }
+}

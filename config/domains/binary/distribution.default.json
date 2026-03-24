@@ -1,0 +1,11 @@
+{
+  "subtype_distribution": {
+    "shift": 0.12,
+    "rotation": 0.12,
+    "xor": 0.14,
+    "and": 0.14,
+    "or": 0.14,
+    "not": 0.14,
+    "mixed": 0.20
+  }
+}

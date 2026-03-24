@@ -1,0 +1,9 @@
+{
+  "run_id": "binary_run_001",
+  "generated_at": "2026-03-24T14:15:17.252203+00:00",
+  "final_count": 30000,
+  "final_paths": {
+    "csv": "data/domains/binary/runs/binary_run_001/final/binary_train_ready.csv",
+    "jsonl": "data/domains/binary/runs/binary_run_001/final/binary_train_ready.jsonl"
+  }
+}

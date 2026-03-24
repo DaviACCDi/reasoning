@@ -73,6 +73,11 @@ def apply_rule(value: int, subtype: str, params: dict[str, Any]) -> int:
     if subtype == "not":
         return (~value) & 0xFF
     if subtype == "mixed":
+        if "pipeline" in params:
+            current = value
+            for step in params["pipeline"]:
+                current = apply_rule(current, step["type"], step["params"])
+            return current
         first = apply_rule(value, params["first_type"], params["first"])
         return apply_rule(first, params["second_type"], params["second"])
     raise ValueError(subtype)
@@ -99,6 +104,81 @@ def random_params(rng: random.Random, subtype: str) -> dict[str, Any]:
             "second": random_params(rng, second_type),
         }
     raise ValueError(subtype)
+
+
+def load_mixed_coverage_config(subtype_root: Path) -> dict[str, Any]:
+    default_level_mix = {"L1": 0.45, "L2": 0.35, "L3": 0.20}
+    default_cov = {
+        "allowed_operations": ["shift", "rotation", "xor", "and", "or", "not"],
+        "max_identical_operation_steps": 2,
+        "max_pipeline_reuse": 12,
+    }
+    level_mix_path = subtype_root / "config" / "level_mix.json"
+    cov_path = subtype_root / "config" / "combination_coverage.json"
+    level_mix = default_level_mix
+    coverage = default_cov
+    if level_mix_path.exists():
+        level_mix = json.loads(level_mix_path.read_text(encoding="utf-8"))
+    if cov_path.exists():
+        coverage = json.loads(cov_path.read_text(encoding="utf-8"))
+    return {"level_mix": level_mix, "coverage": coverage}
+
+
+def weighted_level_choice(rng: random.Random, level_mix: dict[str, float]) -> tuple[str, int]:
+    levels = [("L1", 2), ("L2", 3), ("L3", 4)]
+    weights = [float(level_mix.get(name, 0.0)) for name, _ in levels]
+    total = sum(weights)
+    if total <= 0:
+        return "L1", 2
+    pick = rng.random() * total
+    acc = 0.0
+    for (name, n_ops), w in zip(levels, weights):
+        acc += w
+        if pick <= acc:
+            return name, n_ops
+    return "L1", 2
+
+
+def build_mixed_params(
+    rng: random.Random,
+    used_signatures: Counter[str],
+    level_mix: dict[str, float],
+    coverage: dict[str, Any],
+) -> dict[str, Any]:
+    allowed = list(coverage.get("allowed_operations", ["shift", "rotation", "xor", "and", "or", "not"]))
+    max_same = int(coverage.get("max_identical_operation_steps", 2))
+    max_reuse = int(coverage.get("max_pipeline_reuse", 12))
+
+    best: dict[str, Any] | None = None
+    best_score = 10**9
+    for _ in range(60):
+        level_name, n_ops = weighted_level_choice(rng, level_mix)
+        ops: list[str] = []
+        while len(ops) < n_ops:
+            op = rng.choice(allowed)
+            if len(ops) >= max_same - 1 and all(x == op for x in ops[-(max_same - 1) :]):
+                continue
+            ops.append(op)
+        pipeline = [{"type": op, "params": random_params(rng, op)} for op in ops]
+        sig = "->".join(ops)
+        reuse = used_signatures[sig]
+        if reuse > max_reuse:
+            continue
+        # Prefer less-used ordered signatures to enforce order diversity.
+        score = reuse
+        if score < best_score:
+            best_score = score
+            best = {"operation": "mixed", "level": level_name, "pipeline": pipeline, "signature": sig}
+    if best is None:
+        ops = ["shift", "xor"]
+        best = {
+            "operation": "mixed",
+            "level": "L1",
+            "pipeline": [{"type": op, "params": random_params(rng, op)} for op in ops],
+            "signature": "shift->xor",
+        }
+    used_signatures[best["signature"]] += 1
+    return best
 
 
 def local_model_text(model: str, prompt: str, timeout_seconds: int = 45) -> str:
@@ -133,81 +213,50 @@ def build_problem(subtype: str, examples: list[tuple[str, str]], query: str) -> 
     return "\n".join(lines)
 
 
-def build_shift_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+TRAIN_STYLE_HEADER = (
+    "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. "
+    "The transformation involves operations like bit shifts, rotations, XOR, AND, OR, NOT, "
+    "and possibly majority or choice functions."
+)
+
+
+def build_train_style_problem(examples: list[tuple[str, str]], query: str) -> str:
     lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        TRAIN_STYLE_HEADER,
         "Here are some examples of input -> output:",
     ]
     lines.extend([f"{src} -> {dst}" for src, dst in examples])
     lines.append("")
     lines.append(f"Now, determine the output for: {query}")
     return "\n".join(lines)
+
+
+def build_shift_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    return build_train_style_problem(examples, query)
 
 
 def build_rotation_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
-    lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
-        "Here are some examples of input -> output:",
-    ]
-    lines.extend([f"{src} -> {dst}" for src, dst in examples])
-    lines.append("")
-    lines.append(f"Now, determine the output for: {query}")
-    return "\n".join(lines)
+    return build_train_style_problem(examples, query)
 
 
 def build_xor_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
-    lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
-        "Here are some examples of input -> output:",
-    ]
-    lines.extend([f"{src} -> {dst}" for src, dst in examples])
-    lines.append("")
-    lines.append(f"Now, determine the output for: {query}")
-    return "\n".join(lines)
+    return build_train_style_problem(examples, query)
 
 
 def build_and_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
-    lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
-        "Here are some examples of input -> output:",
-    ]
-    lines.extend([f"{src} -> {dst}" for src, dst in examples])
-    lines.append("")
-    lines.append(f"Now, determine the output for: {query}")
-    return "\n".join(lines)
+    return build_train_style_problem(examples, query)
 
 
 def build_or_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
-    lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
-        "Here are some examples of input -> output:",
-    ]
-    lines.extend([f"{src} -> {dst}" for src, dst in examples])
-    lines.append("")
-    lines.append(f"Now, determine the output for: {query}")
-    return "\n".join(lines)
+    return build_train_style_problem(examples, query)
 
 
 def build_not_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
-    lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
-        "Here are some examples of input -> output:",
-    ]
-    lines.extend([f"{src} -> {dst}" for src, dst in examples])
-    lines.append("")
-    lines.append(f"Now, determine the output for: {query}")
-    return "\n".join(lines)
+    return build_train_style_problem(examples, query)
 
 
 def build_mixed_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
-    lines = [
-        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
-        "Here are some examples of input -> output:",
-    ]
-    lines.extend([f"{src} -> {dst}" for src, dst in examples])
-    lines.append("")
-    lines.append(f"Now, determine the output for: {query}")
-    return "\n".join(lines)
+    return build_train_style_problem(examples, query)
 
 
 def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
@@ -449,11 +498,28 @@ def run_iteration(
     raw_parse_success = 0
     repaired_parse_success = 0
     unsafe_repair_count = 0
+    mixed_config = load_mixed_coverage_config(subtype_root) if subtype == "mixed" else None
+    mixed_signature_counter: Counter[str] = Counter()
+    mixed_level_counter: Counter[str] = Counter()
+    mixed_operation_counter: Counter[str] = Counter()
 
     for i in range(batch_size):
-        params = random_params(rng, subtype)
+        if subtype == "mixed":
+            assert mixed_config is not None
+            params = build_mixed_params(
+                rng,
+                mixed_signature_counter,
+                mixed_config["level_mix"],
+                mixed_config["coverage"],
+            )
+            mixed_level_counter[params["level"]] += 1
+            for step in params["pipeline"]:
+                mixed_operation_counter[step["type"]] += 1
+        else:
+            params = random_params(rng, subtype)
         examples: list[tuple[str, str]] = []
-        for _ in range(5):
+        example_count = rng.randint(8, 10)
+        for _ in range(example_count):
             src = rng.randint(0, 255)
             dst = apply_rule(src, subtype, params)
             examples.append((to_bin8(src), to_bin8(dst)))
@@ -562,6 +628,15 @@ def run_iteration(
         "reject_causes": dict(reject_causes),
         "review_causes": dict(review_causes),
     }
+    if subtype == "mixed":
+        m["level_distribution"] = dict(mixed_level_counter)
+        m["operation_distribution"] = dict(mixed_operation_counter)
+        m["ordered_pipeline_distribution"] = dict(mixed_signature_counter)
+        m["unique_ordered_pipelines"] = len(mixed_signature_counter)
+        m["max_pipeline_repetition"] = max(mixed_signature_counter.values()) if mixed_signature_counter else 0
+        m["pair_coverage"] = len({sig for sig in mixed_signature_counter if sig.count("->") == 1})
+        m["triple_coverage"] = len({sig for sig in mixed_signature_counter if sig.count("->") == 2})
+        m["quad_coverage"] = len({sig for sig in mixed_signature_counter if sig.count("->") == 3})
     (subtype_root / "reports" / f"{it}_quality_report.json").write_text(
         json.dumps({"iteration": iteration, "metrics": m, "generated_at": utc_now()}, indent=2),
         encoding="utf-8",

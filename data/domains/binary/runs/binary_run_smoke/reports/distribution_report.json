@@ -1,0 +1,44 @@
+{
+  "run_id": "binary_run_smoke",
+  "counts_generated": {
+    "shift": 17,
+    "rotation": 17,
+    "xor": 20,
+    "and": 20,
+    "or": 19,
+    "not": 19,
+    "mixed": 28
+  },
+  "counts_approved": {
+    "shift": 17,
+    "rotation": 17,
+    "xor": 20,
+    "and": 20,
+    "or": 19,
+    "not": 19,
+    "mixed": 28
+  },
+  "expected_distribution": {
+    "shift": 0.12,
+    "rotation": 0.12,
+    "xor": 0.14,
+    "and": 0.14,
+    "or": 0.14,
+    "not": 0.14,
+    "mixed": 0.2
+  },
+  "actual_distribution_approved": {
+    "shift": 0.12142857142857143,
+    "rotation": 0.12142857142857143,
+    "xor": 0.14285714285714285,
+    "and": 0.14285714285714285,
+    "or": 0.1357142857142857,
+    "not": 0.1357142857142857,
+    "mixed": 0.2
+  },
+  "mixed_level_distribution_generated": {
+    "L1": 10,
+    "L3": 5,
+    "L2": 13
+  }
+}

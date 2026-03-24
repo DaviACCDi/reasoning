@@ -1,0 +1,84 @@
+{
+  "run_id": "binary_run_smoke",
+  "total_requested": 140,
+  "total_generated": 140,
+  "model": "llama3.1:8b",
+  "counts_by_subtype": {
+    "shift": 17,
+    "rotation": 17,
+    "xor": 20,
+    "and": 20,
+    "or": 19,
+    "not": 19,
+    "mixed": 28
+  },
+  "coverage_summary": {
+    "shift": {
+      "count": 17,
+      "subtype": "shift",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "rotation": {
+      "count": 17,
+      "subtype": "rotation",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "xor": {
+      "count": 20,
+      "subtype": "xor",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "and": {
+      "count": 20,
+      "subtype": "and",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "or": {
+      "count": 19,
+      "subtype": "or",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "not": {
+      "count": 19,
+      "subtype": "not",
+      "mixed_level_distribution": {},
+      "mixed_operation_distribution": {},
+      "mixed_signature_unique_count": 0,
+      "mixed_signature_max_repetition": 0
+    },
+    "mixed": {
+      "count": 28,
+      "subtype": "mixed",
+      "mixed_level_distribution": {
+        "L1": 10,
+        "L3": 5,
+        "L2": 13
+      },
+      "mixed_operation_distribution": {
+        "shift": 15,
+        "rotation": 20,
+        "not": 15,
+        "and": 10,
+        "or": 8,
+        "xor": 11
+      },
+      "mixed_signature_unique_count": 24,
+      "mixed_signature_max_repetition": 2
+    }
+  }
+}

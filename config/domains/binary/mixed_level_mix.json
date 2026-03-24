@@ -1,0 +1,16 @@
+{
+  "level_mix": {
+    "L1": 0.4,
+    "L2": 0.4,
+    "L3": 0.2
+  },
+  "combination_coverage": {
+    "allowed_operations": ["shift", "rotation", "xor", "and", "or", "not"],
+    "max_identical_operation_steps": 2,
+    "max_pipeline_reuse": 20,
+    "target_pair_coverage_min": 12,
+    "target_triple_coverage_min": 20,
+    "target_quad_coverage_min": 20,
+    "order_diversity_required": true
+  }
+}
