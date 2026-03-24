@@ -1,3 +1,3 @@
 Generate only hidden-rule tasks using 8-bit OR with a fixed mask per sample.
 
-Calibration note: iteration 3 => keep=1.0 reject=0.0 score=1.0
+Calibration note: iteration 6 => keep=1.0 reject=0.0 score=1.0

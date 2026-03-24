@@ -1,0 +1,91 @@
+{
+  "provider": "local",
+  "model": "llama3.1:8b",
+  "started_at": "2026-03-24T12:21:55.091519+00:00",
+  "states": [
+    "IN_PROGRESS",
+    "CALIBRATING",
+    "BELOW_THRESHOLD",
+    "STABLE",
+    "READY_FOR_PR",
+    "PR_OPENED",
+    "MERGED"
+  ],
+  "subtypes": {
+    "or": {
+      "subtype": "binary/or",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 0.95,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "adversarial_detection_rate": 0.95,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    }
+  },
+  "finished_at": "2026-03-24T12:21:55.392976+00:00"
+}
