@@ -58,5 +58,65 @@
     "version": "v3",
     "created_at": "2026-03-24T10:54:36.102601+00:00",
     "note": "Auto-calibration from iteration 2"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:19:53.550779+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:23:08.741408+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:30:51.089975+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:33:42.271353+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:37:36.745445+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T12:01:41.746010+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v3",
+    "created_at": "2026-03-24T12:05:55.456895+00:00",
+    "note": "Auto-calibration from iteration 2"
+  },
+  {
+    "version": "v4",
+    "created_at": "2026-03-24T12:09:28.295212+00:00",
+    "note": "Auto-calibration from iteration 3"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T12:21:26.143065+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v3",
+    "created_at": "2026-03-24T12:21:26.287295+00:00",
+    "note": "Auto-calibration from iteration 2"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T12:30:31.060243+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v3",
+    "created_at": "2026-03-24T12:30:31.337370+00:00",
+    "note": "Auto-calibration from iteration 2"
   }
 ]
