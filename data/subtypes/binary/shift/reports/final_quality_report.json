@@ -10,6 +10,11 @@
         "reject_rate": 0.0,
         "semantic_valid_rate": 1.0,
         "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
         "reject_causes": {},
         "review_causes": {}
       },
@@ -23,6 +28,11 @@
         "reject_rate": 0.0,
         "semantic_valid_rate": 1.0,
         "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
         "reject_causes": {},
         "review_causes": {}
       },
@@ -36,6 +46,11 @@
         "reject_rate": 0.0,
         "semantic_valid_rate": 1.0,
         "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
         "reject_causes": {},
         "review_causes": {}
       },
@@ -48,6 +63,11 @@
     "reject_rate": 0.0,
     "semantic_valid_rate": 1.0,
     "average_score": 1.0,
+    "adversarial_detection_rate": 1.0,
+    "model_parse_failure_rate": 0.0,
+    "raw_parse_success_rate": 1.0,
+    "repaired_parse_success_rate": 0.0,
+    "unsafe_repair_rate": 0.0,
     "reject_causes": {},
     "review_causes": {}
   }

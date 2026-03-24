@@ -78,5 +78,90 @@
     "version": "v3",
     "created_at": "2026-03-24T10:54:14.775256+00:00",
     "note": "Auto-calibration from iteration 2"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:10:32.961179+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:16:52.718706+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:17:43.913392+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v3",
+    "created_at": "2026-03-24T11:18:05.162266+00:00",
+    "note": "Auto-calibration from iteration 2"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:19:49.359076+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:20:53.850165+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v4",
+    "created_at": "2026-03-24T11:27:10.020388+00:00",
+    "note": "Auto-calibration from iteration 3"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:31:11.094517+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:36:00.580062+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:45:06.016401+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:47:41.614634+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:53:19.699230+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T11:56:52.765575+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T12:08:40.098093+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v3",
+    "created_at": "2026-03-24T12:08:40.172288+00:00",
+    "note": "Auto-calibration from iteration 2"
+  },
+  {
+    "version": "v2",
+    "created_at": "2026-03-24T12:30:27.637323+00:00",
+    "note": "Auto-calibration from iteration 1"
+  },
+  {
+    "version": "v3",
+    "created_at": "2026-03-24T12:30:27.951478+00:00",
+    "note": "Auto-calibration from iteration 2"
   }
 ]
