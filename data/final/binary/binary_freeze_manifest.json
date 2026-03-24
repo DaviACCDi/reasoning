@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-03-24T12:32:03.374250+00:00",
+  "frozen_subtypes": [
+    "binary/shift",
+    "binary/rotation",
+    "binary/xor",
+    "binary/and",
+    "binary/or",
+    "binary/not",
+    "binary/mixed"
+  ],
+  "frozen_files": {
+    "shift": {
+      "prompt_final": "data/subtypes/binary/shift/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/shift/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/shift/reports/final_quality_report.json"
+    },
+    "rotation": {
+      "prompt_final": "data/subtypes/binary/rotation/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/rotation/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/rotation/reports/final_quality_report.json"
+    },
+    "xor": {
+      "prompt_final": "data/subtypes/binary/xor/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/xor/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/xor/reports/final_quality_report.json"
+    },
+    "and": {
+      "prompt_final": "data/subtypes/binary/and/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/and/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/and/reports/final_quality_report.json"
+    },
+    "or": {
+      "prompt_final": "data/subtypes/binary/or/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/or/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/or/reports/final_quality_report.json"
+    },
+    "not": {
+      "prompt_final": "data/subtypes/binary/not/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/not/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/not/reports/final_quality_report.json"
+    },
+    "mixed": {
+      "prompt_final": "data/subtypes/binary/mixed/config/prompt_final.md",
+      "quality_thresholds": "data/subtypes/binary/mixed/config/quality_thresholds.json",
+      "final_quality_report": "data/subtypes/binary/mixed/reports/final_quality_report.json"
+    }
+  }
+}

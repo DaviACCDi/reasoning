@@ -1,0 +1,78 @@
+{
+  "domain": "binary",
+  "status": "failed_blocked",
+  "source_manifests": {
+    "distribution": "data/final/binary/binary_distribution_summary.json",
+    "pr_consolidation": "data/final/binary/binary_pr_consolidation.json",
+    "freeze_manifest": "data/final/binary/binary_freeze_manifest.json"
+  },
+  "merge_order": [
+    {
+      "order": 1,
+      "subtype": "binary/shift",
+      "branch": "feature/binary-shift",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-shift",
+      "status": "failed",
+      "started_at": "2026-03-24T12:40:00+00:00",
+      "finished_at": "2026-03-24T12:40:00+00:00",
+      "log": [
+        "pre-merge checks started",
+        "blocked: feature branch has no commits ahead of main",
+        "merge not executed",
+        "sequence stopped by policy"
+      ]
+    },
+    {
+      "order": 2,
+      "subtype": "binary/rotation",
+      "branch": "feature/binary-rotation",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-rotation",
+      "status": "pending"
+    },
+    {
+      "order": 3,
+      "subtype": "binary/xor",
+      "branch": "feature/binary-xor",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-xor",
+      "status": "pending"
+    },
+    {
+      "order": 4,
+      "subtype": "binary/and",
+      "branch": "feature/binary-and",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-and",
+      "status": "pending"
+    },
+    {
+      "order": 5,
+      "subtype": "binary/or",
+      "branch": "feature/binary-or",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-or",
+      "status": "pending"
+    },
+    {
+      "order": 6,
+      "subtype": "binary/not",
+      "branch": "feature/binary-not",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-not",
+      "status": "pending"
+    },
+    {
+      "order": 7,
+      "subtype": "binary/mixed",
+      "branch": "feature/binary-mixed",
+      "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-mixed",
+      "status": "pending"
+    }
+  ],
+  "merge_policy": {
+    "architecture_changes_allowed": false,
+    "must_preserve_frozen_files": true,
+    "must_preserve_final_dataset": true
+  },
+  "blocker": {
+    "type": "no_branch_delta",
+    "details": "All binary feature branches and main currently point to the same commit; no mergeable subtype diffs exist.",
+    "detected_at": "2026-03-24T12:40:00+00:00"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-24T12:32:03.374250+00:00",
+  "repo": "https://github.com/DaviACCDi/reasoning",
+  "subtype_pr_links": {
+    "shift": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-shift",
+    "rotation": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-rotation",
+    "xor": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-xor",
+    "and": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-and",
+    "or": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-or",
+    "not": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-not",
+    "mixed": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-mixed"
+  }
+}

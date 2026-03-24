@@ -1,0 +1,74 @@
+{
+  "domain": "binary",
+  "integration_status": "blocked",
+  "blocking_reason": "feature branches have no commit delta relative to main",
+  "pre_merge_checks_per_subtype": [
+    "pr_exists_and_identified",
+    "prompt_final_frozen",
+    "quality_thresholds_frozen",
+    "validator_present",
+    "scoring_present",
+    "final_report_present",
+    "status_ready_for_pr",
+    "quality_evidence_attached",
+    "export_matches_train_schema",
+    "no_unapproved_architecture_change"
+  ],
+  "post_merge_checks_per_subtype": [
+    "main_integrity_ok",
+    "subtype_jobs_execute_on_main",
+    "final_config_preserved",
+    "reports_accessible",
+    "previously_merged_subtypes_not_regressed"
+  ],
+  "final_checks_after_all_merges": [
+    "all_binary_subtypes_present_on_main",
+    "binary_manifests_preserved",
+    "binary_final_dataset_preserved",
+    "binary_pipeline_runs_on_main",
+    "documentation_updated",
+    "official_local_generation_command_documented",
+    "binary_domain_marked_baseline_completed"
+  ],
+  "expected_artifacts": [
+    "data/final/binary/binary_train_ready.csv",
+    "data/final/binary/binary_train_ready.jsonl",
+    "data/final/binary/binary_distribution_summary.json",
+    "data/final/binary/binary_pr_consolidation.json",
+    "data/final/binary/binary_freeze_manifest.json"
+  ],
+  "progress": {
+    "binary/shift": {
+      "status": "failed",
+      "pre_merge_checks": {
+        "pr_exists_and_identified": true,
+        "prompt_final_frozen": true,
+        "quality_thresholds_frozen": true,
+        "validator_present": true,
+        "scoring_present": true,
+        "final_report_present": true,
+        "status_ready_for_pr": true,
+        "quality_evidence_attached": true,
+        "export_matches_train_schema": true,
+        "no_unapproved_architecture_change": true,
+        "branch_has_delta_vs_main": false
+      },
+      "post_merge_checks": {
+        "main_integrity_ok": null,
+        "subtype_jobs_execute_on_main": null,
+        "final_config_preserved": null,
+        "reports_accessible": null,
+        "previously_merged_subtypes_not_regressed": null
+      },
+      "log": [
+        "merge blocked: no subtype-specific commits to merge from feature/binary-shift into main"
+      ]
+    },
+    "binary/rotation": { "status": "pending" },
+    "binary/xor": { "status": "pending" },
+    "binary/and": { "status": "pending" },
+    "binary/or": { "status": "pending" },
+    "binary/not": { "status": "pending" },
+    "binary/mixed": { "status": "pending" }
+  }
+}

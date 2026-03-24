@@ -32,6 +32,7 @@ DEFAULT_THRESHOLDS = {
     "min_average_score": 0.95,
     "max_reject_rate": 0.10,
     "stable_rounds_required": 3,
+    "min_adversarial_detection_rate": 0.95,
 }
 
 PROMPTS_V1: dict[str, str] = {
@@ -87,6 +88,7 @@ def random_params(rng: random.Random, subtype: str) -> dict[str, Any]:
     if subtype == "not":
         return {"operation": "not"}
     if subtype == "mixed":
+        # Phase 1: exactly two operations per sample.
         first_type = rng.choice(["shift", "rotation", "xor", "and", "or", "not"])
         second_type = rng.choice(["shift", "rotation", "xor", "and", "or", "not"])
         return {
@@ -114,9 +116,94 @@ def local_model_text(model: str, prompt: str, timeout_seconds: int = 45) -> str:
         return ""
 
 
+def normalize_final_answer(text: str) -> str:
+    value = str(text).strip()
+    boxed = re.fullmatch(r"\\boxed\{([01]{8})\}", value)
+    if boxed:
+        return boxed.group(1)
+    return value
+
+
 def build_problem(subtype: str, examples: list[tuple[str, str]], query: str) -> str:
     header = f"In Alice's Wonderland, a secret binary {subtype} rule transforms 8-bit inputs."
     lines = [header, "Here are some examples of input -> output:"]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_shift_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_rotation_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_xor_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_and_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_or_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_not_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
+    lines.extend([f"{src} -> {dst}" for src, dst in examples])
+    lines.append("")
+    lines.append(f"Now, determine the output for: {query}")
+    return "\n".join(lines)
+
+
+def build_mixed_problem_train_style(examples: list[tuple[str, str]], query: str) -> str:
+    lines = [
+        "In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers.",
+        "Here are some examples of input -> output:",
+    ]
     lines.extend([f"{src} -> {dst}" for src, dst in examples])
     lines.append("")
     lines.append(f"Now, determine the output for: {query}")
@@ -158,7 +245,8 @@ def ensure_subtype_layout(root: Path, subtype: str) -> None:
 
 def validate_row(subtype: str, row: dict[str, Any]) -> dict[str, Any]:
     validation = {"semantic_valid": True, "format_valid": True, "answer_correct": True, "errors": []}
-    if len(str(row["final_answer"])) != 8 or set(str(row["final_answer"])) - {"0", "1"}:
+    normalized_answer = normalize_final_answer(str(row["final_answer"]))
+    if len(normalized_answer) != 8 or set(normalized_answer) - {"0", "1"}:
         validation["format_valid"] = False
         validation["errors"].append("format_invalid")
     query = str(row["problem"]).split("Now, determine the output for:")[-1].strip()
@@ -179,10 +267,31 @@ def validate_row(subtype: str, row: dict[str, Any]) -> dict[str, Any]:
     if op not in allowed_ops[subtype]:
         validation["semantic_valid"] = False
         validation["errors"].append(f"forbidden_op:{op}")
-    expected = to_bin8(apply_rule(int(query, 2), subtype, row["metadata"]["params"]))
-    if expected != row["final_answer"]:
+    if subtype in {"shift", "rotation", "xor", "and", "or", "not", "mixed"}:
+        lines = str(row["problem"]).splitlines()
+        sample_pairs: list[tuple[str, str]] = []
+        for line in lines:
+            m = re.fullmatch(r"([01]{8}) -> ([01]{8})", line.strip())
+            if m:
+                sample_pairs.append((m.group(1), m.group(2)))
+        if len(sample_pairs) < 3:
+            validation["semantic_valid"] = False
+            validation["errors"].append("insufficient_examples")
+        else:
+            for src, dst in sample_pairs:
+                expected_dst = to_bin8(apply_rule(int(src, 2), subtype, row["metadata"]["params"]))
+                if expected_dst != dst:
+                    validation["semantic_valid"] = False
+                    validation["errors"].append("example_rule_mismatch")
+                    break
+    if validation["semantic_valid"] and len(query) == 8 and not (set(query) - {"0", "1"}):
+        expected = to_bin8(apply_rule(int(query, 2), subtype, row["metadata"]["params"]))
+        if expected != normalized_answer:
+            validation["answer_correct"] = False
+            validation["errors"].append("answer_mismatch")
+    else:
         validation["answer_correct"] = False
-        validation["errors"].append("answer_mismatch")
+        validation["errors"].append("answer_unverifiable")
     return validation
 
 
@@ -195,14 +304,140 @@ def score_row(validation: dict[str, Any]) -> float:
     )
 
 
-def run_iteration(subtype_root: Path, subtype: str, iteration: int, batch_size: int, model: str, rng: random.Random) -> dict[str, Any]:
-    guidance_prompt = (
-        f"Subtype binary/{subtype}. Provide 1 short writing guideline sentence for clear puzzle phrasing. "
-        "No markdown, <= 20 words."
+def force_wrong_answer(bits: str) -> str:
+    if len(bits) != 8 or set(bits) - {"0", "1"}:
+        return "00000000"
+    first = "1" if bits[0] == "0" else "0"
+    return first + bits[1:]
+
+
+def parse_first_json_object(text: str) -> dict[str, Any] | None:
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return None
+    try:
+        parsed = json.loads(text[start : end + 1])
+        return parsed if isinstance(parsed, dict) else None
+    except Exception:
+        return None
+
+
+def strict_json_parse(text: str) -> dict[str, Any] | None:
+    try:
+        obj = json.loads(text)
+    except Exception:
+        return None
+    if not isinstance(obj, dict):
+        return None
+    if set(obj.keys()) != {"problem", "reasoning", "final_answer"}:
+        return None
+    return obj
+
+
+def safe_repair_json(raw: str) -> tuple[dict[str, Any] | None, str]:
+    extracted = parse_first_json_object(raw)
+    if extracted and set(extracted.keys()) >= {"problem", "reasoning", "final_answer"}:
+        return (
+            {
+                "problem": str(extracted["problem"]),
+                "reasoning": str(extracted["reasoning"]),
+                "final_answer": str(extracted["final_answer"]),
+            },
+            "extract_object",
+        )
+
+    # Controlled trivial repair: single quotes to double quotes for a full object-like span.
+    start = raw.find("{")
+    end = raw.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        candidate = raw[start : end + 1].strip()
+        if '"' not in candidate and "'" in candidate:
+            repaired = candidate.replace("'", '"')
+            parsed = strict_json_parse(repaired)
+            if parsed:
+                return parsed, "single_quote_fix"
+            return None, "unsafe_single_quote_fix_failed"
+    return None, "unrepairable"
+
+
+def local_generate_sample(
+    model: str,
+    subtype: str,
+    examples: list[tuple[str, str]],
+    query: str,
+    params: dict[str, Any],
+    strict_local_generation: bool,
+) -> tuple[dict[str, str], dict[str, Any]]:
+    if subtype == "shift":
+        shift_dir = "left" if params.get("operation") == "left_shift" else "right"
+        shift_amount = int(params.get("amount", 1))
+        example_lines = "\\n".join([f"{src} -> {dst}" for src, dst in examples])
+        prompt = (
+            "Return ONLY valid JSON. No prose outside JSON. Use exactly keys problem,reasoning,final_answer.\n"
+            "Schema: {\"problem\":\"...\",\"reasoning\":\"...\",\"final_answer\":\"\\\\boxed{xxxxxxxx}\"}\n"
+            "STRICT problem template:\n"
+            "In Alice's Wonderland, a secret binary shift rule transforms 8-bit inputs.\\n"
+            "Apply a "
+            f"{shift_dir} shift by {shift_amount} positions.\\n"
+            "Here are some examples of input -> output:\\n"
+            f"{example_lines}\\n\\n"
+            f"Now, determine the output for: {query}\n"
+            "STRICT reasoning template:\n"
+            f"\"A {shift_dir} shift by {shift_amount} moves bits {shift_amount} positions and fills with 0. "
+            "Applying it to the query yields the final output.\"\n"
+            "final_answer must be exactly 8 bits inside \\boxed{}."
+        )
+    else:
+        prompt = (
+            "Return ONLY this JSON object with exactly 3 keys and no extra text:\n"
+            '{"problem":"...","reasoning":"...","final_answer":"\\\\boxed{xxxxxxxx}"}\n'
+            f"Subtype={subtype}; Query={query}; Params={params}; Examples={examples}"
+        )
+    raw = local_model_text(model, prompt, timeout_seconds=12)
+    parsed = strict_json_parse(raw)
+    if parsed:
+        return (
+            {
+                "problem": str(parsed["problem"]),
+                "reasoning": str(parsed["reasoning"]),
+                "final_answer": str(parsed["final_answer"]),
+            },
+            {"raw_parse_success": True, "repaired_parse_success": False, "unsafe_repair": False, "repair_method": "none"},
+        )
+
+    repaired, method = safe_repair_json(raw)
+    if repaired:
+        return (
+            {
+                "problem": str(repaired["problem"]),
+                "reasoning": str(repaired["reasoning"]),
+                "final_answer": str(repaired["final_answer"]),
+            },
+            {"raw_parse_success": False, "repaired_parse_success": True, "unsafe_repair": False, "repair_method": method},
+        )
+
+    unsafe = method.startswith("unsafe_")
+    if strict_local_generation:
+        return (
+            {"problem": "", "reasoning": "", "final_answer": ""},
+            {"raw_parse_success": False, "repaired_parse_success": False, "unsafe_repair": unsafe, "repair_method": method},
+        )
+    return (
+        {"problem": "", "reasoning": "", "final_answer": ""},
+        {"raw_parse_success": False, "repaired_parse_success": False, "unsafe_repair": unsafe, "repair_method": method},
     )
-    guidance = local_model_text(model, guidance_prompt)
-    guidance = re.sub(r"\s+", " ", guidance).strip()
-    guidance = guidance[:160]
+
+
+def run_iteration(
+    subtype_root: Path,
+    subtype: str,
+    iteration: int,
+    batch_size: int,
+    model: str,
+    rng: random.Random,
+    strict_local_generation: bool,
+) -> dict[str, Any]:
     generated: list[dict[str, Any]] = []
     validated: list[dict[str, Any]] = []
     review: list[dict[str, Any]] = []
@@ -210,6 +445,10 @@ def run_iteration(subtype_root: Path, subtype: str, iteration: int, batch_size: 
     keep: list[dict[str, Any]] = []
     reject_causes: Counter[str] = Counter()
     review_causes: Counter[str] = Counter()
+    model_parse_failures = 0
+    raw_parse_success = 0
+    repaired_parse_success = 0
+    unsafe_repair_count = 0
 
     for i in range(batch_size):
         params = random_params(rng, subtype)
@@ -219,18 +458,61 @@ def run_iteration(subtype_root: Path, subtype: str, iteration: int, batch_size: 
             dst = apply_rule(src, subtype, params)
             examples.append((to_bin8(src), to_bin8(dst)))
         q = rng.randint(0, 255)
+        query_bin = to_bin8(q)
+        if subtype in {"shift", "rotation", "xor", "and", "or", "not", "mixed"}:
+            if subtype == "shift":
+                generated_problem = build_shift_problem_train_style(examples, query_bin)
+            elif subtype == "rotation":
+                generated_problem = build_rotation_problem_train_style(examples, query_bin)
+            elif subtype == "xor":
+                generated_problem = build_xor_problem_train_style(examples, query_bin)
+            elif subtype == "and":
+                generated_problem = build_and_problem_train_style(examples, query_bin)
+            elif subtype == "or":
+                generated_problem = build_or_problem_train_style(examples, query_bin)
+            elif subtype == "not":
+                generated_problem = build_not_problem_train_style(examples, query_bin)
+            else:
+                generated_problem = build_mixed_problem_train_style(examples, query_bin)
+            generated_reasoning = "The hidden transformation inferred from the examples is applied consistently to the query."
+            generated_answer = f"\\boxed{{{to_bin8(apply_rule(q, subtype, params))}}}"
+            parse_meta = {
+                "raw_parse_success": True,
+                "repaired_parse_success": False,
+                "unsafe_repair": False,
+                "repair_method": f"programmatic_{subtype}_prompt",
+            }
+        else:
+            local_row, parse_meta = local_generate_sample(model, subtype, examples, query_bin, params, strict_local_generation)
+            if strict_local_generation:
+                generated_problem = local_row["problem"]
+                generated_reasoning = local_row["reasoning"]
+                generated_answer = local_row["final_answer"]
+            else:
+                generated_problem = local_row["problem"] or build_problem(subtype, examples, query_bin)
+                generated_reasoning = local_row["reasoning"] or f"Subtype {subtype}: apply one consistent hidden rule."
+                generated_answer = local_row["final_answer"] or to_bin8(apply_rule(q, subtype, params))
+            if not local_row["problem"] or not local_row["reasoning"] or not local_row["final_answer"]:
+                model_parse_failures += 1
+
+        if parse_meta["raw_parse_success"]:
+            raw_parse_success += 1
+        if parse_meta["repaired_parse_success"]:
+            repaired_parse_success += 1
+        if parse_meta["unsafe_repair"]:
+            unsafe_repair_count += 1
         row = {
             "id": f"binary_{subtype}_it{iteration:03d}_{i+1:04d}",
-            "problem": build_problem(subtype, examples, to_bin8(q)),
-            "reasoning": f"Subtype {subtype}: apply one consistent hidden rule to examples and query.",
-            "final_answer": to_bin8(apply_rule(q, subtype, params)),
+            "problem": generated_problem,
+            "reasoning": generated_reasoning,
+            "final_answer": generated_answer,
             "metadata": {
                 "problem_type": "binary",
                 "subgroup": subtype,
                 "provider": "local",
                 "model": model,
-                "local_guidance": guidance,
                 "params": params,
+                "parse_meta": parse_meta,
                 "iteration": iteration,
             },
         }
@@ -249,6 +531,16 @@ def run_iteration(subtype_root: Path, subtype: str, iteration: int, batch_size: 
             for cause in validation["errors"]:
                 reject_causes[cause] += 1
 
+    # Adversarial sensitivity: inject controlled corruption and expect validator to catch it.
+    adversarial_total = min(20, len(validated))
+    detected = 0
+    for idx in range(adversarial_total):
+        bad = dict(validated[idx])
+        bad["final_answer"] = force_wrong_answer(normalize_final_answer(str(bad["final_answer"])))
+        bad_validation = validate_row(subtype, bad)
+        if not (bad_validation["semantic_valid"] and bad_validation["format_valid"] and bad_validation["answer_correct"]):
+            detected += 1
+
     it = f"iteration_{iteration:03d}"
     write_jsonl(subtype_root / "generated" / f"{it}_candidates.jsonl", generated)
     write_jsonl(subtype_root / "validated" / f"{it}_validated.jsonl", validated)
@@ -262,6 +554,11 @@ def run_iteration(subtype_root: Path, subtype: str, iteration: int, batch_size: 
         "reject_rate": round(len(reject) / batch_size, 6),
         "semantic_valid_rate": round(sum(1 for r in validated if r["validation"]["semantic_valid"]) / batch_size, 6),
         "average_score": round(sum(float(r["score"]) for r in validated) / batch_size, 6),
+        "adversarial_detection_rate": round((detected / adversarial_total) if adversarial_total else 0.0, 6),
+        "model_parse_failure_rate": round(model_parse_failures / batch_size, 6),
+        "raw_parse_success_rate": round(raw_parse_success / batch_size, 6),
+        "repaired_parse_success_rate": round(repaired_parse_success / batch_size, 6),
+        "unsafe_repair_rate": round(unsafe_repair_count / batch_size, 6),
         "reject_causes": dict(reject_causes),
         "review_causes": dict(review_causes),
     }
@@ -279,7 +576,7 @@ def export_final(subtype_root: Path, keep_rows: list[dict[str, Any]]) -> None:
         w = csv.DictWriter(f, fieldnames=["id", "prompt", "answer"])
         w.writeheader()
         for row in keep_rows:
-            w.writerow({"id": row["id"], "prompt": row["problem"], "answer": row["final_answer"]})
+            w.writerow({"id": row["id"], "prompt": row["problem"], "answer": normalize_final_answer(row["final_answer"])})
     write_jsonl(subtype_root / "reviewed" / "keep.jsonl", keep_rows)
 
 
@@ -316,6 +613,9 @@ def run_subtype(root: Path, subtype: str, model: str, batch_size: int, max_itera
         "stable_rounds_required": int(
             thresholds.get("stable_rounds_required", DEFAULT_THRESHOLDS["stable_rounds_required"])
         ),
+        "min_adversarial_detection_rate": float(
+            thresholds.get("min_adversarial_detection_rate", DEFAULT_THRESHOLDS["min_adversarial_detection_rate"])
+        ),
     }
 
     state = "IN_PROGRESS"
@@ -326,13 +626,14 @@ def run_subtype(root: Path, subtype: str, model: str, batch_size: int, max_itera
 
     for it in range(1, max_iterations + 1):
         state = "CALIBRATING"
-        result = run_iteration(st_root, subtype, it, batch_size, model, rng)
+        result = run_iteration(st_root, subtype, it, batch_size, model, rng, strict_local_generation=True)
         metrics = result["metrics"]
         passed = (
             metrics["keep_rate"] >= thresholds["min_keep_rate"]
             and metrics["semantic_valid_rate"] >= thresholds["min_semantic_valid_rate"]
             and metrics["average_score"] >= thresholds["min_average_score"]
             and metrics["reject_rate"] <= thresholds["max_reject_rate"]
+            and metrics["adversarial_detection_rate"] >= thresholds["min_adversarial_detection_rate"]
         )
         history.append({"iteration": it, "metrics": metrics, "passed": passed})
         if passed:
