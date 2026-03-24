@@ -1,54 +1,78 @@
 {
   "subtype": "binary/mixed",
-  "state": "READY_FOR_PR",
+  "state": "BELOW_THRESHOLD",
   "history": [
     {
       "iteration": 1,
       "metrics": {
-        "keep_rate": 1.0,
+        "keep_rate": 0.0,
         "review_rate": 0.0,
-        "reject_rate": 0.0,
-        "semantic_valid_rate": 1.0,
-        "average_score": 1.0,
-        "reject_causes": {},
+        "reject_rate": 1.0,
+        "semantic_valid_rate": 0.0,
+        "average_score": 0.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 1.0,
+        "reject_causes": {
+          "format_invalid": 20,
+          "invalid_query": 20,
+          "answer_unverifiable": 20
+        },
         "review_causes": {}
       },
-      "passed": true
+      "passed": false
     },
     {
       "iteration": 2,
       "metrics": {
-        "keep_rate": 1.0,
+        "keep_rate": 0.0,
         "review_rate": 0.0,
-        "reject_rate": 0.0,
-        "semantic_valid_rate": 1.0,
-        "average_score": 1.0,
-        "reject_causes": {},
+        "reject_rate": 1.0,
+        "semantic_valid_rate": 0.0,
+        "average_score": 0.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 1.0,
+        "reject_causes": {
+          "format_invalid": 20,
+          "invalid_query": 20,
+          "answer_unverifiable": 20
+        },
         "review_causes": {}
       },
-      "passed": true
+      "passed": false
     },
     {
       "iteration": 3,
       "metrics": {
-        "keep_rate": 1.0,
+        "keep_rate": 0.0,
         "review_rate": 0.0,
-        "reject_rate": 0.0,
-        "semantic_valid_rate": 1.0,
-        "average_score": 1.0,
-        "reject_causes": {},
+        "reject_rate": 1.0,
+        "semantic_valid_rate": 0.0,
+        "average_score": 0.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 1.0,
+        "reject_causes": {
+          "format_invalid": 20,
+          "invalid_query": 20,
+          "answer_unverifiable": 20
+        },
         "review_causes": {}
       },
-      "passed": true
+      "passed": false
     }
   ],
   "metrics": {
-    "keep_rate": 1.0,
+    "keep_rate": 0.0,
     "review_rate": 0.0,
-    "reject_rate": 0.0,
-    "semantic_valid_rate": 1.0,
-    "average_score": 1.0,
-    "reject_causes": {},
+    "reject_rate": 1.0,
+    "semantic_valid_rate": 0.0,
+    "average_score": 0.0,
+    "adversarial_detection_rate": 1.0,
+    "model_parse_failure_rate": 1.0,
+    "reject_causes": {
+      "format_invalid": 20,
+      "invalid_query": 20,
+      "answer_unverifiable": 20
+    },
     "review_causes": {}
   }
 }
