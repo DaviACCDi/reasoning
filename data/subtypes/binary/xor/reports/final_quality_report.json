@@ -1,0 +1,54 @@
+{
+  "subtype": "binary/xor",
+  "state": "READY_FOR_PR",
+  "history": [
+    {
+      "iteration": 1,
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      },
+      "passed": true
+    },
+    {
+      "iteration": 2,
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      },
+      "passed": true
+    },
+    {
+      "iteration": 3,
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      },
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "keep_rate": 1.0,
+    "review_rate": 0.0,
+    "reject_rate": 0.0,
+    "semantic_valid_rate": 1.0,
+    "average_score": 1.0,
+    "reject_causes": {},
+    "review_causes": {}
+  }
+}

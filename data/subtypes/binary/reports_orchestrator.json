@@ -1,0 +1,395 @@
+{
+  "provider": "local",
+  "model": "smollm2:135m",
+  "started_at": "2026-03-24T10:54:12.208766+00:00",
+  "states": [
+    "IN_PROGRESS",
+    "CALIBRATING",
+    "BELOW_THRESHOLD",
+    "STABLE",
+    "READY_FOR_PR",
+    "PR_OPENED",
+    "MERGED"
+  ],
+  "subtypes": {
+    "shift": {
+      "subtype": "binary/shift",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "rotation": {
+      "subtype": "binary/rotation",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "xor": {
+      "subtype": "binary/xor",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "and": {
+      "subtype": "binary/and",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "or": {
+      "subtype": "binary/or",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "not": {
+      "subtype": "binary/not",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "mixed": {
+      "subtype": "binary/mixed",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    }
+  },
+  "finished_at": "2026-03-24T10:54:56.608196+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "subtype": "binary/or",
+  "branch": "feature/binary-or",
+  "state": "READY_FOR_PR",
+  "strategy": "Prompt calibration with local model guidance and strict programmatic validator.",
+  "metrics": {
+    "keep_rate": 1.0,
+    "review_rate": 0.0,
+    "reject_rate": 0.0,
+    "semantic_valid_rate": 1.0,
+    "average_score": 1.0,
+    "reject_causes": {},
+    "review_causes": {}
+  },
+  "artifacts": [
+    "config/prompt_final.md",
+    "final/train_ready.jsonl",
+    "final/train_ready.csv",
+    "reports/final_quality_report.json"
+  ],
+  "generated_at": "2026-03-24T10:54:42.772530+00:00"
+}

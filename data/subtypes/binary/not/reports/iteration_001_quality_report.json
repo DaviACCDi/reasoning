@@ -1,0 +1,13 @@
+{
+  "iteration": 1,
+  "metrics": {
+    "keep_rate": 1.0,
+    "review_rate": 0.0,
+    "reject_rate": 0.0,
+    "semantic_valid_rate": 1.0,
+    "average_score": 1.0,
+    "reject_causes": {},
+    "review_causes": {}
+  },
+  "generated_at": "2026-03-24T10:54:44.443628+00:00"
+}

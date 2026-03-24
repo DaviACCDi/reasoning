@@ -1,0 +1,15 @@
+{
+  "subtype": "binary/shift",
+  "target_batch_size": 200,
+  "quality_gate": {
+    "min_keep_rate": 0.9,
+    "max_reject_rate": 0.05,
+    "min_semantic_valid_rate": 0.95,
+    "min_average_score": 0.95
+  },
+  "scoring_weights": {
+    "semantic_valid": 0.5,
+    "format_valid": 0.3,
+    "answer_correct": 0.2
+  }
+}

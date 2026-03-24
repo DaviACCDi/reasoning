@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "generated_at": "2026-03-24T09:35:37.035635+00:00",
+    "source": "fixed analysis of data/raw/train.csv",
+    "is_dynamic_discovery": false,
+    "notes": "Taxonomy is fixed and intentionally hardcoded."
+  },
+  "totals": {
+    "raw_train_rows": 9500,
+    "sum_of_subtype_counts": 9500,
+    "matches_raw_total": true
+  },
+  "types": [
+    {
+      "problem_type": "binary",
+      "observed_count_in_raw_train": 1602,
+      "subgroups": [
+        "shift"
+      ]
+    },
+    {
+      "problem_type": "logic",
+      "observed_count_in_raw_train": 6322,
+      "subgroups": [
+        "formula",
+        "mapping",
+        "roman",
+        "symbolic"
+      ]
+    },
+    {
+      "problem_type": "text",
+      "observed_count_in_raw_train": 1576,
+      "subgroups": [
+        "substitution"
+      ]
+    }
+  ],
+  "subtypes": [
+    {
+      "problem_type": "binary",
+      "subgroup": "shift",
+      "path": "binary/shift",
+      "observed_count_in_raw_train": 1602
+    },
+    {
+      "problem_type": "logic",
+      "subgroup": "formula",
+      "path": "logic/formula",
+      "observed_count_in_raw_train": 1597
+    },
+    {
+      "problem_type": "logic",
+      "subgroup": "mapping",
+      "path": "logic/mapping",
+      "observed_count_in_raw_train": 1594
+    },
+    {
+      "problem_type": "logic",
+      "subgroup": "roman",
+      "path": "logic/roman",
+      "observed_count_in_raw_train": 1576
+    },
+    {
+      "problem_type": "logic",
+      "subgroup": "symbolic",
+      "path": "logic/symbolic",
+      "observed_count_in_raw_train": 1555
+    },
+    {
+      "problem_type": "text",
+      "subgroup": "substitution",
+      "path": "text/substitution",
+      "observed_count_in_raw_train": 1576
+    }
+  ]
+}
