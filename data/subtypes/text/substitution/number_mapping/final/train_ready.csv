@@ -1,0 +1,1041 @@
+id,prompt,answer
+text_subst_number_mapping_it003_0001,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+19-5-3-18-5-20 4-15-15-18 16-18-9-14-3-5-19-19 21-14-4-5-18 23-9-19-5 -> secret door princess under wise
+9-13-1-7-9-14-5-19 9-13-1-7-9-14-5-19 1-14-3-9-5-14-20 3-1-20 -> imagines imagines ancient cat
+1-14-3-9-5-14-20 18-5-1-4-19 2-15-15-11 13-1-7-9-3-1-12 4-9-19-3-15-22-5-18-19 -> ancient reads book magical discovers
+2-9-18-4 23-1-20-3-8-5-19 6-15-12-12-15-23-19 -> bird watches follows
+23-1-20-3-8-5-19 23-9-19-5 4-18-1-7-15-14 4-18-1-7-15-14 -> watches wise dragon dragon
+4-18-5-1-13-19 13-9-18-18-15-18 7-15-12-4-5-14 1-12-9-3-5 22-1-12-12-5-25 -> dreams mirror golden alice valley
+3-8-1-19-5-19 13-9-18-18-15-18 8-1-20-20-5-18 13-9-18-18-15-18 4-18-1-23-19 -> chases mirror hatter mirror draws
+13-15-21-14-20-1-9-14 3-1-20 18-5-1-4-19 14-5-1-18 -> mountain cat reads near
+6-15-12-12-15-23-19 23-1-20-3-8-5-19 19-5-3-18-5-20 -> follows watches secret
+
+Now, decrypt the following text: 19-5-3-18-5-20 13-15-21-14-20-1-9-14 23-15-14-4-5-18-12-1-14-4",secret mountain wonderland
+text_subst_number_mapping_it003_0002,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+22-1-12-12-5-25 3-1-19-20-12-5 4-15-15-18 4-15-15-18 -> valley castle door door
+19-20-21-4-5-14-20 3-1-20 2-15-15-11 9-14-19-9-4-5 -> student cat book inside
+2-9-18-4 1-14-3-9-5-14-20 19-20-21-4-5-14-20 19-20-21-4-5-14-20 23-1-20-3-8-5-19 17-21-5-5-14 -> bird ancient student student watches queen
+6-15-12-12-15-23-19 4-15-15-18 1-14-3-9-5-14-20 17-21-5-5-14 23-9-26-1-18-4 17-21-5-5-14 -> follows door ancient queen wizard queen
+9-13-1-7-9-14-5-19 16-1-12-1-3-5 2-9-18-4 4-18-1-7-15-14 -> imagines palace bird dragon
+3-8-1-19-5-19 22-1-12-12-5-25 3-1-20 -> chases valley cat
+13-15-21-19-5 9-13-1-7-9-14-5-19 23-9-19-5 9-13-1-7-9-14-5-19 4-18-1-23-19 19-20-21-4-5-14-20 -> mouse imagines wise imagines draws student
+3-8-1-19-5-19 19-5-3-18-5-20 18-5-1-4-19 19-20-21-4-5-14-20 23-9-19-5 -> chases secret reads student wise
+
+Now, decrypt the following text: 13-9-18-18-15-18 23-15-14-4-5-18-12-1-14-4 19-5-3-18-5-20",mirror wonderland secret
+text_subst_number_mapping_it003_0003,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-15-21-19-5 14-5-1-18 19-20-21-4-5-14-20 3-8-1-19-5-19 2-9-18-4 3-8-1-19-5-19 -> mouse near student chases bird chases
+13-1-7-9-3-1-12 3-18-5-1-20-5-19 19-20-21-4-5-14-20 3-18-5-1-20-5-19 22-1-12-12-5-25 -> magical creates student creates valley
+19-20-21-4-5-14-20 6-15-12-12-15-23-19 4-18-5-1-13-19 4-18-5-1-13-19 3-18-5-1-20-5-19 -> student follows dreams dreams creates
+22-1-12-12-5-25 6-15-12-12-15-23-19 23-1-20-3-8-5-19 19-5-3-18-5-20 -> valley follows watches secret
+17-21-5-5-14 13-25-19-20-5-18-9-15-21-19 9-14-19-9-4-5 -> queen mysterious inside
+13-25-19-20-5-18-9-15-21-19 9-14-19-9-4-5 13-25-19-20-5-18-9-15-21-19 13-25-19-20-5-18-9-15-21-19 1-14-3-9-5-14-20 -> mysterious inside mysterious mysterious ancient
+18-5-1-4-19 14-5-1-18 7-15-12-4-5-14 2-9-18-4 4-18-5-1-13-19 13-15-21-19-5 -> reads near golden bird dreams mouse
+19-5-3-18-5-20 4-15-15-18 17-21-5-5-14 -> secret door queen
+2-15-15-11 13-15-21-19-5 4-18-5-1-13-19 19-5-3-18-5-20 -> book mouse dreams secret
+
+Now, decrypt the following text: 8-1-20-20-5-18 13-25-19-20-5-18-9-15-21-19",hatter mysterious
+text_subst_number_mapping_it003_0004,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+17-21-5-5-14 4-18-5-1-13-19 1-12-9-3-5 4-9-19-3-15-22-5-18-19 -> queen dreams alice discovers
+4-18-1-23-19 6-15-12-12-15-23-19 3-18-5-1-20-5-19 19-20-21-4-5-14-20 -> draws follows creates student
+9-14-19-9-4-5 13-15-21-19-5 16-18-9-14-3-5-19-19 1-14-3-9-5-14-20 8-1-20-20-5-18 1-14-3-9-5-14-20 -> inside mouse princess ancient hatter ancient
+19-5-3-18-5-20 22-1-12-12-5-25 13-15-21-14-20-1-9-14 9-13-1-7-9-14-5-19 -> secret valley mountain imagines
+13-1-7-9-3-1-12 4-18-1-23-19 23-15-14-4-5-18-12-1-14-4 3-1-20 3-8-1-19-5-19 3-1-19-20-12-5 -> magical draws wonderland cat chases castle
+7-15-12-4-5-14 16-1-12-1-3-5 9-13-1-7-9-14-5-19 13-15-21-14-20-1-9-14 7-15-12-4-5-14 -> golden palace imagines mountain golden
+3-8-1-19-5-19 4-18-1-23-19 7-15-12-4-5-14 16-18-9-14-3-5-19-19 -> chases draws golden princess
+14-5-1-18 4-9-19-3-15-22-5-18-19 13-25-19-20-5-18-9-15-21-19 19-20-21-4-5-14-20 1-12-9-3-5 3-18-5-1-20-5-19 -> near discovers mysterious student alice creates
+3-1-20 19-5-3-18-5-20 4-18-1-7-15-14 -> cat secret dragon
+
+Now, decrypt the following text: 21-14-4-5-18 17-21-5-5-14",under queen
+text_subst_number_mapping_it003_0005,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+21-14-4-5-18 16-1-12-1-3-5 13-1-7-9-3-1-12 2-15-15-11 4-18-1-7-15-14 -> under palace magical book dragon
+7-15-12-4-5-14 9-14-19-9-4-5 2-9-18-4 8-1-20-20-5-18 -> golden inside bird hatter
+1-14-3-9-5-14-20 3-8-1-19-5-19 23-15-14-4-5-18-12-1-14-4 19-5-3-18-5-20 -> ancient chases wonderland secret
+13-15-21-19-5 13-15-21-19-5 8-1-20-20-5-18 16-1-12-1-3-5 -> mouse mouse hatter palace
+23-9-19-5 13-25-19-20-5-18-9-15-21-19 1-14-3-9-5-14-20 9-14-19-9-4-5 23-1-20-3-8-5-19 4-18-5-1-13-19 -> wise mysterious ancient inside watches dreams
+23-1-20-3-8-5-19 6-15-12-12-15-23-19 4-18-1-23-19 4-18-5-1-13-19 -> watches follows draws dreams
+1-12-9-3-5 19-20-21-4-5-14-20 9-13-1-7-9-14-5-19 19-5-3-18-5-20 9-13-1-7-9-14-5-19 -> alice student imagines secret imagines
+23-9-26-1-18-4 13-25-19-20-5-18-9-15-21-19 7-15-12-4-5-14 -> wizard mysterious golden
+14-5-1-18 13-15-21-14-20-1-9-14 2-9-18-4 23-9-19-5 8-1-20-20-5-18 13-9-18-18-15-18 -> near mountain bird wise hatter mirror
+
+Now, decrypt the following text: 1-12-9-3-5 23-1-20-3-8-5-19 4-15-15-18 3-1-19-20-12-5",alice watches door castle
+text_subst_number_mapping_it003_0006,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+6-15-12-12-15-23-19 13-9-18-18-15-18 21-14-4-5-18 16-1-12-1-3-5 13-15-21-19-5 13-9-18-18-15-18 -> follows mirror under palace mouse mirror
+7-15-12-4-5-14 4-18-5-1-13-19 19-20-21-4-5-14-20 4-18-1-7-15-14 17-21-5-5-14 2-15-15-11 -> golden dreams student dragon queen book
+17-21-5-5-14 23-15-14-4-5-18-12-1-14-4 23-9-19-5 -> queen wonderland wise
+4-15-15-18 4-9-19-3-15-22-5-18-19 18-5-1-4-19 -> door discovers reads
+13-25-19-20-5-18-9-15-21-19 4-18-5-1-13-19 8-1-20-20-5-18 19-5-3-18-5-20 23-1-20-3-8-5-19 23-9-19-5 -> mysterious dreams hatter secret watches wise
+16-1-12-1-3-5 23-15-14-4-5-18-12-1-14-4 4-18-1-23-19 13-9-18-18-15-18 -> palace wonderland draws mirror
+1-12-9-3-5 3-1-20 16-1-12-1-3-5 2-15-15-11 2-15-15-11 -> alice cat palace book book
+4-18-1-23-19 18-5-1-4-19 17-21-5-5-14 16-1-12-1-3-5 13-9-18-18-15-18 -> draws reads queen palace mirror
+
+Now, decrypt the following text: 4-18-1-7-15-14 19-20-21-4-5-14-20 9-14-19-9-4-5 22-1-12-12-5-25",dragon student inside valley
+text_subst_number_mapping_it003_0007,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+6-15-12-12-15-23-19 17-21-5-5-14 16-1-12-1-3-5 -> follows queen palace
+2-15-15-11 13-9-18-18-15-18 23-15-14-4-5-18-12-1-14-4 13-15-21-14-20-1-9-14 -> book mirror wonderland mountain
+3-1-19-20-12-5 4-18-1-7-15-14 4-15-15-18 13-25-19-20-5-18-9-15-21-19 13-25-19-20-5-18-9-15-21-19 -> castle dragon door mysterious mysterious
+1-14-3-9-5-14-20 3-1-20 3-8-1-19-5-19 3-1-20 18-5-1-4-19 7-15-12-4-5-14 -> ancient cat chases cat reads golden
+19-20-21-4-5-14-20 23-9-19-5 7-15-12-4-5-14 3-1-19-20-12-5 19-20-21-4-5-14-20 -> student wise golden castle student
+3-8-1-19-5-19 9-13-1-7-9-14-5-19 13-1-7-9-3-1-12 23-9-19-5 -> chases imagines magical wise
+6-15-12-12-15-23-19 13-15-21-19-5 8-1-20-20-5-18 16-18-9-14-3-5-19-19 13-15-21-14-20-1-9-14 -> follows mouse hatter princess mountain
+16-1-12-1-3-5 6-15-12-12-15-23-19 13-1-7-9-3-1-12 23-15-14-4-5-18-12-1-14-4 6-15-12-12-15-23-19 -> palace follows magical wonderland follows
+16-1-12-1-3-5 19-20-21-4-5-14-20 19-5-3-18-5-20 23-9-26-1-18-4 16-18-9-14-3-5-19-19 9-13-1-7-9-14-5-19 -> palace student secret wizard princess imagines
+
+Now, decrypt the following text: 3-1-20 2-15-15-11",cat book
+text_subst_number_mapping_it003_0008,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-15-14-4-5-18-12-1-14-4 9-14-19-9-4-5 13-15-21-19-5 -> wonderland inside mouse
+13-15-21-14-20-1-9-14 19-5-3-18-5-20 13-25-19-20-5-18-9-15-21-19 22-1-12-12-5-25 17-21-5-5-14 -> mountain secret mysterious valley queen
+19-20-21-4-5-14-20 4-15-15-18 4-18-1-7-15-14 21-14-4-5-18 23-15-14-4-5-18-12-1-14-4 8-1-20-20-5-18 -> student door dragon under wonderland hatter
+14-5-1-18 3-18-5-1-20-5-19 13-15-21-19-5 -> near creates mouse
+1-12-9-3-5 13-15-21-14-20-1-9-14 4-9-19-3-15-22-5-18-19 23-9-26-1-18-4 13-15-21-14-20-1-9-14 9-13-1-7-9-14-5-19 -> alice mountain discovers wizard mountain imagines
+3-1-19-20-12-5 23-15-14-4-5-18-12-1-14-4 3-18-5-1-20-5-19 8-1-20-20-5-18 16-18-9-14-3-5-19-19 -> castle wonderland creates hatter princess
+2-15-15-11 1-12-9-3-5 3-1-19-20-12-5 2-15-15-11 -> book alice castle book
+6-15-12-12-15-23-19 13-25-19-20-5-18-9-15-21-19 4-18-1-7-15-14 -> follows mysterious dragon
+
+Now, decrypt the following text: 14-5-1-18 3-1-20 4-18-1-23-19",near cat draws
+text_subst_number_mapping_it003_0009,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+21-14-4-5-18 4-18-1-23-19 3-1-19-20-12-5 -> under draws castle
+21-14-4-5-18 1-14-3-9-5-14-20 1-12-9-3-5 -> under ancient alice
+7-15-12-4-5-14 9-14-19-9-4-5 13-25-19-20-5-18-9-15-21-19 19-5-3-18-5-20 19-20-21-4-5-14-20 -> golden inside mysterious secret student
+3-1-20 3-1-19-20-12-5 18-5-1-4-19 22-1-12-12-5-25 4-15-15-18 -> cat castle reads valley door
+23-9-19-5 21-14-4-5-18 8-1-20-20-5-18 4-9-19-3-15-22-5-18-19 -> wise under hatter discovers
+4-18-1-23-19 23-9-19-5 3-1-20 -> draws wise cat
+4-18-5-1-13-19 3-1-20 16-1-12-1-3-5 2-15-15-11 13-1-7-9-3-1-12 -> dreams cat palace book magical
+4-18-1-23-19 4-18-5-1-13-19 1-14-3-9-5-14-20 19-5-3-18-5-20 -> draws dreams ancient secret
+19-5-3-18-5-20 8-1-20-20-5-18 22-1-12-12-5-25 13-15-21-19-5 9-14-19-9-4-5 23-1-20-3-8-5-19 -> secret hatter valley mouse inside watches
+8-1-20-20-5-18 13-15-21-19-5 22-1-12-12-5-25 19-5-3-18-5-20 13-15-21-14-20-1-9-14 -> hatter mouse valley secret mountain
+
+Now, decrypt the following text: 7-15-12-4-5-14 1-12-9-3-5 6-15-12-12-15-23-19 22-1-12-12-5-25",golden alice follows valley
+text_subst_number_mapping_it003_0010,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+17-21-5-5-14 2-15-15-11 4-18-1-23-19 16-18-9-14-3-5-19-19 16-18-9-14-3-5-19-19 23-9-26-1-18-4 -> queen book draws princess princess wizard
+21-14-4-5-18 8-1-20-20-5-18 23-9-26-1-18-4 -> under hatter wizard
+2-15-15-11 22-1-12-12-5-25 14-5-1-18 -> book valley near
+7-15-12-4-5-14 6-15-12-12-15-23-19 23-15-14-4-5-18-12-1-14-4 -> golden follows wonderland
+3-1-20 1-14-3-9-5-14-20 23-15-14-4-5-18-12-1-14-4 -> cat ancient wonderland
+17-21-5-5-14 13-15-21-14-20-1-9-14 4-15-15-18 23-9-26-1-18-4 -> queen mountain door wizard
+17-21-5-5-14 17-21-5-5-14 14-5-1-18 6-15-12-12-15-23-19 1-12-9-3-5 9-13-1-7-9-14-5-19 -> queen queen near follows alice imagines
+13-15-21-19-5 17-21-5-5-14 19-20-21-4-5-14-20 4-15-15-18 3-8-1-19-5-19 -> mouse queen student door chases
+4-15-15-18 3-1-19-20-12-5 16-18-9-14-3-5-19-19 2-9-18-4 -> door castle princess bird
+
+Now, decrypt the following text: 13-25-19-20-5-18-9-15-21-19 9-14-19-9-4-5",mysterious inside
+text_subst_number_mapping_it003_0011,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+19-20-21-4-5-14-20 7-15-12-4-5-14 9-13-1-7-9-14-5-19 23-9-19-5 -> student golden imagines wise
+7-15-12-4-5-14 19-20-21-4-5-14-20 4-18-1-23-19 6-15-12-12-15-23-19 21-14-4-5-18 -> golden student draws follows under
+13-15-21-14-20-1-9-14 13-9-18-18-15-18 3-18-5-1-20-5-19 -> mountain mirror creates
+23-9-26-1-18-4 2-9-18-4 3-1-19-20-12-5 3-8-1-19-5-19 13-25-19-20-5-18-9-15-21-19 -> wizard bird castle chases mysterious
+13-1-7-9-3-1-12 18-5-1-4-19 22-1-12-12-5-25 4-15-15-18 -> magical reads valley door
+16-1-12-1-3-5 13-15-21-19-5 7-15-12-4-5-14 -> palace mouse golden
+4-15-15-18 3-18-5-1-20-5-19 9-13-1-7-9-14-5-19 4-18-1-23-19 1-14-3-9-5-14-20 -> door creates imagines draws ancient
+4-9-19-3-15-22-5-18-19 23-1-20-3-8-5-19 19-5-3-18-5-20 -> discovers watches secret
+
+Now, decrypt the following text: 22-1-12-12-5-25 19-5-3-18-5-20 16-1-12-1-3-5",valley secret palace
+text_subst_number_mapping_it003_0012,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+1-14-3-9-5-14-20 13-25-19-20-5-18-9-15-21-19 1-14-3-9-5-14-20 -> ancient mysterious ancient
+1-12-9-3-5 21-14-4-5-18 17-21-5-5-14 4-9-19-3-15-22-5-18-19 4-9-19-3-15-22-5-18-19 -> alice under queen discovers discovers
+1-14-3-9-5-14-20 23-1-20-3-8-5-19 4-18-1-23-19 18-5-1-4-19 13-1-7-9-3-1-12 4-9-19-3-15-22-5-18-19 -> ancient watches draws reads magical discovers
+3-1-19-20-12-5 19-20-21-4-5-14-20 2-15-15-11 13-9-18-18-15-18 -> castle student book mirror
+1-14-3-9-5-14-20 2-9-18-4 6-15-12-12-15-23-19 -> ancient bird follows
+8-1-20-20-5-18 4-18-1-23-19 9-13-1-7-9-14-5-19 4-18-5-1-13-19 8-1-20-20-5-18 -> hatter draws imagines dreams hatter
+13-15-21-19-5 14-5-1-18 1-14-3-9-5-14-20 23-9-26-1-18-4 9-13-1-7-9-14-5-19 8-1-20-20-5-18 -> mouse near ancient wizard imagines hatter
+22-1-12-12-5-25 23-15-14-4-5-18-12-1-14-4 7-15-12-4-5-14 -> valley wonderland golden
+
+Now, decrypt the following text: 19-20-21-4-5-14-20 4-18-1-7-15-14",student dragon
+text_subst_number_mapping_it003_0013,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-18-1-7-15-14 4-18-1-23-19 16-18-9-14-3-5-19-19 3-18-5-1-20-5-19 -> dragon draws princess creates
+14-5-1-18 4-18-5-1-13-19 3-1-19-20-12-5 16-1-12-1-3-5 -> near dreams castle palace
+22-1-12-12-5-25 13-25-19-20-5-18-9-15-21-19 3-1-19-20-12-5 13-1-7-9-3-1-12 4-18-1-23-19 -> valley mysterious castle magical draws
+13-25-19-20-5-18-9-15-21-19 17-21-5-5-14 3-18-5-1-20-5-19 3-1-19-20-12-5 13-25-19-20-5-18-9-15-21-19 23-15-14-4-5-18-12-1-14-4 -> mysterious queen creates castle mysterious wonderland
+13-15-21-19-5 22-1-12-12-5-25 23-15-14-4-5-18-12-1-14-4 3-8-1-19-5-19 -> mouse valley wonderland chases
+2-9-18-4 4-18-1-7-15-14 16-18-9-14-3-5-19-19 1-12-9-3-5 21-14-4-5-18 23-9-19-5 -> bird dragon princess alice under wise
+22-1-12-12-5-25 1-12-9-3-5 4-18-1-23-19 18-5-1-4-19 9-13-1-7-9-14-5-19 23-9-26-1-18-4 -> valley alice draws reads imagines wizard
+2-9-18-4 7-15-12-4-5-14 3-1-20 4-18-1-23-19 -> bird golden cat draws
+
+Now, decrypt the following text: 4-15-15-18 7-15-12-4-5-14 9-13-1-7-9-14-5-19 9-14-19-9-4-5",door golden imagines inside
+text_subst_number_mapping_it003_0014,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-15-14-4-5-18-12-1-14-4 1-14-3-9-5-14-20 4-9-19-3-15-22-5-18-19 13-15-21-14-20-1-9-14 8-1-20-20-5-18 -> wonderland ancient discovers mountain hatter
+3-1-20 2-15-15-11 3-1-19-20-12-5 -> cat book castle
+14-5-1-18 6-15-12-12-15-23-19 13-15-21-14-20-1-9-14 23-15-14-4-5-18-12-1-14-4 -> near follows mountain wonderland
+2-15-15-11 18-5-1-4-19 9-13-1-7-9-14-5-19 -> book reads imagines
+8-1-20-20-5-18 23-9-26-1-18-4 4-9-19-3-15-22-5-18-19 17-21-5-5-14 -> hatter wizard discovers queen
+23-9-19-5 19-5-3-18-5-20 3-1-20 13-15-21-19-5 -> wise secret cat mouse
+2-9-18-4 18-5-1-4-19 13-15-21-14-20-1-9-14 23-1-20-3-8-5-19 13-15-21-19-5 -> bird reads mountain watches mouse
+23-9-26-1-18-4 23-9-19-5 7-15-12-4-5-14 9-14-19-9-4-5 13-9-18-18-15-18 23-9-19-5 -> wizard wise golden inside mirror wise
+21-14-4-5-18 1-14-3-9-5-14-20 18-5-1-4-19 1-14-3-9-5-14-20 17-21-5-5-14 -> under ancient reads ancient queen
+9-14-19-9-4-5 1-12-9-3-5 18-5-1-4-19 13-9-18-18-15-18 -> inside alice reads mirror
+
+Now, decrypt the following text: 23-9-26-1-18-4 13-15-21-14-20-1-9-14",wizard mountain
+text_subst_number_mapping_it003_0015,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-1-19-20-12-5 4-18-5-1-13-19 19-5-3-18-5-20 9-14-19-9-4-5 -> castle dreams secret inside
+23-9-19-5 8-1-20-20-5-18 3-8-1-19-5-19 13-9-18-18-15-18 -> wise hatter chases mirror
+4-18-1-23-19 6-15-12-12-15-23-19 17-21-5-5-14 3-18-5-1-20-5-19 -> draws follows queen creates
+4-18-1-7-15-14 13-1-7-9-3-1-12 13-1-7-9-3-1-12 -> dragon magical magical
+23-9-26-1-18-4 13-15-21-14-20-1-9-14 18-5-1-4-19 3-18-5-1-20-5-19 4-9-19-3-15-22-5-18-19 19-5-3-18-5-20 -> wizard mountain reads creates discovers secret
+3-1-20 3-1-19-20-12-5 21-14-4-5-18 9-14-19-9-4-5 2-15-15-11 -> cat castle under inside book
+1-14-3-9-5-14-20 21-14-4-5-18 1-14-3-9-5-14-20 -> ancient under ancient
+9-14-19-9-4-5 21-14-4-5-18 23-9-19-5 4-9-19-3-15-22-5-18-19 -> inside under wise discovers
+4-9-19-3-15-22-5-18-19 13-25-19-20-5-18-9-15-21-19 4-18-1-23-19 23-1-20-3-8-5-19 -> discovers mysterious draws watches
+
+Now, decrypt the following text: 23-9-19-5 9-14-19-9-4-5 19-5-3-18-5-20",wise inside secret
+text_subst_number_mapping_it003_0016,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-18-9-14-3-5-19-19 2-15-15-11 3-8-1-19-5-19 21-14-4-5-18 2-15-15-11 -> princess book chases under book
+19-20-21-4-5-14-20 4-9-19-3-15-22-5-18-19 16-18-9-14-3-5-19-19 -> student discovers princess
+13-25-19-20-5-18-9-15-21-19 22-1-12-12-5-25 23-15-14-4-5-18-12-1-14-4 23-9-19-5 4-18-5-1-13-19 18-5-1-4-19 -> mysterious valley wonderland wise dreams reads
+7-15-12-4-5-14 17-21-5-5-14 4-18-1-7-15-14 3-1-20 -> golden queen dragon cat
+9-14-19-9-4-5 7-15-12-4-5-14 14-5-1-18 13-15-21-14-20-1-9-14 -> inside golden near mountain
+13-15-21-19-5 4-15-15-18 19-5-3-18-5-20 17-21-5-5-14 -> mouse door secret queen
+4-18-5-1-13-19 3-1-20 23-9-19-5 13-15-21-19-5 9-14-19-9-4-5 -> dreams cat wise mouse inside
+2-9-18-4 8-1-20-20-5-18 9-13-1-7-9-14-5-19 3-18-5-1-20-5-19 18-5-1-4-19 -> bird hatter imagines creates reads
+
+Now, decrypt the following text: 23-1-20-3-8-5-19 3-1-20 9-14-19-9-4-5 17-21-5-5-14",watches cat inside queen
+text_subst_number_mapping_it003_0017,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-1-12-1-3-5 21-14-4-5-18 23-9-19-5 4-18-5-1-13-19 -> palace under wise dreams
+6-15-12-12-15-23-19 14-5-1-18 23-1-20-3-8-5-19 23-9-26-1-18-4 13-1-7-9-3-1-12 -> follows near watches wizard magical
+1-12-9-3-5 9-14-19-9-4-5 8-1-20-20-5-18 17-21-5-5-14 -> alice inside hatter queen
+4-18-5-1-13-19 4-18-5-1-13-19 17-21-5-5-14 4-9-19-3-15-22-5-18-19 -> dreams dreams queen discovers
+4-15-15-18 3-18-5-1-20-5-19 13-9-18-18-15-18 -> door creates mirror
+9-14-19-9-4-5 3-1-19-20-12-5 4-18-5-1-13-19 23-1-20-3-8-5-19 8-1-20-20-5-18 -> inside castle dreams watches hatter
+13-15-21-14-20-1-9-14 21-14-4-5-18 9-13-1-7-9-14-5-19 23-1-20-3-8-5-19 3-8-1-19-5-19 -> mountain under imagines watches chases
+13-15-21-14-20-1-9-14 13-15-21-14-20-1-9-14 13-15-21-14-20-1-9-14 23-15-14-4-5-18-12-1-14-4 -> mountain mountain mountain wonderland
+22-1-12-12-5-25 4-9-19-3-15-22-5-18-19 19-20-21-4-5-14-20 13-15-21-19-5 23-9-26-1-18-4 -> valley discovers student mouse wizard
+
+Now, decrypt the following text: 4-9-19-3-15-22-5-18-19 13-15-21-14-20-1-9-14 22-1-12-12-5-25 13-15-21-19-5",discovers mountain valley mouse
+text_subst_number_mapping_it003_0018,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+18-5-1-4-19 4-9-19-3-15-22-5-18-19 4-9-19-3-15-22-5-18-19 -> reads discovers discovers
+21-14-4-5-18 8-1-20-20-5-18 17-21-5-5-14 13-9-18-18-15-18 3-18-5-1-20-5-19 -> under hatter queen mirror creates
+4-18-1-7-15-14 23-1-20-3-8-5-19 18-5-1-4-19 23-1-20-3-8-5-19 3-1-19-20-12-5 -> dragon watches reads watches castle
+8-1-20-20-5-18 2-9-18-4 21-14-4-5-18 13-15-21-14-20-1-9-14 3-8-1-19-5-19 -> hatter bird under mountain chases
+13-9-18-18-15-18 13-25-19-20-5-18-9-15-21-19 1-14-3-9-5-14-20 1-14-3-9-5-14-20 -> mirror mysterious ancient ancient
+4-15-15-18 16-18-9-14-3-5-19-19 7-15-12-4-5-14 -> door princess golden
+23-15-14-4-5-18-12-1-14-4 4-9-19-3-15-22-5-18-19 23-9-19-5 4-18-1-7-15-14 2-15-15-11 -> wonderland discovers wise dragon book
+9-14-19-9-4-5 3-18-5-1-20-5-19 4-18-5-1-13-19 21-14-4-5-18 13-1-7-9-3-1-12 -> inside creates dreams under magical
+19-20-21-4-5-14-20 16-1-12-1-3-5 13-9-18-18-15-18 7-15-12-4-5-14 4-18-1-23-19 4-9-19-3-15-22-5-18-19 -> student palace mirror golden draws discovers
+
+Now, decrypt the following text: 1-14-3-9-5-14-20 7-15-12-4-5-14 9-14-19-9-4-5 19-5-3-18-5-20",ancient golden inside secret
+text_subst_number_mapping_it003_0019,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+2-9-18-4 6-15-12-12-15-23-19 4-18-1-23-19 1-12-9-3-5 4-9-19-3-15-22-5-18-19 -> bird follows draws alice discovers
+16-18-9-14-3-5-19-19 18-5-1-4-19 13-15-21-19-5 -> princess reads mouse
+3-18-5-1-20-5-19 9-13-1-7-9-14-5-19 7-15-12-4-5-14 13-15-21-19-5 4-18-1-23-19 3-1-19-20-12-5 -> creates imagines golden mouse draws castle
+13-9-18-18-15-18 4-18-1-7-15-14 3-8-1-19-5-19 -> mirror dragon chases
+4-18-1-23-19 4-15-15-18 22-1-12-12-5-25 -> draws door valley
+6-15-12-12-15-23-19 3-8-1-19-5-19 18-5-1-4-19 1-14-3-9-5-14-20 4-18-5-1-13-19 -> follows chases reads ancient dreams
+22-1-12-12-5-25 2-9-18-4 19-20-21-4-5-14-20 1-14-3-9-5-14-20 9-13-1-7-9-14-5-19 -> valley bird student ancient imagines
+19-5-3-18-5-20 22-1-12-12-5-25 2-15-15-11 9-13-1-7-9-14-5-19 13-1-7-9-3-1-12 -> secret valley book imagines magical
+
+Now, decrypt the following text: 13-9-18-18-15-18 22-1-12-12-5-25 8-1-20-20-5-18",mirror valley hatter
+text_subst_number_mapping_it003_0020,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-1-20 4-18-1-7-15-14 1-14-3-9-5-14-20 17-21-5-5-14 4-18-1-23-19 17-21-5-5-14 -> cat dragon ancient queen draws queen
+3-1-20 13-15-21-19-5 8-1-20-20-5-18 13-15-21-19-5 23-1-20-3-8-5-19 18-5-1-4-19 -> cat mouse hatter mouse watches reads
+23-1-20-3-8-5-19 16-18-9-14-3-5-19-19 19-20-21-4-5-14-20 19-20-21-4-5-14-20 4-18-1-23-19 23-1-20-3-8-5-19 -> watches princess student student draws watches
+2-9-18-4 9-13-1-7-9-14-5-19 22-1-12-12-5-25 21-14-4-5-18 16-18-9-14-3-5-19-19 2-15-15-11 -> bird imagines valley under princess book
+3-8-1-19-5-19 23-9-19-5 13-1-7-9-3-1-12 13-15-21-19-5 -> chases wise magical mouse
+22-1-12-12-5-25 4-15-15-18 19-20-21-4-5-14-20 8-1-20-20-5-18 9-13-1-7-9-14-5-19 -> valley door student hatter imagines
+23-9-19-5 13-1-7-9-3-1-12 4-18-1-23-19 4-18-1-23-19 3-8-1-19-5-19 -> wise magical draws draws chases
+23-9-26-1-18-4 13-15-21-19-5 19-5-3-18-5-20 1-12-9-3-5 16-18-9-14-3-5-19-19 -> wizard mouse secret alice princess
+21-14-4-5-18 9-14-19-9-4-5 16-18-9-14-3-5-19-19 4-18-1-23-19 23-1-20-3-8-5-19 -> under inside princess draws watches
+18-5-1-4-19 4-18-1-23-19 16-18-9-14-3-5-19-19 13-15-21-14-20-1-9-14 -> reads draws princess mountain
+
+Now, decrypt the following text: 16-1-12-1-3-5 13-15-21-19-5 18-5-1-4-19 4-18-1-23-19",palace mouse reads draws
+text_subst_number_mapping_it003_0021,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-8-1-19-5-19 4-15-15-18 4-15-15-18 3-1-19-20-12-5 -> chases door door castle
+23-9-26-1-18-4 13-1-7-9-3-1-12 23-15-14-4-5-18-12-1-14-4 -> wizard magical wonderland
+4-18-1-23-19 13-1-7-9-3-1-12 4-18-1-23-19 -> draws magical draws
+9-13-1-7-9-14-5-19 23-1-20-3-8-5-19 13-15-21-19-5 -> imagines watches mouse
+13-1-7-9-3-1-12 2-9-18-4 4-18-5-1-13-19 -> magical bird dreams
+4-9-19-3-15-22-5-18-19 13-15-21-19-5 21-14-4-5-18 2-15-15-11 -> discovers mouse under book
+4-18-5-1-13-19 23-1-20-3-8-5-19 3-1-19-20-12-5 -> dreams watches castle
+6-15-12-12-15-23-19 23-9-19-5 9-13-1-7-9-14-5-19 16-1-12-1-3-5 13-15-21-14-20-1-9-14 23-15-14-4-5-18-12-1-14-4 -> follows wise imagines palace mountain wonderland
+19-5-3-18-5-20 4-15-15-18 14-5-1-18 3-18-5-1-20-5-19 -> secret door near creates
+16-1-12-1-3-5 1-14-3-9-5-14-20 21-14-4-5-18 22-1-12-12-5-25 13-25-19-20-5-18-9-15-21-19 -> palace ancient under valley mysterious
+
+Now, decrypt the following text: 6-15-12-12-15-23-19 16-18-9-14-3-5-19-19 17-21-5-5-14",follows princess queen
+text_subst_number_mapping_it003_0022,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-9-19-5 23-9-19-5 6-15-12-12-15-23-19 2-15-15-11 19-20-21-4-5-14-20 4-18-1-7-15-14 -> wise wise follows book student dragon
+7-15-12-4-5-14 4-9-19-3-15-22-5-18-19 4-18-1-7-15-14 4-18-5-1-13-19 23-15-14-4-5-18-12-1-14-4 9-14-19-9-4-5 -> golden discovers dragon dreams wonderland inside
+13-15-21-14-20-1-9-14 6-15-12-12-15-23-19 9-14-19-9-4-5 3-8-1-19-5-19 4-15-15-18 -> mountain follows inside chases door
+23-1-20-3-8-5-19 9-13-1-7-9-14-5-19 19-5-3-18-5-20 4-9-19-3-15-22-5-18-19 16-18-9-14-3-5-19-19 -> watches imagines secret discovers princess
+7-15-12-4-5-14 4-18-1-23-19 14-5-1-18 -> golden draws near
+6-15-12-12-15-23-19 1-14-3-9-5-14-20 9-13-1-7-9-14-5-19 23-9-26-1-18-4 -> follows ancient imagines wizard
+1-14-3-9-5-14-20 2-9-18-4 18-5-1-4-19 -> ancient bird reads
+23-9-19-5 18-5-1-4-19 8-1-20-20-5-18 -> wise reads hatter
+23-1-20-3-8-5-19 17-21-5-5-14 14-5-1-18 -> watches queen near
+
+Now, decrypt the following text: 18-5-1-4-19 13-9-18-18-15-18 8-1-20-20-5-18",reads mirror hatter
+text_subst_number_mapping_it003_0023,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-15-15-18 23-9-19-5 1-14-3-9-5-14-20 14-5-1-18 7-15-12-4-5-14 22-1-12-12-5-25 -> door wise ancient near golden valley
+23-15-14-4-5-18-12-1-14-4 14-5-1-18 23-9-26-1-18-4 -> wonderland near wizard
+13-25-19-20-5-18-9-15-21-19 22-1-12-12-5-25 13-25-19-20-5-18-9-15-21-19 -> mysterious valley mysterious
+7-15-12-4-5-14 1-14-3-9-5-14-20 3-1-19-20-12-5 4-9-19-3-15-22-5-18-19 -> golden ancient castle discovers
+23-9-26-1-18-4 2-9-18-4 13-25-19-20-5-18-9-15-21-19 4-18-1-7-15-14 3-8-1-19-5-19 -> wizard bird mysterious dragon chases
+4-9-19-3-15-22-5-18-19 23-9-26-1-18-4 13-15-21-19-5 -> discovers wizard mouse
+16-18-9-14-3-5-19-19 2-15-15-11 19-20-21-4-5-14-20 7-15-12-4-5-14 4-18-1-23-19 19-5-3-18-5-20 -> princess book student golden draws secret
+23-9-19-5 4-18-5-1-13-19 13-9-18-18-15-18 1-14-3-9-5-14-20 -> wise dreams mirror ancient
+13-1-7-9-3-1-12 21-14-4-5-18 3-18-5-1-20-5-19 -> magical under creates
+14-5-1-18 21-14-4-5-18 22-1-12-12-5-25 -> near under valley
+
+Now, decrypt the following text: 13-1-7-9-3-1-12 4-9-19-3-15-22-5-18-19",magical discovers
+text_subst_number_mapping_it003_0024,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+7-15-12-4-5-14 9-14-19-9-4-5 8-1-20-20-5-18 -> golden inside hatter
+17-21-5-5-14 13-9-18-18-15-18 14-5-1-18 18-5-1-4-19 13-15-21-19-5 23-15-14-4-5-18-12-1-14-4 -> queen mirror near reads mouse wonderland
+9-13-1-7-9-14-5-19 3-18-5-1-20-5-19 3-1-19-20-12-5 13-15-21-14-20-1-9-14 -> imagines creates castle mountain
+19-20-21-4-5-14-20 1-12-9-3-5 2-15-15-11 -> student alice book
+9-13-1-7-9-14-5-19 16-1-12-1-3-5 2-15-15-11 3-1-19-20-12-5 -> imagines palace book castle
+23-15-14-4-5-18-12-1-14-4 13-25-19-20-5-18-9-15-21-19 23-15-14-4-5-18-12-1-14-4 21-14-4-5-18 3-8-1-19-5-19 -> wonderland mysterious wonderland under chases
+23-9-26-1-18-4 13-15-21-14-20-1-9-14 9-13-1-7-9-14-5-19 4-18-5-1-13-19 22-1-12-12-5-25 -> wizard mountain imagines dreams valley
+16-1-12-1-3-5 13-1-7-9-3-1-12 4-15-15-18 2-15-15-11 16-18-9-14-3-5-19-19 -> palace magical door book princess
+13-9-18-18-15-18 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 -> mirror wonderland queen
+
+Now, decrypt the following text: 19-20-21-4-5-14-20 23-9-26-1-18-4",student wizard
+text_subst_number_mapping_it003_0025,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-1-12-1-3-5 7-15-12-4-5-14 8-1-20-20-5-18 9-13-1-7-9-14-5-19 13-15-21-14-20-1-9-14 -> palace golden hatter imagines mountain
+1-14-3-9-5-14-20 23-9-19-5 19-20-21-4-5-14-20 21-14-4-5-18 16-1-12-1-3-5 -> ancient wise student under palace
+23-9-19-5 7-15-12-4-5-14 3-1-20 9-13-1-7-9-14-5-19 -> wise golden cat imagines
+17-21-5-5-14 23-15-14-4-5-18-12-1-14-4 1-14-3-9-5-14-20 3-18-5-1-20-5-19 13-15-21-19-5 4-18-5-1-13-19 -> queen wonderland ancient creates mouse dreams
+13-15-21-14-20-1-9-14 4-15-15-18 13-15-21-19-5 4-15-15-18 -> mountain door mouse door
+9-13-1-7-9-14-5-19 1-14-3-9-5-14-20 17-21-5-5-14 13-9-18-18-15-18 1-12-9-3-5 19-5-3-18-5-20 -> imagines ancient queen mirror alice secret
+13-15-21-19-5 23-1-20-3-8-5-19 3-1-19-20-12-5 9-14-19-9-4-5 9-14-19-9-4-5 4-18-1-23-19 -> mouse watches castle inside inside draws
+1-12-9-3-5 8-1-20-20-5-18 21-14-4-5-18 16-18-9-14-3-5-19-19 13-1-7-9-3-1-12 -> alice hatter under princess magical
+
+Now, decrypt the following text: 13-9-18-18-15-18 3-8-1-19-5-19 4-9-19-3-15-22-5-18-19 9-14-19-9-4-5",mirror chases discovers inside
+text_subst_number_mapping_it003_0026,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-18-9-14-3-5-19-19 16-18-9-14-3-5-19-19 17-21-5-5-14 2-15-15-11 -> princess princess queen book
+13-15-21-14-20-1-9-14 18-5-1-4-19 18-5-1-4-19 1-14-3-9-5-14-20 17-21-5-5-14 13-25-19-20-5-18-9-15-21-19 -> mountain reads reads ancient queen mysterious
+4-9-19-3-15-22-5-18-19 23-9-19-5 8-1-20-20-5-18 -> discovers wise hatter
+13-15-21-14-20-1-9-14 9-14-19-9-4-5 2-15-15-11 1-12-9-3-5 3-8-1-19-5-19 -> mountain inside book alice chases
+16-18-9-14-3-5-19-19 1-14-3-9-5-14-20 3-1-20 4-18-5-1-13-19 23-9-19-5 -> princess ancient cat dreams wise
+14-5-1-18 9-13-1-7-9-14-5-19 2-15-15-11 19-5-3-18-5-20 1-12-9-3-5 8-1-20-20-5-18 -> near imagines book secret alice hatter
+13-15-21-19-5 18-5-1-4-19 1-12-9-3-5 23-9-26-1-18-4 13-25-19-20-5-18-9-15-21-19 14-5-1-18 -> mouse reads alice wizard mysterious near
+17-21-5-5-14 14-5-1-18 4-9-19-3-15-22-5-18-19 9-14-19-9-4-5 7-15-12-4-5-14 -> queen near discovers inside golden
+21-14-4-5-18 9-14-19-9-4-5 9-14-19-9-4-5 4-18-1-7-15-14 -> under inside inside dragon
+
+Now, decrypt the following text: 6-15-12-12-15-23-19 6-15-12-12-15-23-19 2-9-18-4 14-5-1-18",follows follows bird near
+text_subst_number_mapping_it003_0027,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-1-20 19-5-3-18-5-20 4-18-5-1-13-19 3-1-20 -> cat secret dreams cat
+2-15-15-11 2-15-15-11 3-18-5-1-20-5-19 -> book book creates
+6-15-12-12-15-23-19 3-1-19-20-12-5 3-1-19-20-12-5 23-15-14-4-5-18-12-1-14-4 -> follows castle castle wonderland
+23-9-19-5 19-5-3-18-5-20 7-15-12-4-5-14 23-9-19-5 22-1-12-12-5-25 4-18-1-23-19 -> wise secret golden wise valley draws
+4-15-15-18 13-1-7-9-3-1-12 16-1-12-1-3-5 13-9-18-18-15-18 23-9-19-5 -> door magical palace mirror wise
+1-14-3-9-5-14-20 4-18-5-1-13-19 13-9-18-18-15-18 3-18-5-1-20-5-19 9-14-19-9-4-5 -> ancient dreams mirror creates inside
+1-14-3-9-5-14-20 13-1-7-9-3-1-12 6-15-12-12-15-23-19 6-15-12-12-15-23-19 -> ancient magical follows follows
+13-1-7-9-3-1-12 16-1-12-1-3-5 17-21-5-5-14 6-15-12-12-15-23-19 -> magical palace queen follows
+7-15-12-4-5-14 1-14-3-9-5-14-20 1-12-9-3-5 13-15-21-14-20-1-9-14 23-1-20-3-8-5-19 -> golden ancient alice mountain watches
+6-15-12-12-15-23-19 22-1-12-12-5-25 3-1-20 13-15-21-14-20-1-9-14 3-1-20 -> follows valley cat mountain cat
+
+Now, decrypt the following text: 1-14-3-9-5-14-20 19-20-21-4-5-14-20 23-1-20-3-8-5-19",ancient student watches
+text_subst_number_mapping_it003_0028,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-9-26-1-18-4 2-9-18-4 8-1-20-20-5-18 13-9-18-18-15-18 -> wizard bird hatter mirror
+19-20-21-4-5-14-20 19-20-21-4-5-14-20 1-14-3-9-5-14-20 -> student student ancient
+3-1-20 19-20-21-4-5-14-20 6-15-12-12-15-23-19 9-13-1-7-9-14-5-19 9-14-19-9-4-5 -> cat student follows imagines inside
+18-5-1-4-19 4-18-1-23-19 3-8-1-19-5-19 17-21-5-5-14 23-15-14-4-5-18-12-1-14-4 -> reads draws chases queen wonderland
+13-1-7-9-3-1-12 23-15-14-4-5-18-12-1-14-4 6-15-12-12-15-23-19 -> magical wonderland follows
+4-18-1-23-19 23-15-14-4-5-18-12-1-14-4 19-20-21-4-5-14-20 4-18-1-7-15-14 7-15-12-4-5-14 -> draws wonderland student dragon golden
+7-15-12-4-5-14 1-12-9-3-5 4-18-1-7-15-14 23-9-19-5 -> golden alice dragon wise
+3-1-19-20-12-5 4-9-19-3-15-22-5-18-19 7-15-12-4-5-14 -> castle discovers golden
+13-15-21-14-20-1-9-14 23-15-14-4-5-18-12-1-14-4 6-15-12-12-15-23-19 1-12-9-3-5 2-9-18-4 -> mountain wonderland follows alice bird
+3-8-1-19-5-19 2-9-18-4 22-1-12-12-5-25 8-1-20-20-5-18 -> chases bird valley hatter
+
+Now, decrypt the following text: 13-25-19-20-5-18-9-15-21-19 6-15-12-12-15-23-19 21-14-4-5-18",mysterious follows under
+text_subst_number_mapping_it003_0029,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-1-12-1-3-5 1-14-3-9-5-14-20 3-8-1-19-5-19 13-25-19-20-5-18-9-15-21-19 -> palace ancient chases mysterious
+7-15-12-4-5-14 13-15-21-14-20-1-9-14 22-1-12-12-5-25 4-18-1-7-15-14 4-15-15-18 7-15-12-4-5-14 -> golden mountain valley dragon door golden
+3-18-5-1-20-5-19 4-18-1-7-15-14 6-15-12-12-15-23-19 -> creates dragon follows
+13-15-21-14-20-1-9-14 14-5-1-18 3-18-5-1-20-5-19 3-1-20 23-9-26-1-18-4 -> mountain near creates cat wizard
+21-14-4-5-18 2-15-15-11 4-15-15-18 19-5-3-18-5-20 -> under book door secret
+4-18-1-7-15-14 3-1-19-20-12-5 3-1-19-20-12-5 -> dragon castle castle
+19-5-3-18-5-20 16-18-9-14-3-5-19-19 22-1-12-12-5-25 13-9-18-18-15-18 -> secret princess valley mirror
+23-9-26-1-18-4 3-8-1-19-5-19 19-5-3-18-5-20 19-5-3-18-5-20 3-18-5-1-20-5-19 -> wizard chases secret secret creates
+6-15-12-12-15-23-19 4-9-19-3-15-22-5-18-19 18-5-1-4-19 19-5-3-18-5-20 7-15-12-4-5-14 -> follows discovers reads secret golden
+
+Now, decrypt the following text: 13-9-18-18-15-18 13-9-18-18-15-18 7-15-12-4-5-14 6-15-12-12-15-23-19",mirror mirror golden follows
+text_subst_number_mapping_it003_0030,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+2-9-18-4 18-5-1-4-19 23-15-14-4-5-18-12-1-14-4 7-15-12-4-5-14 4-18-1-23-19 3-1-20 -> bird reads wonderland golden draws cat
+23-1-20-3-8-5-19 13-15-21-14-20-1-9-14 13-25-19-20-5-18-9-15-21-19 -> watches mountain mysterious
+13-15-21-14-20-1-9-14 23-1-20-3-8-5-19 17-21-5-5-14 21-14-4-5-18 -> mountain watches queen under
+4-15-15-18 23-9-26-1-18-4 9-14-19-9-4-5 9-13-1-7-9-14-5-19 -> door wizard inside imagines
+3-1-19-20-12-5 3-1-19-20-12-5 19-5-3-18-5-20 -> castle castle secret
+4-18-1-7-15-14 2-9-18-4 3-1-20 8-1-20-20-5-18 3-18-5-1-20-5-19 -> dragon bird cat hatter creates
+22-1-12-12-5-25 23-1-20-3-8-5-19 23-9-19-5 23-9-26-1-18-4 -> valley watches wise wizard
+8-1-20-20-5-18 3-1-19-20-12-5 23-15-14-4-5-18-12-1-14-4 4-18-1-7-15-14 -> hatter castle wonderland dragon
+4-18-1-23-19 4-18-1-7-15-14 21-14-4-5-18 3-1-20 7-15-12-4-5-14 19-20-21-4-5-14-20 -> draws dragon under cat golden student
+
+Now, decrypt the following text: 13-25-19-20-5-18-9-15-21-19 14-5-1-18 3-1-19-20-12-5",mysterious near castle
+text_subst_number_mapping_it003_0031,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-9-19-3-15-22-5-18-19 1-14-3-9-5-14-20 16-1-12-1-3-5 3-18-5-1-20-5-19 -> discovers ancient palace creates
+3-1-20 13-25-19-20-5-18-9-15-21-19 23-9-19-5 -> cat mysterious wise
+18-5-1-4-19 8-1-20-20-5-18 8-1-20-20-5-18 21-14-4-5-18 13-9-18-18-15-18 3-1-19-20-12-5 -> reads hatter hatter under mirror castle
+2-15-15-11 8-1-20-20-5-18 14-5-1-18 3-1-20 13-25-19-20-5-18-9-15-21-19 -> book hatter near cat mysterious
+19-5-3-18-5-20 19-20-21-4-5-14-20 3-1-20 -> secret student cat
+23-15-14-4-5-18-12-1-14-4 23-15-14-4-5-18-12-1-14-4 4-9-19-3-15-22-5-18-19 23-15-14-4-5-18-12-1-14-4 -> wonderland wonderland discovers wonderland
+13-1-7-9-3-1-12 23-9-19-5 4-18-1-23-19 8-1-20-20-5-18 19-5-3-18-5-20 -> magical wise draws hatter secret
+18-5-1-4-19 3-8-1-19-5-19 9-13-1-7-9-14-5-19 -> reads chases imagines
+
+Now, decrypt the following text: 13-1-7-9-3-1-12 21-14-4-5-18",magical under
+text_subst_number_mapping_it003_0032,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-8-1-19-5-19 17-21-5-5-14 23-15-14-4-5-18-12-1-14-4 23-15-14-4-5-18-12-1-14-4 4-9-19-3-15-22-5-18-19 -> chases queen wonderland wonderland discovers
+23-15-14-4-5-18-12-1-14-4 9-14-19-9-4-5 13-9-18-18-15-18 17-21-5-5-14 -> wonderland inside mirror queen
+4-9-19-3-15-22-5-18-19 13-9-18-18-15-18 4-15-15-18 9-14-19-9-4-5 -> discovers mirror door inside
+4-9-19-3-15-22-5-18-19 4-18-1-23-19 4-18-1-23-19 -> discovers draws draws
+4-15-15-18 2-9-18-4 3-18-5-1-20-5-19 3-1-20 -> door bird creates cat
+22-1-12-12-5-25 8-1-20-20-5-18 21-14-4-5-18 23-9-19-5 9-13-1-7-9-14-5-19 -> valley hatter under wise imagines
+8-1-20-20-5-18 17-21-5-5-14 1-12-9-3-5 4-15-15-18 4-18-1-23-19 17-21-5-5-14 -> hatter queen alice door draws queen
+4-18-1-7-15-14 9-14-19-9-4-5 7-15-12-4-5-14 4-9-19-3-15-22-5-18-19 8-1-20-20-5-18 19-20-21-4-5-14-20 -> dragon inside golden discovers hatter student
+23-1-20-3-8-5-19 4-18-1-7-15-14 16-18-9-14-3-5-19-19 21-14-4-5-18 -> watches dragon princess under
+9-13-1-7-9-14-5-19 16-18-9-14-3-5-19-19 9-14-19-9-4-5 13-1-7-9-3-1-12 16-18-9-14-3-5-19-19 22-1-12-12-5-25 -> imagines princess inside magical princess valley
+
+Now, decrypt the following text: 23-9-19-5 13-1-7-9-3-1-12",wise magical
+text_subst_number_mapping_it003_0033,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+7-15-12-4-5-14 23-9-19-5 13-1-7-9-3-1-12 -> golden wise magical
+2-9-18-4 3-1-20 4-18-1-7-15-14 13-25-19-20-5-18-9-15-21-19 -> bird cat dragon mysterious
+13-9-18-18-15-18 23-1-20-3-8-5-19 22-1-12-12-5-25 13-9-18-18-15-18 -> mirror watches valley mirror
+13-9-18-18-15-18 13-15-21-14-20-1-9-14 22-1-12-12-5-25 13-1-7-9-3-1-12 19-5-3-18-5-20 3-1-20 -> mirror mountain valley magical secret cat
+19-20-21-4-5-14-20 7-15-12-4-5-14 7-15-12-4-5-14 -> student golden golden
+21-14-4-5-18 6-15-12-12-15-23-19 4-18-1-23-19 7-15-12-4-5-14 4-18-1-23-19 -> under follows draws golden draws
+13-9-18-18-15-18 16-18-9-14-3-5-19-19 13-1-7-9-3-1-12 3-1-20 -> mirror princess magical cat
+4-15-15-18 13-1-7-9-3-1-12 8-1-20-20-5-18 2-9-18-4 3-1-20 -> door magical hatter bird cat
+7-15-12-4-5-14 4-18-5-1-13-19 9-14-19-9-4-5 -> golden dreams inside
+
+Now, decrypt the following text: 13-1-7-9-3-1-12 3-8-1-19-5-19 6-15-12-12-15-23-19 4-15-15-18",magical chases follows door
+text_subst_number_mapping_it003_0034,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+8-1-20-20-5-18 3-1-19-20-12-5 4-9-19-3-15-22-5-18-19 4-15-15-18 -> hatter castle discovers door
+23-9-26-1-18-4 19-5-3-18-5-20 13-25-19-20-5-18-9-15-21-19 -> wizard secret mysterious
+17-21-5-5-14 4-18-5-1-13-19 23-9-19-5 -> queen dreams wise
+3-1-20 16-18-9-14-3-5-19-19 4-18-1-23-19 17-21-5-5-14 3-1-19-20-12-5 -> cat princess draws queen castle
+3-1-19-20-12-5 9-13-1-7-9-14-5-19 21-14-4-5-18 9-14-19-9-4-5 4-18-1-23-19 2-9-18-4 -> castle imagines under inside draws bird
+23-9-19-5 19-5-3-18-5-20 16-1-12-1-3-5 4-9-19-3-15-22-5-18-19 -> wise secret palace discovers
+13-15-21-14-20-1-9-14 16-18-9-14-3-5-19-19 3-8-1-19-5-19 4-18-1-7-15-14 -> mountain princess chases dragon
+23-1-20-3-8-5-19 8-1-20-20-5-18 19-5-3-18-5-20 -> watches hatter secret
+1-12-9-3-5 23-1-20-3-8-5-19 4-9-19-3-15-22-5-18-19 13-15-21-19-5 -> alice watches discovers mouse
+
+Now, decrypt the following text: 23-15-14-4-5-18-12-1-14-4 2-15-15-11",wonderland book
+text_subst_number_mapping_it003_0035,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+8-1-20-20-5-18 23-1-20-3-8-5-19 13-9-18-18-15-18 4-18-1-23-19 4-18-5-1-13-19 9-14-19-9-4-5 -> hatter watches mirror draws dreams inside
+21-14-4-5-18 2-9-18-4 19-20-21-4-5-14-20 16-1-12-1-3-5 13-15-21-14-20-1-9-14 -> under bird student palace mountain
+3-18-5-1-20-5-19 6-15-12-12-15-23-19 4-18-1-7-15-14 14-5-1-18 14-5-1-18 -> creates follows dragon near near
+19-20-21-4-5-14-20 2-15-15-11 2-9-18-4 3-18-5-1-20-5-19 -> student book bird creates
+13-1-7-9-3-1-12 19-5-3-18-5-20 19-5-3-18-5-20 23-15-14-4-5-18-12-1-14-4 -> magical secret secret wonderland
+13-15-21-14-20-1-9-14 21-14-4-5-18 7-15-12-4-5-14 6-15-12-12-15-23-19 16-18-9-14-3-5-19-19 -> mountain under golden follows princess
+19-5-3-18-5-20 1-14-3-9-5-14-20 1-12-9-3-5 16-18-9-14-3-5-19-19 1-12-9-3-5 -> secret ancient alice princess alice
+3-1-20 19-5-3-18-5-20 3-1-20 -> cat secret cat
+1-14-3-9-5-14-20 6-15-12-12-15-23-19 2-9-18-4 16-18-9-14-3-5-19-19 22-1-12-12-5-25 4-18-1-23-19 -> ancient follows bird princess valley draws
+17-21-5-5-14 3-1-20 2-15-15-11 7-15-12-4-5-14 4-18-1-7-15-14 23-1-20-3-8-5-19 -> queen cat book golden dragon watches
+
+Now, decrypt the following text: 6-15-12-12-15-23-19 4-18-5-1-13-19",follows dreams
+text_subst_number_mapping_it003_0036,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-25-19-20-5-18-9-15-21-19 13-9-18-18-15-18 2-15-15-11 23-1-20-3-8-5-19 22-1-12-12-5-25 -> mysterious mirror book watches valley
+13-15-21-19-5 4-18-1-7-15-14 3-1-20 23-1-20-3-8-5-19 -> mouse dragon cat watches
+3-8-1-19-5-19 2-9-18-4 13-15-21-19-5 -> chases bird mouse
+13-25-19-20-5-18-9-15-21-19 16-1-12-1-3-5 9-14-19-9-4-5 -> mysterious palace inside
+18-5-1-4-19 23-9-19-5 3-18-5-1-20-5-19 1-12-9-3-5 -> reads wise creates alice
+1-14-3-9-5-14-20 13-15-21-19-5 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 -> ancient mouse wonderland queen
+13-25-19-20-5-18-9-15-21-19 8-1-20-20-5-18 3-18-5-1-20-5-19 -> mysterious hatter creates
+4-15-15-18 19-5-3-18-5-20 8-1-20-20-5-18 8-1-20-20-5-18 -> door secret hatter hatter
+19-5-3-18-5-20 13-9-18-18-15-18 19-20-21-4-5-14-20 4-18-1-23-19 9-14-19-9-4-5 -> secret mirror student draws inside
+
+Now, decrypt the following text: 18-5-1-4-19 23-1-20-3-8-5-19",reads watches
+text_subst_number_mapping_it003_0037,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+7-15-12-4-5-14 22-1-12-12-5-25 13-9-18-18-15-18 1-12-9-3-5 -> golden valley mirror alice
+18-5-1-4-19 3-1-20 13-15-21-14-20-1-9-14 -> reads cat mountain
+1-12-9-3-5 23-9-26-1-18-4 1-14-3-9-5-14-20 4-18-5-1-13-19 19-5-3-18-5-20 -> alice wizard ancient dreams secret
+23-9-19-5 13-1-7-9-3-1-12 21-14-4-5-18 14-5-1-18 -> wise magical under near
+2-15-15-11 22-1-12-12-5-25 3-18-5-1-20-5-19 4-15-15-18 13-1-7-9-3-1-12 -> book valley creates door magical
+1-12-9-3-5 21-14-4-5-18 16-1-12-1-3-5 13-15-21-19-5 9-13-1-7-9-14-5-19 -> alice under palace mouse imagines
+17-21-5-5-14 2-9-18-4 23-9-26-1-18-4 -> queen bird wizard
+7-15-12-4-5-14 8-1-20-20-5-18 23-1-20-3-8-5-19 -> golden hatter watches
+
+Now, decrypt the following text: 13-9-18-18-15-18 13-25-19-20-5-18-9-15-21-19 23-15-14-4-5-18-12-1-14-4 9-13-1-7-9-14-5-19",mirror mysterious wonderland imagines
+text_subst_number_mapping_it003_0038,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+19-5-3-18-5-20 16-18-9-14-3-5-19-19 13-9-18-18-15-18 23-15-14-4-5-18-12-1-14-4 9-13-1-7-9-14-5-19 4-18-5-1-13-19 -> secret princess mirror wonderland imagines dreams
+14-5-1-18 16-1-12-1-3-5 4-18-1-7-15-14 13-9-18-18-15-18 -> near palace dragon mirror
+13-9-18-18-15-18 4-15-15-18 21-14-4-5-18 4-18-5-1-13-19 16-18-9-14-3-5-19-19 -> mirror door under dreams princess
+23-1-20-3-8-5-19 1-14-3-9-5-14-20 14-5-1-18 -> watches ancient near
+19-5-3-18-5-20 3-8-1-19-5-19 23-9-26-1-18-4 13-25-19-20-5-18-9-15-21-19 -> secret chases wizard mysterious
+23-15-14-4-5-18-12-1-14-4 13-9-18-18-15-18 9-14-19-9-4-5 23-9-19-5 -> wonderland mirror inside wise
+23-9-26-1-18-4 18-5-1-4-19 3-1-20 -> wizard reads cat
+19-20-21-4-5-14-20 7-15-12-4-5-14 1-12-9-3-5 4-15-15-18 4-15-15-18 -> student golden alice door door
+13-1-7-9-3-1-12 1-14-3-9-5-14-20 13-1-7-9-3-1-12 3-18-5-1-20-5-19 -> magical ancient magical creates
+7-15-12-4-5-14 21-14-4-5-18 4-9-19-3-15-22-5-18-19 7-15-12-4-5-14 -> golden under discovers golden
+
+Now, decrypt the following text: 3-1-20 9-13-1-7-9-14-5-19 16-1-12-1-3-5",cat imagines palace
+text_subst_number_mapping_it003_0039,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+2-15-15-11 23-9-26-1-18-4 14-5-1-18 21-14-4-5-18 13-15-21-14-20-1-9-14 14-5-1-18 -> book wizard near under mountain near
+13-9-18-18-15-18 19-20-21-4-5-14-20 4-15-15-18 1-12-9-3-5 -> mirror student door alice
+2-15-15-11 4-18-1-7-15-14 4-9-19-3-15-22-5-18-19 -> book dragon discovers
+23-9-19-5 13-15-21-19-5 4-18-1-7-15-14 1-14-3-9-5-14-20 -> wise mouse dragon ancient
+4-9-19-3-15-22-5-18-19 17-21-5-5-14 13-15-21-19-5 23-1-20-3-8-5-19 -> discovers queen mouse watches
+16-18-9-14-3-5-19-19 17-21-5-5-14 13-15-21-14-20-1-9-14 13-15-21-19-5 13-1-7-9-3-1-12 21-14-4-5-18 -> princess queen mountain mouse magical under
+4-15-15-18 13-9-18-18-15-18 18-5-1-4-19 22-1-12-12-5-25 13-25-19-20-5-18-9-15-21-19 4-9-19-3-15-22-5-18-19 -> door mirror reads valley mysterious discovers
+2-15-15-11 2-15-15-11 3-8-1-19-5-19 -> book book chases
+
+Now, decrypt the following text: 13-25-19-20-5-18-9-15-21-19 18-5-1-4-19 4-18-1-7-15-14",mysterious reads dragon
+text_subst_number_mapping_it003_0040,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-25-19-20-5-18-9-15-21-19 3-8-1-19-5-19 4-15-15-18 4-9-19-3-15-22-5-18-19 -> mysterious chases door discovers
+3-1-19-20-12-5 23-9-26-1-18-4 3-18-5-1-20-5-19 23-15-14-4-5-18-12-1-14-4 23-1-20-3-8-5-19 23-1-20-3-8-5-19 -> castle wizard creates wonderland watches watches
+17-21-5-5-14 23-9-26-1-18-4 1-14-3-9-5-14-20 -> queen wizard ancient
+13-1-7-9-3-1-12 16-1-12-1-3-5 14-5-1-18 21-14-4-5-18 2-9-18-4 1-14-3-9-5-14-20 -> magical palace near under bird ancient
+23-1-20-3-8-5-19 13-15-21-19-5 13-25-19-20-5-18-9-15-21-19 -> watches mouse mysterious
+1-12-9-3-5 4-18-1-7-15-14 2-9-18-4 16-18-9-14-3-5-19-19 14-5-1-18 3-1-19-20-12-5 -> alice dragon bird princess near castle
+17-21-5-5-14 8-1-20-20-5-18 14-5-1-18 17-21-5-5-14 14-5-1-18 3-18-5-1-20-5-19 -> queen hatter near queen near creates
+2-9-18-4 13-15-21-19-5 2-9-18-4 -> bird mouse bird
+4-18-1-7-15-14 7-15-12-4-5-14 7-15-12-4-5-14 -> dragon golden golden
+
+Now, decrypt the following text: 23-1-20-3-8-5-19 18-5-1-4-19 23-9-19-5 6-15-12-12-15-23-19",watches reads wise follows
+text_subst_number_mapping_it003_0041,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-15-15-18 23-9-26-1-18-4 3-8-1-19-5-19 3-1-20 2-15-15-11 4-15-15-18 -> door wizard chases cat book door
+23-1-20-3-8-5-19 22-1-12-12-5-25 3-18-5-1-20-5-19 -> watches valley creates
+3-1-20 16-1-12-1-3-5 1-12-9-3-5 16-1-12-1-3-5 23-15-14-4-5-18-12-1-14-4 3-1-20 -> cat palace alice palace wonderland cat
+2-15-15-11 4-18-5-1-13-19 17-21-5-5-14 2-15-15-11 -> book dreams queen book
+23-15-14-4-5-18-12-1-14-4 16-1-12-1-3-5 23-15-14-4-5-18-12-1-14-4 18-5-1-4-19 -> wonderland palace wonderland reads
+22-1-12-12-5-25 8-1-20-20-5-18 17-21-5-5-14 23-9-19-5 1-14-3-9-5-14-20 -> valley hatter queen wise ancient
+4-15-15-18 13-25-19-20-5-18-9-15-21-19 16-18-9-14-3-5-19-19 19-20-21-4-5-14-20 7-15-12-4-5-14 1-12-9-3-5 -> door mysterious princess student golden alice
+23-1-20-3-8-5-19 4-15-15-18 2-15-15-11 8-1-20-20-5-18 2-15-15-11 4-18-1-7-15-14 -> watches door book hatter book dragon
+4-18-1-23-19 13-1-7-9-3-1-12 3-1-19-20-12-5 13-25-19-20-5-18-9-15-21-19 -> draws magical castle mysterious
+
+Now, decrypt the following text: 1-12-9-3-5 3-18-5-1-20-5-19",alice creates
+text_subst_number_mapping_it003_0042,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-18-1-23-19 1-12-9-3-5 13-15-21-19-5 23-9-26-1-18-4 23-15-14-4-5-18-12-1-14-4 -> draws alice mouse wizard wonderland
+18-5-1-4-19 13-25-19-20-5-18-9-15-21-19 1-12-9-3-5 3-1-20 -> reads mysterious alice cat
+13-9-18-18-15-18 8-1-20-20-5-18 3-1-19-20-12-5 -> mirror hatter castle
+4-15-15-18 3-1-20 3-8-1-19-5-19 16-1-12-1-3-5 3-8-1-19-5-19 -> door cat chases palace chases
+13-15-21-14-20-1-9-14 18-5-1-4-19 4-15-15-18 -> mountain reads door
+6-15-12-12-15-23-19 8-1-20-20-5-18 4-15-15-18 13-15-21-19-5 16-1-12-1-3-5 17-21-5-5-14 -> follows hatter door mouse palace queen
+13-15-21-14-20-1-9-14 16-1-12-1-3-5 19-20-21-4-5-14-20 13-9-18-18-15-18 13-1-7-9-3-1-12 4-18-1-23-19 -> mountain palace student mirror magical draws
+3-1-20 19-20-21-4-5-14-20 19-20-21-4-5-14-20 22-1-12-12-5-25 -> cat student student valley
+14-5-1-18 13-15-21-14-20-1-9-14 16-18-9-14-3-5-19-19 -> near mountain princess
+
+Now, decrypt the following text: 4-18-1-7-15-14 13-9-18-18-15-18",dragon mirror
+text_subst_number_mapping_it003_0043,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+17-21-5-5-14 3-18-5-1-20-5-19 13-25-19-20-5-18-9-15-21-19 4-15-15-18 2-9-18-4 3-8-1-19-5-19 -> queen creates mysterious door bird chases
+16-1-12-1-3-5 9-14-19-9-4-5 1-14-3-9-5-14-20 3-8-1-19-5-19 16-18-9-14-3-5-19-19 -> palace inside ancient chases princess
+13-9-18-18-15-18 21-14-4-5-18 13-15-21-19-5 23-9-19-5 -> mirror under mouse wise
+4-18-5-1-13-19 16-1-12-1-3-5 16-1-12-1-3-5 13-25-19-20-5-18-9-15-21-19 -> dreams palace palace mysterious
+23-1-20-3-8-5-19 21-14-4-5-18 19-20-21-4-5-14-20 8-1-20-20-5-18 1-12-9-3-5 2-9-18-4 -> watches under student hatter alice bird
+2-9-18-4 18-5-1-4-19 3-8-1-19-5-19 1-14-3-9-5-14-20 3-18-5-1-20-5-19 16-1-12-1-3-5 -> bird reads chases ancient creates palace
+6-15-12-12-15-23-19 23-1-20-3-8-5-19 6-15-12-12-15-23-19 4-18-1-7-15-14 16-1-12-1-3-5 -> follows watches follows dragon palace
+16-18-9-14-3-5-19-19 9-14-19-9-4-5 23-15-14-4-5-18-12-1-14-4 6-15-12-12-15-23-19 -> princess inside wonderland follows
+13-9-18-18-15-18 22-1-12-12-5-25 8-1-20-20-5-18 1-14-3-9-5-14-20 22-1-12-12-5-25 -> mirror valley hatter ancient valley
+
+Now, decrypt the following text: 4-18-5-1-13-19 18-5-1-4-19",dreams reads
+text_subst_number_mapping_it003_0044,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-1-20 18-5-1-4-19 8-1-20-20-5-18 13-1-7-9-3-1-12 2-15-15-11 2-9-18-4 -> cat reads hatter magical book bird
+18-5-1-4-19 13-15-21-14-20-1-9-14 23-15-14-4-5-18-12-1-14-4 22-1-12-12-5-25 6-15-12-12-15-23-19 9-13-1-7-9-14-5-19 -> reads mountain wonderland valley follows imagines
+22-1-12-12-5-25 13-15-21-19-5 3-8-1-19-5-19 -> valley mouse chases
+13-9-18-18-15-18 4-18-1-7-15-14 22-1-12-12-5-25 23-15-14-4-5-18-12-1-14-4 -> mirror dragon valley wonderland
+1-14-3-9-5-14-20 4-18-1-23-19 13-15-21-19-5 1-12-9-3-5 -> ancient draws mouse alice
+3-1-20 13-25-19-20-5-18-9-15-21-19 13-1-7-9-3-1-12 9-13-1-7-9-14-5-19 3-1-20 13-9-18-18-15-18 -> cat mysterious magical imagines cat mirror
+4-9-19-3-15-22-5-18-19 2-9-18-4 23-9-19-5 2-9-18-4 -> discovers bird wise bird
+2-15-15-11 21-14-4-5-18 8-1-20-20-5-18 21-14-4-5-18 3-8-1-19-5-19 -> book under hatter under chases
+
+Now, decrypt the following text: 18-5-1-4-19 16-1-12-1-3-5 18-5-1-4-19",reads palace reads
+text_subst_number_mapping_it003_0045,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-25-19-20-5-18-9-15-21-19 4-15-15-18 2-15-15-11 18-5-1-4-19 7-15-12-4-5-14 4-15-15-18 -> mysterious door book reads golden door
+3-1-19-20-12-5 3-1-20 8-1-20-20-5-18 4-18-1-7-15-14 19-20-21-4-5-14-20 16-1-12-1-3-5 -> castle cat hatter dragon student palace
+23-15-14-4-5-18-12-1-14-4 23-9-19-5 18-5-1-4-19 -> wonderland wise reads
+4-18-1-23-19 13-1-7-9-3-1-12 3-1-19-20-12-5 1-12-9-3-5 -> draws magical castle alice
+3-8-1-19-5-19 3-18-5-1-20-5-19 13-15-21-14-20-1-9-14 -> chases creates mountain
+13-15-21-19-5 8-1-20-20-5-18 4-9-19-3-15-22-5-18-19 13-15-21-19-5 3-18-5-1-20-5-19 21-14-4-5-18 -> mouse hatter discovers mouse creates under
+18-5-1-4-19 18-5-1-4-19 4-18-1-7-15-14 16-1-12-1-3-5 19-5-3-18-5-20 8-1-20-20-5-18 -> reads reads dragon palace secret hatter
+13-15-21-14-20-1-9-14 19-5-3-18-5-20 4-18-1-23-19 19-5-3-18-5-20 -> mountain secret draws secret
+19-20-21-4-5-14-20 9-14-19-9-4-5 2-15-15-11 9-13-1-7-9-14-5-19 -> student inside book imagines
+
+Now, decrypt the following text: 4-9-19-3-15-22-5-18-19 9-13-1-7-9-14-5-19",discovers imagines
+text_subst_number_mapping_it003_0046,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-18-1-23-19 23-1-20-3-8-5-19 4-9-19-3-15-22-5-18-19 -> draws watches discovers
+16-18-9-14-3-5-19-19 23-1-20-3-8-5-19 21-14-4-5-18 8-1-20-20-5-18 -> princess watches under hatter
+4-18-1-7-15-14 2-9-18-4 13-25-19-20-5-18-9-15-21-19 13-9-18-18-15-18 16-1-12-1-3-5 -> dragon bird mysterious mirror palace
+2-9-18-4 8-1-20-20-5-18 8-1-20-20-5-18 14-5-1-18 -> bird hatter hatter near
+3-18-5-1-20-5-19 14-5-1-18 23-1-20-3-8-5-19 13-1-7-9-3-1-12 4-18-5-1-13-19 2-15-15-11 -> creates near watches magical dreams book
+13-9-18-18-15-18 1-14-3-9-5-14-20 22-1-12-12-5-25 23-9-26-1-18-4 7-15-12-4-5-14 14-5-1-18 -> mirror ancient valley wizard golden near
+9-13-1-7-9-14-5-19 4-15-15-18 19-5-3-18-5-20 -> imagines door secret
+8-1-20-20-5-18 23-15-14-4-5-18-12-1-14-4 18-5-1-4-19 19-5-3-18-5-20 18-5-1-4-19 -> hatter wonderland reads secret reads
+23-9-19-5 22-1-12-12-5-25 1-14-3-9-5-14-20 13-15-21-14-20-1-9-14 -> wise valley ancient mountain
+
+Now, decrypt the following text: 3-1-19-20-12-5 9-13-1-7-9-14-5-19",castle imagines
+text_subst_number_mapping_it003_0047,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-9-19-5 23-1-20-3-8-5-19 19-20-21-4-5-14-20 18-5-1-4-19 4-9-19-3-15-22-5-18-19 -> wise watches student reads discovers
+22-1-12-12-5-25 1-12-9-3-5 14-5-1-18 -> valley alice near
+3-1-19-20-12-5 9-13-1-7-9-14-5-19 4-9-19-3-15-22-5-18-19 1-12-9-3-5 -> castle imagines discovers alice
+2-9-18-4 13-25-19-20-5-18-9-15-21-19 16-18-9-14-3-5-19-19 13-25-19-20-5-18-9-15-21-19 -> bird mysterious princess mysterious
+1-12-9-3-5 13-25-19-20-5-18-9-15-21-19 13-1-7-9-3-1-12 3-1-19-20-12-5 13-15-21-14-20-1-9-14 21-14-4-5-18 -> alice mysterious magical castle mountain under
+17-21-5-5-14 17-21-5-5-14 3-1-20 9-13-1-7-9-14-5-19 3-18-5-1-20-5-19 13-15-21-14-20-1-9-14 -> queen queen cat imagines creates mountain
+4-18-1-23-19 22-1-12-12-5-25 18-5-1-4-19 -> draws valley reads
+1-14-3-9-5-14-20 23-9-26-1-18-4 3-18-5-1-20-5-19 4-18-1-7-15-14 13-25-19-20-5-18-9-15-21-19 3-1-19-20-12-5 -> ancient wizard creates dragon mysterious castle
+4-18-1-23-19 2-15-15-11 2-9-18-4 13-1-7-9-3-1-12 13-15-21-14-20-1-9-14 -> draws book bird magical mountain
+
+Now, decrypt the following text: 13-15-21-19-5 19-20-21-4-5-14-20",mouse student
+text_subst_number_mapping_it003_0048,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+18-5-1-4-19 14-5-1-18 13-1-7-9-3-1-12 14-5-1-18 -> reads near magical near
+23-15-14-4-5-18-12-1-14-4 23-1-20-3-8-5-19 17-21-5-5-14 -> wonderland watches queen
+16-18-9-14-3-5-19-19 18-5-1-4-19 9-13-1-7-9-14-5-19 4-18-1-23-19 -> princess reads imagines draws
+3-1-20 23-9-26-1-18-4 1-12-9-3-5 1-12-9-3-5 -> cat wizard alice alice
+9-14-19-9-4-5 4-15-15-18 23-9-26-1-18-4 -> inside door wizard
+4-9-19-3-15-22-5-18-19 3-1-20 14-5-1-18 14-5-1-18 -> discovers cat near near
+6-15-12-12-15-23-19 4-18-5-1-13-19 6-15-12-12-15-23-19 2-15-15-11 14-5-1-18 6-15-12-12-15-23-19 -> follows dreams follows book near follows
+13-25-19-20-5-18-9-15-21-19 19-20-21-4-5-14-20 3-8-1-19-5-19 4-18-5-1-13-19 -> mysterious student chases dreams
+4-18-1-23-19 22-1-12-12-5-25 13-9-18-18-15-18 -> draws valley mirror
+
+Now, decrypt the following text: 23-9-19-5 23-15-14-4-5-18-12-1-14-4 14-5-1-18",wise wonderland near
+text_subst_number_mapping_it003_0049,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-1-12-1-3-5 16-18-9-14-3-5-19-19 2-15-15-11 -> palace princess book
+16-18-9-14-3-5-19-19 3-1-20 6-15-12-12-15-23-19 1-12-9-3-5 2-9-18-4 -> princess cat follows alice bird
+18-5-1-4-19 3-1-19-20-12-5 17-21-5-5-14 17-21-5-5-14 -> reads castle queen queen
+3-8-1-19-5-19 16-18-9-14-3-5-19-19 4-15-15-18 4-18-5-1-13-19 21-14-4-5-18 4-18-1-7-15-14 -> chases princess door dreams under dragon
+4-18-1-23-19 6-15-12-12-15-23-19 19-5-3-18-5-20 18-5-1-4-19 3-18-5-1-20-5-19 3-1-20 -> draws follows secret reads creates cat
+4-18-1-7-15-14 13-15-21-19-5 3-1-19-20-12-5 13-1-7-9-3-1-12 1-14-3-9-5-14-20 8-1-20-20-5-18 -> dragon mouse castle magical ancient hatter
+19-5-3-18-5-20 3-8-1-19-5-19 4-18-5-1-13-19 13-9-18-18-15-18 8-1-20-20-5-18 -> secret chases dreams mirror hatter
+13-25-19-20-5-18-9-15-21-19 13-25-19-20-5-18-9-15-21-19 4-15-15-18 -> mysterious mysterious door
+13-25-19-20-5-18-9-15-21-19 3-8-1-19-5-19 4-9-19-3-15-22-5-18-19 -> mysterious chases discovers
+
+Now, decrypt the following text: 23-1-20-3-8-5-19 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14",watches wonderland queen
+text_subst_number_mapping_it003_0050,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+17-21-5-5-14 21-14-4-5-18 23-9-26-1-18-4 23-1-20-3-8-5-19 19-5-3-18-5-20 9-13-1-7-9-14-5-19 -> queen under wizard watches secret imagines
+13-15-21-19-5 3-1-20 1-14-3-9-5-14-20 23-1-20-3-8-5-19 14-5-1-18 6-15-12-12-15-23-19 -> mouse cat ancient watches near follows
+19-5-3-18-5-20 19-5-3-18-5-20 13-1-7-9-3-1-12 9-13-1-7-9-14-5-19 17-21-5-5-14 6-15-12-12-15-23-19 -> secret secret magical imagines queen follows
+3-1-19-20-12-5 23-9-26-1-18-4 4-18-1-23-19 13-25-19-20-5-18-9-15-21-19 1-12-9-3-5 -> castle wizard draws mysterious alice
+7-15-12-4-5-14 7-15-12-4-5-14 6-15-12-12-15-23-19 4-15-15-18 -> golden golden follows door
+7-15-12-4-5-14 21-14-4-5-18 16-1-12-1-3-5 -> golden under palace
+23-1-20-3-8-5-19 13-25-19-20-5-18-9-15-21-19 19-5-3-18-5-20 4-18-1-23-19 16-1-12-1-3-5 -> watches mysterious secret draws palace
+9-13-1-7-9-14-5-19 18-5-1-4-19 16-18-9-14-3-5-19-19 -> imagines reads princess
+3-18-5-1-20-5-19 22-1-12-12-5-25 23-9-19-5 -> creates valley wise
+
+Now, decrypt the following text: 21-14-4-5-18 4-15-15-18 8-1-20-20-5-18",under door hatter
+text_subst_number_mapping_it003_0051,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+8-1-20-20-5-18 4-18-5-1-13-19 13-15-21-19-5 -> hatter dreams mouse
+13-9-18-18-15-18 9-13-1-7-9-14-5-19 14-5-1-18 17-21-5-5-14 14-5-1-18 17-21-5-5-14 -> mirror imagines near queen near queen
+23-1-20-3-8-5-19 4-15-15-18 1-14-3-9-5-14-20 19-5-3-18-5-20 1-12-9-3-5 13-1-7-9-3-1-12 -> watches door ancient secret alice magical
+23-9-19-5 21-14-4-5-18 6-15-12-12-15-23-19 4-18-1-7-15-14 14-5-1-18 17-21-5-5-14 -> wise under follows dragon near queen
+19-20-21-4-5-14-20 23-9-19-5 4-18-1-23-19 13-15-21-19-5 13-25-19-20-5-18-9-15-21-19 -> student wise draws mouse mysterious
+8-1-20-20-5-18 2-15-15-11 1-12-9-3-5 4-15-15-18 -> hatter book alice door
+13-15-21-14-20-1-9-14 3-18-5-1-20-5-19 18-5-1-4-19 -> mountain creates reads
+4-18-1-23-19 19-5-3-18-5-20 23-9-19-5 -> draws secret wise
+
+Now, decrypt the following text: 3-8-1-19-5-19 7-15-12-4-5-14 21-14-4-5-18",chases golden under
+text_subst_number_mapping_it003_0052,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-18-5-1-20-5-19 7-15-12-4-5-14 4-18-1-23-19 7-15-12-4-5-14 -> creates golden draws golden
+6-15-12-12-15-23-19 16-18-9-14-3-5-19-19 16-18-9-14-3-5-19-19 23-9-19-5 -> follows princess princess wise
+14-5-1-18 23-1-20-3-8-5-19 8-1-20-20-5-18 4-18-1-23-19 23-1-20-3-8-5-19 22-1-12-12-5-25 -> near watches hatter draws watches valley
+13-9-18-18-15-18 13-15-21-14-20-1-9-14 17-21-5-5-14 3-1-19-20-12-5 8-1-20-20-5-18 -> mirror mountain queen castle hatter
+17-21-5-5-14 1-14-3-9-5-14-20 18-5-1-4-19 -> queen ancient reads
+2-15-15-11 16-1-12-1-3-5 1-12-9-3-5 18-5-1-4-19 -> book palace alice reads
+14-5-1-18 3-1-19-20-12-5 19-5-3-18-5-20 1-14-3-9-5-14-20 4-18-5-1-13-19 -> near castle secret ancient dreams
+14-5-1-18 8-1-20-20-5-18 8-1-20-20-5-18 4-18-1-7-15-14 -> near hatter hatter dragon
+
+Now, decrypt the following text: 21-14-4-5-18 1-14-3-9-5-14-20",under ancient
+text_subst_number_mapping_it003_0053,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+2-15-15-11 4-18-1-7-15-14 22-1-12-12-5-25 23-9-26-1-18-4 13-15-21-14-20-1-9-14 -> book dragon valley wizard mountain
+3-8-1-19-5-19 23-1-20-3-8-5-19 21-14-4-5-18 7-15-12-4-5-14 -> chases watches under golden
+13-25-19-20-5-18-9-15-21-19 14-5-1-18 23-9-26-1-18-4 4-18-5-1-13-19 3-1-20 14-5-1-18 -> mysterious near wizard dreams cat near
+18-5-1-4-19 13-1-7-9-3-1-12 21-14-4-5-18 1-14-3-9-5-14-20 4-9-19-3-15-22-5-18-19 23-1-20-3-8-5-19 -> reads magical under ancient discovers watches
+1-12-9-3-5 23-9-19-5 9-14-19-9-4-5 4-18-5-1-13-19 -> alice wise inside dreams
+4-18-5-1-13-19 23-9-19-5 6-15-12-12-15-23-19 23-9-26-1-18-4 -> dreams wise follows wizard
+1-14-3-9-5-14-20 3-8-1-19-5-19 23-15-14-4-5-18-12-1-14-4 23-15-14-4-5-18-12-1-14-4 -> ancient chases wonderland wonderland
+4-18-1-7-15-14 3-1-20 13-15-21-14-20-1-9-14 1-14-3-9-5-14-20 -> dragon cat mountain ancient
+
+Now, decrypt the following text: 8-1-20-20-5-18 19-20-21-4-5-14-20",hatter student
+text_subst_number_mapping_it003_0054,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-18-5-1-13-19 22-1-12-12-5-25 18-5-1-4-19 4-18-5-1-13-19 -> dreams valley reads dreams
+6-15-12-12-15-23-19 16-1-12-1-3-5 23-9-26-1-18-4 -> follows palace wizard
+8-1-20-20-5-18 14-5-1-18 4-9-19-3-15-22-5-18-19 -> hatter near discovers
+13-15-21-19-5 9-14-19-9-4-5 16-18-9-14-3-5-19-19 1-12-9-3-5 -> mouse inside princess alice
+22-1-12-12-5-25 3-8-1-19-5-19 2-9-18-4 19-5-3-18-5-20 -> valley chases bird secret
+3-1-19-20-12-5 8-1-20-20-5-18 6-15-12-12-15-23-19 -> castle hatter follows
+21-14-4-5-18 21-14-4-5-18 4-15-15-18 3-1-19-20-12-5 -> under under door castle
+23-15-14-4-5-18-12-1-14-4 1-14-3-9-5-14-20 9-14-19-9-4-5 -> wonderland ancient inside
+
+Now, decrypt the following text: 23-15-14-4-5-18-12-1-14-4 21-14-4-5-18 19-20-21-4-5-14-20 13-25-19-20-5-18-9-15-21-19",wonderland under student mysterious
+text_subst_number_mapping_it003_0055,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+19-20-21-4-5-14-20 4-15-15-18 2-9-18-4 4-15-15-18 7-15-12-4-5-14 -> student door bird door golden
+23-9-19-5 17-21-5-5-14 13-9-18-18-15-18 13-25-19-20-5-18-9-15-21-19 -> wise queen mirror mysterious
+6-15-12-12-15-23-19 18-5-1-4-19 16-18-9-14-3-5-19-19 -> follows reads princess
+19-5-3-18-5-20 4-15-15-18 3-18-5-1-20-5-19 18-5-1-4-19 7-15-12-4-5-14 19-20-21-4-5-14-20 -> secret door creates reads golden student
+2-15-15-11 3-1-19-20-12-5 23-9-19-5 16-1-12-1-3-5 4-9-19-3-15-22-5-18-19 4-18-5-1-13-19 -> book castle wise palace discovers dreams
+3-8-1-19-5-19 16-18-9-14-3-5-19-19 1-14-3-9-5-14-20 19-20-21-4-5-14-20 21-14-4-5-18 -> chases princess ancient student under
+3-18-5-1-20-5-19 13-15-21-19-5 23-9-26-1-18-4 -> creates mouse wizard
+2-9-18-4 3-18-5-1-20-5-19 2-9-18-4 4-18-1-23-19 2-15-15-11 -> bird creates bird draws book
+
+Now, decrypt the following text: 9-14-19-9-4-5 4-15-15-18 13-9-18-18-15-18",inside door mirror
+text_subst_number_mapping_it003_0056,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+1-14-3-9-5-14-20 18-5-1-4-19 3-8-1-19-5-19 23-15-14-4-5-18-12-1-14-4 4-18-1-23-19 -> ancient reads chases wonderland draws
+2-15-15-11 4-18-1-7-15-14 17-21-5-5-14 4-18-1-23-19 -> book dragon queen draws
+23-1-20-3-8-5-19 9-13-1-7-9-14-5-19 4-9-19-3-15-22-5-18-19 6-15-12-12-15-23-19 23-1-20-3-8-5-19 -> watches imagines discovers follows watches
+13-15-21-19-5 3-18-5-1-20-5-19 3-1-20 -> mouse creates cat
+3-8-1-19-5-19 16-18-9-14-3-5-19-19 18-5-1-4-19 6-15-12-12-15-23-19 9-14-19-9-4-5 -> chases princess reads follows inside
+23-9-26-1-18-4 4-18-1-7-15-14 22-1-12-12-5-25 -> wizard dragon valley
+13-1-7-9-3-1-12 13-25-19-20-5-18-9-15-21-19 23-1-20-3-8-5-19 4-9-19-3-15-22-5-18-19 7-15-12-4-5-14 17-21-5-5-14 -> magical mysterious watches discovers golden queen
+16-1-12-1-3-5 4-18-1-23-19 1-14-3-9-5-14-20 1-14-3-9-5-14-20 4-18-1-7-15-14 9-13-1-7-9-14-5-19 -> palace draws ancient ancient dragon imagines
+4-15-15-18 13-9-18-18-15-18 4-18-5-1-13-19 -> door mirror dreams
+
+Now, decrypt the following text: 19-20-21-4-5-14-20 4-18-1-23-19 3-8-1-19-5-19 9-13-1-7-9-14-5-19",student draws chases imagines
+text_subst_number_mapping_it003_0057,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-1-12-1-3-5 16-18-9-14-3-5-19-19 13-15-21-19-5 23-1-20-3-8-5-19 -> palace princess mouse watches
+3-18-5-1-20-5-19 3-1-19-20-12-5 4-18-1-7-15-14 3-8-1-19-5-19 19-20-21-4-5-14-20 13-15-21-19-5 -> creates castle dragon chases student mouse
+4-18-1-23-19 13-25-19-20-5-18-9-15-21-19 19-5-3-18-5-20 4-18-1-23-19 1-14-3-9-5-14-20 23-15-14-4-5-18-12-1-14-4 -> draws mysterious secret draws ancient wonderland
+2-15-15-11 3-8-1-19-5-19 13-9-18-18-15-18 4-15-15-18 7-15-12-4-5-14 22-1-12-12-5-25 -> book chases mirror door golden valley
+4-15-15-18 18-5-1-4-19 2-15-15-11 13-15-21-14-20-1-9-14 -> door reads book mountain
+8-1-20-20-5-18 3-1-20 23-1-20-3-8-5-19 4-18-1-23-19 23-1-20-3-8-5-19 -> hatter cat watches draws watches
+13-15-21-19-5 13-1-7-9-3-1-12 8-1-20-20-5-18 19-5-3-18-5-20 23-15-14-4-5-18-12-1-14-4 -> mouse magical hatter secret wonderland
+9-14-19-9-4-5 17-21-5-5-14 22-1-12-12-5-25 -> inside queen valley
+4-15-15-18 2-15-15-11 4-18-1-7-15-14 -> door book dragon
+3-18-5-1-20-5-19 4-18-1-23-19 4-18-1-23-19 8-1-20-20-5-18 23-9-19-5 -> creates draws draws hatter wise
+
+Now, decrypt the following text: 13-25-19-20-5-18-9-15-21-19 4-9-19-3-15-22-5-18-19 3-18-5-1-20-5-19",mysterious discovers creates
+text_subst_number_mapping_it003_0058,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-9-26-1-18-4 1-14-3-9-5-14-20 2-15-15-11 -> wizard ancient book
+3-1-20 13-25-19-20-5-18-9-15-21-19 3-1-19-20-12-5 9-14-19-9-4-5 3-18-5-1-20-5-19 -> cat mysterious castle inside creates
+4-9-19-3-15-22-5-18-19 9-13-1-7-9-14-5-19 13-15-21-14-20-1-9-14 22-1-12-12-5-25 17-21-5-5-14 -> discovers imagines mountain valley queen
+23-15-14-4-5-18-12-1-14-4 19-20-21-4-5-14-20 16-1-12-1-3-5 -> wonderland student palace
+3-1-19-20-12-5 23-9-26-1-18-4 18-5-1-4-19 8-1-20-20-5-18 -> castle wizard reads hatter
+6-15-12-12-15-23-19 3-18-5-1-20-5-19 23-9-26-1-18-4 3-1-20 13-9-18-18-15-18 -> follows creates wizard cat mirror
+4-9-19-3-15-22-5-18-19 9-14-19-9-4-5 13-9-18-18-15-18 -> discovers inside mirror
+23-15-14-4-5-18-12-1-14-4 4-9-19-3-15-22-5-18-19 2-15-15-11 -> wonderland discovers book
+23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 4-18-5-1-13-19 18-5-1-4-19 -> wonderland queen dreams reads
+
+Now, decrypt the following text: 4-15-15-18 17-21-5-5-14",door queen
+text_subst_number_mapping_it003_0059,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-1-7-9-3-1-12 19-5-3-18-5-20 16-18-9-14-3-5-19-19 1-14-3-9-5-14-20 -> magical secret princess ancient
+4-18-1-23-19 4-18-5-1-13-19 21-14-4-5-18 2-9-18-4 13-25-19-20-5-18-9-15-21-19 9-13-1-7-9-14-5-19 -> draws dreams under bird mysterious imagines
+16-1-12-1-3-5 2-15-15-11 19-5-3-18-5-20 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 4-15-15-18 -> palace book secret wonderland queen door
+23-9-19-5 2-9-18-4 19-20-21-4-5-14-20 1-12-9-3-5 13-15-21-19-5 23-15-14-4-5-18-12-1-14-4 -> wise bird student alice mouse wonderland
+7-15-12-4-5-14 13-25-19-20-5-18-9-15-21-19 13-9-18-18-15-18 -> golden mysterious mirror
+9-13-1-7-9-14-5-19 3-1-20 2-9-18-4 22-1-12-12-5-25 -> imagines cat bird valley
+2-15-15-11 2-15-15-11 4-18-1-23-19 4-9-19-3-15-22-5-18-19 22-1-12-12-5-25 13-9-18-18-15-18 -> book book draws discovers valley mirror
+4-18-1-7-15-14 3-8-1-19-5-19 3-8-1-19-5-19 16-1-12-1-3-5 2-15-15-11 16-1-12-1-3-5 -> dragon chases chases palace book palace
+13-9-18-18-15-18 19-5-3-18-5-20 22-1-12-12-5-25 -> mirror secret valley
+3-8-1-19-5-19 21-14-4-5-18 3-8-1-19-5-19 -> chases under chases
+
+Now, decrypt the following text: 7-15-12-4-5-14 1-12-9-3-5",golden alice
+text_subst_number_mapping_it003_0060,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-1-12-1-3-5 3-1-19-20-12-5 4-18-1-23-19 -> palace castle draws
+3-1-20 4-15-15-18 4-18-1-23-19 1-14-3-9-5-14-20 -> cat door draws ancient
+23-9-26-1-18-4 17-21-5-5-14 23-9-26-1-18-4 23-1-20-3-8-5-19 -> wizard queen wizard watches
+23-1-20-3-8-5-19 7-15-12-4-5-14 13-1-7-9-3-1-12 -> watches golden magical
+21-14-4-5-18 1-12-9-3-5 3-1-19-20-12-5 23-9-26-1-18-4 22-1-12-12-5-25 -> under alice castle wizard valley
+6-15-12-12-15-23-19 18-5-1-4-19 13-9-18-18-15-18 13-15-21-19-5 -> follows reads mirror mouse
+23-9-19-5 23-1-20-3-8-5-19 3-1-19-20-12-5 -> wise watches castle
+3-8-1-19-5-19 22-1-12-12-5-25 13-15-21-19-5 -> chases valley mouse
+3-1-20 3-18-5-1-20-5-19 13-25-19-20-5-18-9-15-21-19 2-15-15-11 -> cat creates mysterious book
+8-1-20-20-5-18 16-18-9-14-3-5-19-19 16-1-12-1-3-5 -> hatter princess palace
+
+Now, decrypt the following text: 2-9-18-4 13-9-18-18-15-18 23-1-20-3-8-5-19 16-18-9-14-3-5-19-19",bird mirror watches princess
+text_subst_number_mapping_it003_0061,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-15-21-14-20-1-9-14 16-18-9-14-3-5-19-19 4-9-19-3-15-22-5-18-19 4-9-19-3-15-22-5-18-19 -> mountain princess discovers discovers
+13-9-18-18-15-18 1-14-3-9-5-14-20 4-15-15-18 4-9-19-3-15-22-5-18-19 13-1-7-9-3-1-12 9-13-1-7-9-14-5-19 -> mirror ancient door discovers magical imagines
+16-1-12-1-3-5 8-1-20-20-5-18 17-21-5-5-14 23-1-20-3-8-5-19 3-1-20 14-5-1-18 -> palace hatter queen watches cat near
+9-13-1-7-9-14-5-19 7-15-12-4-5-14 17-21-5-5-14 1-12-9-3-5 2-9-18-4 4-18-1-7-15-14 -> imagines golden queen alice bird dragon
+1-12-9-3-5 8-1-20-20-5-18 23-9-19-5 16-1-12-1-3-5 4-9-19-3-15-22-5-18-19 -> alice hatter wise palace discovers
+23-15-14-4-5-18-12-1-14-4 19-5-3-18-5-20 4-9-19-3-15-22-5-18-19 13-9-18-18-15-18 22-1-12-12-5-25 23-9-19-5 -> wonderland secret discovers mirror valley wise
+9-14-19-9-4-5 14-5-1-18 14-5-1-18 3-8-1-19-5-19 4-15-15-18 3-8-1-19-5-19 -> inside near near chases door chases
+23-9-26-1-18-4 21-14-4-5-18 16-18-9-14-3-5-19-19 19-5-3-18-5-20 18-5-1-4-19 7-15-12-4-5-14 -> wizard under princess secret reads golden
+3-18-5-1-20-5-19 4-18-1-7-15-14 4-9-19-3-15-22-5-18-19 4-18-1-23-19 14-5-1-18 -> creates dragon discovers draws near
+9-14-19-9-4-5 23-9-26-1-18-4 7-15-12-4-5-14 2-15-15-11 13-9-18-18-15-18 1-14-3-9-5-14-20 -> inside wizard golden book mirror ancient
+
+Now, decrypt the following text: 1-14-3-9-5-14-20 23-9-19-5 13-15-21-19-5 4-18-5-1-13-19",ancient wise mouse dreams
+text_subst_number_mapping_it003_0062,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+1-14-3-9-5-14-20 14-5-1-18 6-15-12-12-15-23-19 7-15-12-4-5-14 -> ancient near follows golden
+3-8-1-19-5-19 3-18-5-1-20-5-19 3-1-20 -> chases creates cat
+4-18-5-1-13-19 4-18-5-1-13-19 3-8-1-19-5-19 -> dreams dreams chases
+22-1-12-12-5-25 4-15-15-18 4-18-1-7-15-14 -> valley door dragon
+9-14-19-9-4-5 4-9-19-3-15-22-5-18-19 8-1-20-20-5-18 -> inside discovers hatter
+2-15-15-11 3-1-20 3-1-20 -> book cat cat
+4-9-19-3-15-22-5-18-19 19-20-21-4-5-14-20 19-5-3-18-5-20 3-1-20 3-1-19-20-12-5 4-18-1-23-19 -> discovers student secret cat castle draws
+16-1-12-1-3-5 2-15-15-11 16-1-12-1-3-5 13-25-19-20-5-18-9-15-21-19 3-8-1-19-5-19 -> palace book palace mysterious chases
+4-15-15-18 3-1-20 3-18-5-1-20-5-19 -> door cat creates
+
+Now, decrypt the following text: 23-15-14-4-5-18-12-1-14-4 13-15-21-19-5 4-15-15-18",wonderland mouse door
+text_subst_number_mapping_it003_0063,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+2-15-15-11 21-14-4-5-18 3-1-20 16-1-12-1-3-5 23-9-19-5 4-9-19-3-15-22-5-18-19 -> book under cat palace wise discovers
+13-25-19-20-5-18-9-15-21-19 19-20-21-4-5-14-20 9-13-1-7-9-14-5-19 19-20-21-4-5-14-20 -> mysterious student imagines student
+7-15-12-4-5-14 19-5-3-18-5-20 3-1-19-20-12-5 13-9-18-18-15-18 17-21-5-5-14 16-18-9-14-3-5-19-19 -> golden secret castle mirror queen princess
+22-1-12-12-5-25 3-1-20 18-5-1-4-19 3-18-5-1-20-5-19 -> valley cat reads creates
+8-1-20-20-5-18 4-9-19-3-15-22-5-18-19 16-1-12-1-3-5 -> hatter discovers palace
+4-18-1-23-19 4-15-15-18 1-12-9-3-5 13-15-21-14-20-1-9-14 -> draws door alice mountain
+13-15-21-19-5 4-18-1-7-15-14 4-18-5-1-13-19 -> mouse dragon dreams
+6-15-12-12-15-23-19 16-18-9-14-3-5-19-19 23-15-14-4-5-18-12-1-14-4 19-20-21-4-5-14-20 23-9-26-1-18-4 -> follows princess wonderland student wizard
+23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 1-14-3-9-5-14-20 13-25-19-20-5-18-9-15-21-19 16-1-12-1-3-5 -> wonderland queen ancient mysterious palace
+
+Now, decrypt the following text: 13-9-18-18-15-18 1-14-3-9-5-14-20 4-18-5-1-13-19 21-14-4-5-18",mirror ancient dreams under
+text_subst_number_mapping_it003_0064,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+21-14-4-5-18 13-15-21-19-5 1-12-9-3-5 21-14-4-5-18 -> under mouse alice under
+1-12-9-3-5 18-5-1-4-19 16-1-12-1-3-5 1-14-3-9-5-14-20 19-5-3-18-5-20 -> alice reads palace ancient secret
+3-8-1-19-5-19 13-15-21-14-20-1-9-14 4-15-15-18 2-15-15-11 1-12-9-3-5 -> chases mountain door book alice
+17-21-5-5-14 14-5-1-18 13-15-21-19-5 23-9-19-5 21-14-4-5-18 13-25-19-20-5-18-9-15-21-19 -> queen near mouse wise under mysterious
+22-1-12-12-5-25 4-15-15-18 23-9-26-1-18-4 -> valley door wizard
+1-12-9-3-5 23-15-14-4-5-18-12-1-14-4 18-5-1-4-19 16-18-9-14-3-5-19-19 -> alice wonderland reads princess
+23-9-26-1-18-4 13-25-19-20-5-18-9-15-21-19 2-15-15-11 19-5-3-18-5-20 -> wizard mysterious book secret
+6-15-12-12-15-23-19 4-18-5-1-13-19 16-1-12-1-3-5 -> follows dreams palace
+4-18-1-7-15-14 2-15-15-11 13-1-7-9-3-1-12 23-9-26-1-18-4 2-9-18-4 4-18-5-1-13-19 -> dragon book magical wizard bird dreams
+17-21-5-5-14 1-14-3-9-5-14-20 1-12-9-3-5 -> queen ancient alice
+
+Now, decrypt the following text: 2-9-18-4 6-15-12-12-15-23-19 13-9-18-18-15-18",bird follows mirror
+text_subst_number_mapping_it003_0065,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-18-5-1-20-5-19 16-1-12-1-3-5 23-9-26-1-18-4 -> creates palace wizard
+13-15-21-19-5 17-21-5-5-14 21-14-4-5-18 -> mouse queen under
+13-15-21-14-20-1-9-14 4-15-15-18 19-20-21-4-5-14-20 23-9-19-5 -> mountain door student wise
+4-18-5-1-13-19 9-14-19-9-4-5 18-5-1-4-19 3-18-5-1-20-5-19 17-21-5-5-14 9-14-19-9-4-5 -> dreams inside reads creates queen inside
+4-18-1-23-19 4-9-19-3-15-22-5-18-19 3-1-20 9-13-1-7-9-14-5-19 -> draws discovers cat imagines
+4-15-15-18 13-9-18-18-15-18 4-9-19-3-15-22-5-18-19 13-9-18-18-15-18 3-8-1-19-5-19 -> door mirror discovers mirror chases
+9-14-19-9-4-5 3-18-5-1-20-5-19 23-1-20-3-8-5-19 16-1-12-1-3-5 -> inside creates watches palace
+13-15-21-19-5 4-15-15-18 18-5-1-4-19 13-25-19-20-5-18-9-15-21-19 23-9-26-1-18-4 14-5-1-18 -> mouse door reads mysterious wizard near
+19-5-3-18-5-20 8-1-20-20-5-18 13-15-21-19-5 13-1-7-9-3-1-12 21-14-4-5-18 7-15-12-4-5-14 -> secret hatter mouse magical under golden
+16-18-9-14-3-5-19-19 16-1-12-1-3-5 23-9-19-5 3-18-5-1-20-5-19 3-18-5-1-20-5-19 -> princess palace wise creates creates
+
+Now, decrypt the following text: 23-1-20-3-8-5-19 13-25-19-20-5-18-9-15-21-19",watches mysterious
+text_subst_number_mapping_it003_0066,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-18-1-23-19 14-5-1-18 19-5-3-18-5-20 9-14-19-9-4-5 9-13-1-7-9-14-5-19 23-15-14-4-5-18-12-1-14-4 -> draws near secret inside imagines wonderland
+19-20-21-4-5-14-20 19-5-3-18-5-20 13-15-21-14-20-1-9-14 13-25-19-20-5-18-9-15-21-19 -> student secret mountain mysterious
+3-1-20 14-5-1-18 13-15-21-14-20-1-9-14 -> cat near mountain
+4-9-19-3-15-22-5-18-19 23-9-19-5 22-1-12-12-5-25 23-9-19-5 6-15-12-12-15-23-19 6-15-12-12-15-23-19 -> discovers wise valley wise follows follows
+13-15-21-14-20-1-9-14 19-20-21-4-5-14-20 2-9-18-4 23-15-14-4-5-18-12-1-14-4 4-18-1-23-19 -> mountain student bird wonderland draws
+19-5-3-18-5-20 3-1-20 6-15-12-12-15-23-19 13-1-7-9-3-1-12 -> secret cat follows magical
+21-14-4-5-18 3-8-1-19-5-19 3-8-1-19-5-19 21-14-4-5-18 4-15-15-18 -> under chases chases under door
+8-1-20-20-5-18 4-18-5-1-13-19 7-15-12-4-5-14 -> hatter dreams golden
+4-18-5-1-13-19 9-13-1-7-9-14-5-19 6-15-12-12-15-23-19 19-20-21-4-5-14-20 16-1-12-1-3-5 -> dreams imagines follows student palace
+19-20-21-4-5-14-20 4-9-19-3-15-22-5-18-19 4-9-19-3-15-22-5-18-19 6-15-12-12-15-23-19 -> student discovers discovers follows
+
+Now, decrypt the following text: 22-1-12-12-5-25 14-5-1-18",valley near
+text_subst_number_mapping_it003_0067,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-9-18-18-15-18 13-15-21-19-5 16-1-12-1-3-5 1-12-9-3-5 7-15-12-4-5-14 -> mirror mouse palace alice golden
+1-12-9-3-5 2-9-18-4 19-20-21-4-5-14-20 1-12-9-3-5 9-14-19-9-4-5 23-9-26-1-18-4 -> alice bird student alice inside wizard
+4-18-5-1-13-19 23-9-19-5 2-15-15-11 13-1-7-9-3-1-12 16-1-12-1-3-5 -> dreams wise book magical palace
+4-18-1-23-19 16-1-12-1-3-5 13-15-21-14-20-1-9-14 23-9-26-1-18-4 1-12-9-3-5 9-14-19-9-4-5 -> draws palace mountain wizard alice inside
+3-1-19-20-12-5 22-1-12-12-5-25 2-9-18-4 4-18-1-23-19 -> castle valley bird draws
+23-15-14-4-5-18-12-1-14-4 4-9-19-3-15-22-5-18-19 2-9-18-4 -> wonderland discovers bird
+13-25-19-20-5-18-9-15-21-19 23-1-20-3-8-5-19 23-1-20-3-8-5-19 -> mysterious watches watches
+9-14-19-9-4-5 14-5-1-18 21-14-4-5-18 17-21-5-5-14 16-1-12-1-3-5 -> inside near under queen palace
+
+Now, decrypt the following text: 16-1-12-1-3-5 4-15-15-18",palace door
+text_subst_number_mapping_it003_0068,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-15-21-19-5 13-15-21-19-5 13-15-21-19-5 3-18-5-1-20-5-19 -> mouse mouse mouse creates
+14-5-1-18 19-20-21-4-5-14-20 13-15-21-14-20-1-9-14 17-21-5-5-14 -> near student mountain queen
+18-5-1-4-19 4-9-19-3-15-22-5-18-19 14-5-1-18 -> reads discovers near
+13-1-7-9-3-1-12 17-21-5-5-14 23-1-20-3-8-5-19 6-15-12-12-15-23-19 9-13-1-7-9-14-5-19 -> magical queen watches follows imagines
+1-14-3-9-5-14-20 3-18-5-1-20-5-19 16-1-12-1-3-5 14-5-1-18 -> ancient creates palace near
+22-1-12-12-5-25 23-9-19-5 22-1-12-12-5-25 21-14-4-5-18 9-13-1-7-9-14-5-19 -> valley wise valley under imagines
+4-18-5-1-13-19 13-1-7-9-3-1-12 8-1-20-20-5-18 19-20-21-4-5-14-20 21-14-4-5-18 16-18-9-14-3-5-19-19 -> dreams magical hatter student under princess
+16-18-9-14-3-5-19-19 13-9-18-18-15-18 4-9-19-3-15-22-5-18-19 4-15-15-18 3-1-19-20-12-5 19-5-3-18-5-20 -> princess mirror discovers door castle secret
+4-9-19-3-15-22-5-18-19 14-5-1-18 13-15-21-19-5 14-5-1-18 21-14-4-5-18 -> discovers near mouse near under
+13-15-21-19-5 19-20-21-4-5-14-20 4-9-19-3-15-22-5-18-19 23-9-19-5 4-15-15-18 -> mouse student discovers wise door
+
+Now, decrypt the following text: 4-18-1-23-19 13-15-21-14-20-1-9-14",draws mountain
+text_subst_number_mapping_it003_0069,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+23-9-19-5 23-9-19-5 21-14-4-5-18 9-13-1-7-9-14-5-19 -> wise wise under imagines
+3-1-20 4-18-5-1-13-19 13-1-7-9-3-1-12 18-5-1-4-19 18-5-1-4-19 3-1-20 -> cat dreams magical reads reads cat
+4-9-19-3-15-22-5-18-19 1-12-9-3-5 3-8-1-19-5-19 9-14-19-9-4-5 2-9-18-4 -> discovers alice chases inside bird
+3-18-5-1-20-5-19 9-13-1-7-9-14-5-19 19-20-21-4-5-14-20 4-15-15-18 13-25-19-20-5-18-9-15-21-19 1-14-3-9-5-14-20 -> creates imagines student door mysterious ancient
+19-20-21-4-5-14-20 13-15-21-14-20-1-9-14 17-21-5-5-14 -> student mountain queen
+1-14-3-9-5-14-20 23-9-19-5 22-1-12-12-5-25 13-9-18-18-15-18 23-1-20-3-8-5-19 -> ancient wise valley mirror watches
+16-1-12-1-3-5 4-18-1-7-15-14 13-1-7-9-3-1-12 13-25-19-20-5-18-9-15-21-19 23-1-20-3-8-5-19 -> palace dragon magical mysterious watches
+4-18-1-7-15-14 4-18-1-7-15-14 2-9-18-4 -> dragon dragon bird
+3-1-19-20-12-5 7-15-12-4-5-14 18-5-1-4-19 -> castle golden reads
+6-15-12-12-15-23-19 19-5-3-18-5-20 16-1-12-1-3-5 -> follows secret palace
+
+Now, decrypt the following text: 2-9-18-4 9-13-1-7-9-14-5-19",bird imagines
+text_subst_number_mapping_it003_0070,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+3-1-19-20-12-5 4-18-5-1-13-19 9-13-1-7-9-14-5-19 -> castle dreams imagines
+2-9-18-4 7-15-12-4-5-14 13-15-21-19-5 4-18-5-1-13-19 -> bird golden mouse dreams
+1-14-3-9-5-14-20 2-9-18-4 19-20-21-4-5-14-20 21-14-4-5-18 -> ancient bird student under
+18-5-1-4-19 13-1-7-9-3-1-12 9-14-19-9-4-5 3-1-20 3-1-19-20-12-5 16-18-9-14-3-5-19-19 -> reads magical inside cat castle princess
+22-1-12-12-5-25 19-20-21-4-5-14-20 7-15-12-4-5-14 17-21-5-5-14 23-15-14-4-5-18-12-1-14-4 2-15-15-11 -> valley student golden queen wonderland book
+4-18-1-23-19 14-5-1-18 4-18-1-7-15-14 4-18-1-7-15-14 2-15-15-11 -> draws near dragon dragon book
+16-18-9-14-3-5-19-19 9-13-1-7-9-14-5-19 3-1-20 2-15-15-11 23-9-26-1-18-4 13-15-21-14-20-1-9-14 -> princess imagines cat book wizard mountain
+1-12-9-3-5 9-14-19-9-4-5 13-1-7-9-3-1-12 -> alice inside magical
+2-9-18-4 4-18-1-7-15-14 1-12-9-3-5 3-1-19-20-12-5 13-25-19-20-5-18-9-15-21-19 3-8-1-19-5-19 -> bird dragon alice castle mysterious chases
+19-5-3-18-5-20 23-9-19-5 22-1-12-12-5-25 17-21-5-5-14 -> secret wise valley queen
+
+Now, decrypt the following text: 19-5-3-18-5-20 16-18-9-14-3-5-19-19",secret princess
+text_subst_number_mapping_it003_0071,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-18-1-7-15-14 4-9-19-3-15-22-5-18-19 2-15-15-11 23-1-20-3-8-5-19 14-5-1-18 23-9-19-5 -> dragon discovers book watches near wise
+23-9-26-1-18-4 3-1-19-20-12-5 16-18-9-14-3-5-19-19 7-15-12-4-5-14 9-14-19-9-4-5 -> wizard castle princess golden inside
+4-9-19-3-15-22-5-18-19 2-15-15-11 1-12-9-3-5 8-1-20-20-5-18 -> discovers book alice hatter
+19-5-3-18-5-20 2-15-15-11 21-14-4-5-18 2-9-18-4 -> secret book under bird
+13-1-7-9-3-1-12 9-14-19-9-4-5 19-5-3-18-5-20 3-18-5-1-20-5-19 13-15-21-19-5 16-1-12-1-3-5 -> magical inside secret creates mouse palace
+1-14-3-9-5-14-20 3-1-20 23-1-20-3-8-5-19 2-9-18-4 22-1-12-12-5-25 3-18-5-1-20-5-19 -> ancient cat watches bird valley creates
+13-15-21-14-20-1-9-14 23-9-19-5 13-15-21-19-5 16-18-9-14-3-5-19-19 -> mountain wise mouse princess
+23-15-14-4-5-18-12-1-14-4 3-1-19-20-12-5 4-18-5-1-13-19 13-15-21-19-5 23-9-19-5 2-15-15-11 -> wonderland castle dreams mouse wise book
+
+Now, decrypt the following text: 4-9-19-3-15-22-5-18-19 9-13-1-7-9-14-5-19",discovers imagines
+text_subst_number_mapping_it003_0072,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+4-15-15-18 18-5-1-4-19 18-5-1-4-19 17-21-5-5-14 21-14-4-5-18 -> door reads reads queen under
+1-14-3-9-5-14-20 18-5-1-4-19 16-18-9-14-3-5-19-19 -> ancient reads princess
+9-13-1-7-9-14-5-19 14-5-1-18 8-1-20-20-5-18 23-15-14-4-5-18-12-1-14-4 3-18-5-1-20-5-19 4-18-1-23-19 -> imagines near hatter wonderland creates draws
+4-18-5-1-13-19 9-14-19-9-4-5 16-18-9-14-3-5-19-19 4-15-15-18 1-14-3-9-5-14-20 13-9-18-18-15-18 -> dreams inside princess door ancient mirror
+4-18-1-23-19 2-15-15-11 13-15-21-19-5 4-9-19-3-15-22-5-18-19 7-15-12-4-5-14 -> draws book mouse discovers golden
+16-1-12-1-3-5 3-1-19-20-12-5 6-15-12-12-15-23-19 23-15-14-4-5-18-12-1-14-4 7-15-12-4-5-14 6-15-12-12-15-23-19 -> palace castle follows wonderland golden follows
+2-9-18-4 9-13-1-7-9-14-5-19 19-5-3-18-5-20 3-1-20 23-9-26-1-18-4 18-5-1-4-19 -> bird imagines secret cat wizard reads
+1-14-3-9-5-14-20 18-5-1-4-19 23-9-26-1-18-4 21-14-4-5-18 4-18-1-7-15-14 -> ancient reads wizard under dragon
+
+Now, decrypt the following text: 1-12-9-3-5 19-5-3-18-5-20 4-15-15-18",alice secret door
+text_subst_number_mapping_it003_0073,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-15-21-19-5 4-9-19-3-15-22-5-18-19 6-15-12-12-15-23-19 1-14-3-9-5-14-20 -> mouse discovers follows ancient
+2-9-18-4 13-9-18-18-15-18 4-18-5-1-13-19 13-9-18-18-15-18 3-1-20 3-1-19-20-12-5 -> bird mirror dreams mirror cat castle
+1-14-3-9-5-14-20 23-9-26-1-18-4 8-1-20-20-5-18 3-8-1-19-5-19 -> ancient wizard hatter chases
+8-1-20-20-5-18 4-18-1-23-19 16-18-9-14-3-5-19-19 1-12-9-3-5 13-25-19-20-5-18-9-15-21-19 -> hatter draws princess alice mysterious
+1-12-9-3-5 9-14-19-9-4-5 8-1-20-20-5-18 -> alice inside hatter
+4-18-5-1-13-19 13-1-7-9-3-1-12 13-9-18-18-15-18 23-9-26-1-18-4 -> dreams magical mirror wizard
+3-8-1-19-5-19 6-15-12-12-15-23-19 23-9-26-1-18-4 2-9-18-4 6-15-12-12-15-23-19 -> chases follows wizard bird follows
+4-15-15-18 16-1-12-1-3-5 7-15-12-4-5-14 13-25-19-20-5-18-9-15-21-19 -> door palace golden mysterious
+
+Now, decrypt the following text: 14-5-1-18 13-15-21-14-20-1-9-14 19-20-21-4-5-14-20",near mountain student
+text_subst_number_mapping_it003_0074,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+22-1-12-12-5-25 3-8-1-19-5-19 23-1-20-3-8-5-19 13-1-7-9-3-1-12 -> valley chases watches magical
+7-15-12-4-5-14 4-18-1-7-15-14 16-1-12-1-3-5 3-18-5-1-20-5-19 17-21-5-5-14 3-18-5-1-20-5-19 -> golden dragon palace creates queen creates
+22-1-12-12-5-25 2-9-18-4 13-25-19-20-5-18-9-15-21-19 -> valley bird mysterious
+23-15-14-4-5-18-12-1-14-4 14-5-1-18 23-9-26-1-18-4 2-15-15-11 -> wonderland near wizard book
+23-9-19-5 3-8-1-19-5-19 1-14-3-9-5-14-20 13-9-18-18-15-18 8-1-20-20-5-18 -> wise chases ancient mirror hatter
+4-18-5-1-13-19 13-15-21-14-20-1-9-14 16-18-9-14-3-5-19-19 -> dreams mountain princess
+1-12-9-3-5 13-15-21-14-20-1-9-14 13-15-21-19-5 13-25-19-20-5-18-9-15-21-19 -> alice mountain mouse mysterious
+3-8-1-19-5-19 19-20-21-4-5-14-20 4-9-19-3-15-22-5-18-19 19-5-3-18-5-20 -> chases student discovers secret
+23-15-14-4-5-18-12-1-14-4 13-9-18-18-15-18 23-15-14-4-5-18-12-1-14-4 4-9-19-3-15-22-5-18-19 2-9-18-4 3-18-5-1-20-5-19 -> wonderland mirror wonderland discovers bird creates
+14-5-1-18 2-15-15-11 13-15-21-19-5 -> near book mouse
+
+Now, decrypt the following text: 9-14-19-9-4-5 1-12-9-3-5",inside alice
+text_subst_number_mapping_it003_0075,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+21-14-4-5-18 23-1-20-3-8-5-19 13-1-7-9-3-1-12 3-1-19-20-12-5 1-12-9-3-5 -> under watches magical castle alice
+18-5-1-4-19 23-15-14-4-5-18-12-1-14-4 16-1-12-1-3-5 -> reads wonderland palace
+1-12-9-3-5 3-1-19-20-12-5 21-14-4-5-18 3-1-20 -> alice castle under cat
+23-9-19-5 16-18-9-14-3-5-19-19 3-18-5-1-20-5-19 19-20-21-4-5-14-20 -> wise princess creates student
+13-15-21-19-5 2-9-18-4 1-14-3-9-5-14-20 23-9-19-5 23-1-20-3-8-5-19 -> mouse bird ancient wise watches
+16-1-12-1-3-5 3-18-5-1-20-5-19 3-1-20 4-9-19-3-15-22-5-18-19 13-9-18-18-15-18 19-20-21-4-5-14-20 -> palace creates cat discovers mirror student
+3-1-19-20-12-5 13-15-21-14-20-1-9-14 3-1-19-20-12-5 -> castle mountain castle
+23-9-19-5 3-18-5-1-20-5-19 1-12-9-3-5 9-14-19-9-4-5 4-18-1-7-15-14 14-5-1-18 -> wise creates alice inside dragon near
+
+Now, decrypt the following text: 7-15-12-4-5-14 3-1-20 9-13-1-7-9-14-5-19 9-14-19-9-4-5",golden cat imagines inside
+text_subst_number_mapping_it003_0076,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+16-18-9-14-3-5-19-19 13-25-19-20-5-18-9-15-21-19 1-12-9-3-5 8-1-20-20-5-18 23-9-26-1-18-4 13-9-18-18-15-18 -> princess mysterious alice hatter wizard mirror
+22-1-12-12-5-25 13-25-19-20-5-18-9-15-21-19 9-14-19-9-4-5 3-18-5-1-20-5-19 -> valley mysterious inside creates
+3-8-1-19-5-19 22-1-12-12-5-25 14-5-1-18 13-15-21-14-20-1-9-14 9-14-19-9-4-5 -> chases valley near mountain inside
+1-14-3-9-5-14-20 13-9-18-18-15-18 18-5-1-4-19 13-15-21-19-5 1-14-3-9-5-14-20 9-14-19-9-4-5 -> ancient mirror reads mouse ancient inside
+3-8-1-19-5-19 4-15-15-18 13-25-19-20-5-18-9-15-21-19 1-14-3-9-5-14-20 -> chases door mysterious ancient
+4-18-5-1-13-19 2-15-15-11 16-1-12-1-3-5 14-5-1-18 22-1-12-12-5-25 23-9-19-5 -> dreams book palace near valley wise
+13-15-21-19-5 9-13-1-7-9-14-5-19 16-18-9-14-3-5-19-19 23-9-19-5 4-18-1-23-19 -> mouse imagines princess wise draws
+13-9-18-18-15-18 3-1-20 1-14-3-9-5-14-20 7-15-12-4-5-14 14-5-1-18 -> mirror cat ancient golden near
+16-1-12-1-3-5 13-9-18-18-15-18 16-1-12-1-3-5 9-14-19-9-4-5 23-15-14-4-5-18-12-1-14-4 -> palace mirror palace inside wonderland
+
+Now, decrypt the following text: 23-1-20-3-8-5-19 9-13-1-7-9-14-5-19",watches imagines
+text_subst_number_mapping_it003_0077,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+13-9-18-18-15-18 2-9-18-4 2-15-15-11 4-18-1-23-19 -> mirror bird book draws
+18-5-1-4-19 23-15-14-4-5-18-12-1-14-4 16-18-9-14-3-5-19-19 21-14-4-5-18 -> reads wonderland princess under
+9-13-1-7-9-14-5-19 1-12-9-3-5 13-1-7-9-3-1-12 23-9-26-1-18-4 17-21-5-5-14 4-18-1-23-19 -> imagines alice magical wizard queen draws
+1-12-9-3-5 4-18-1-7-15-14 7-15-12-4-5-14 1-14-3-9-5-14-20 13-9-18-18-15-18 -> alice dragon golden ancient mirror
+23-9-19-5 8-1-20-20-5-18 4-18-1-7-15-14 9-13-1-7-9-14-5-19 -> wise hatter dragon imagines
+4-9-19-3-15-22-5-18-19 1-14-3-9-5-14-20 1-14-3-9-5-14-20 14-5-1-18 9-13-1-7-9-14-5-19 -> discovers ancient ancient near imagines
+4-18-1-7-15-14 16-1-12-1-3-5 19-20-21-4-5-14-20 -> dragon palace student
+22-1-12-12-5-25 18-5-1-4-19 4-18-1-7-15-14 -> valley reads dragon
+4-15-15-18 13-25-19-20-5-18-9-15-21-19 2-9-18-4 3-1-20 18-5-1-4-19 -> door mysterious bird cat reads
+14-5-1-18 13-15-21-14-20-1-9-14 6-15-12-12-15-23-19 22-1-12-12-5-25 4-15-15-18 23-15-14-4-5-18-12-1-14-4 -> near mountain follows valley door wonderland
+
+Now, decrypt the following text: 19-20-21-4-5-14-20 13-25-19-20-5-18-9-15-21-19 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14",student mysterious wonderland queen
+text_subst_number_mapping_it003_0078,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+9-14-19-9-4-5 8-1-20-20-5-18 9-14-19-9-4-5 -> inside hatter inside
+17-21-5-5-14 4-18-1-23-19 13-15-21-14-20-1-9-14 2-15-15-11 3-8-1-19-5-19 8-1-20-20-5-18 -> queen draws mountain book chases hatter
+14-5-1-18 8-1-20-20-5-18 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 13-15-21-19-5 4-9-19-3-15-22-5-18-19 -> near hatter wonderland queen mouse discovers
+6-15-12-12-15-23-19 23-1-20-3-8-5-19 6-15-12-12-15-23-19 23-9-26-1-18-4 7-15-12-4-5-14 4-18-5-1-13-19 -> follows watches follows wizard golden dreams
+22-1-12-12-5-25 3-8-1-19-5-19 2-15-15-11 4-18-5-1-13-19 22-1-12-12-5-25 -> valley chases book dreams valley
+3-1-19-20-12-5 16-1-12-1-3-5 3-1-19-20-12-5 -> castle palace castle
+1-14-3-9-5-14-20 7-15-12-4-5-14 16-1-12-1-3-5 -> ancient golden palace
+14-5-1-18 13-25-19-20-5-18-9-15-21-19 9-13-1-7-9-14-5-19 2-9-18-4 -> near mysterious imagines bird
+
+Now, decrypt the following text: 9-13-1-7-9-14-5-19 2-9-18-4 19-20-21-4-5-14-20 23-1-20-3-8-5-19",imagines bird student watches
+text_subst_number_mapping_it003_0079,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+22-1-12-12-5-25 4-9-19-3-15-22-5-18-19 3-8-1-19-5-19 -> valley discovers chases
+21-14-4-5-18 9-14-19-9-4-5 4-15-15-18 -> under inside door
+9-14-19-9-4-5 23-9-19-5 7-15-12-4-5-14 7-15-12-4-5-14 3-18-5-1-20-5-19 -> inside wise golden golden creates
+4-18-1-7-15-14 9-14-19-9-4-5 6-15-12-12-15-23-19 9-13-1-7-9-14-5-19 -> dragon inside follows imagines
+9-14-19-9-4-5 13-15-21-14-20-1-9-14 19-5-3-18-5-20 13-15-21-14-20-1-9-14 -> inside mountain secret mountain
+21-14-4-5-18 2-15-15-11 8-1-20-20-5-18 19-20-21-4-5-14-20 19-20-21-4-5-14-20 1-14-3-9-5-14-20 -> under book hatter student student ancient
+13-25-19-20-5-18-9-15-21-19 3-1-19-20-12-5 23-9-19-5 23-15-14-4-5-18-12-1-14-4 4-18-5-1-13-19 3-18-5-1-20-5-19 -> mysterious castle wise wonderland dreams creates
+3-1-20 21-14-4-5-18 13-25-19-20-5-18-9-15-21-19 4-18-1-7-15-14 13-1-7-9-3-1-12 16-18-9-14-3-5-19-19 -> cat under mysterious dragon magical princess
+18-5-1-4-19 6-15-12-12-15-23-19 4-18-1-7-15-14 21-14-4-5-18 22-1-12-12-5-25 23-15-14-4-5-18-12-1-14-4 -> reads follows dragon under valley wonderland
+13-15-21-19-5 23-15-14-4-5-18-12-1-14-4 13-25-19-20-5-18-9-15-21-19 13-15-21-19-5 13-25-19-20-5-18-9-15-21-19 13-9-18-18-15-18 -> mouse wonderland mysterious mouse mysterious mirror
+
+Now, decrypt the following text: 23-1-20-3-8-5-19 23-9-19-5",watches wise
+text_subst_number_mapping_it003_0080,"In Alice's Wonderland, secret encryption rules are used on text. Here are some examples:
+
+1-14-3-9-5-14-20 22-1-12-12-5-25 9-13-1-7-9-14-5-19 4-9-19-3-15-22-5-18-19 23-1-20-3-8-5-19 -> ancient valley imagines discovers watches
+17-21-5-5-14 13-1-7-9-3-1-12 2-9-18-4 6-15-12-12-15-23-19 16-18-9-14-3-5-19-19 3-1-19-20-12-5 -> queen magical bird follows princess castle
+4-18-1-23-19 2-9-18-4 7-15-12-4-5-14 13-9-18-18-15-18 7-15-12-4-5-14 14-5-1-18 -> draws bird golden mirror golden near
+3-18-5-1-20-5-19 23-15-14-4-5-18-12-1-14-4 17-21-5-5-14 19-20-21-4-5-14-20 13-9-18-18-15-18 6-15-12-12-15-23-19 -> creates wonderland queen student mirror follows
+3-1-19-20-12-5 13-15-21-19-5 19-20-21-4-5-14-20 3-8-1-19-5-19 9-14-19-9-4-5 3-8-1-19-5-19 -> castle mouse student chases inside chases
+4-18-1-23-19 23-15-14-4-5-18-12-1-14-4 9-14-19-9-4-5 4-18-1-7-15-14 14-5-1-18 7-15-12-4-5-14 -> draws wonderland inside dragon near golden
+2-15-15-11 4-9-19-3-15-22-5-18-19 4-15-15-18 3-1-19-20-12-5 6-15-12-12-15-23-19 -> book discovers door castle follows
+19-20-21-4-5-14-20 7-15-12-4-5-14 19-20-21-4-5-14-20 1-14-3-9-5-14-20 -> student golden student ancient
+13-15-21-14-20-1-9-14 13-15-21-14-20-1-9-14 8-1-20-20-5-18 3-1-19-20-12-5 13-9-18-18-15-18 1-14-3-9-5-14-20 -> mountain mountain hatter castle mirror ancient
+13-9-18-18-15-18 4-18-1-23-19 13-15-21-14-20-1-9-14 7-15-12-4-5-14 9-13-1-7-9-14-5-19 2-9-18-4 -> mirror draws mountain golden imagines bird
+
+Now, decrypt the following text: 9-13-1-7-9-14-5-19 3-18-5-1-20-5-19 19-20-21-4-5-14-20 19-5-3-18-5-20",imagines creates student secret

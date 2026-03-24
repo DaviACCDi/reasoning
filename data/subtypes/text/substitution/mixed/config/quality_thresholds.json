@@ -1,0 +1,11 @@
+{
+  "subtype": "text/substitution/mixed",
+  "generation_provider": "local",
+  "generation_model": "llama3.1:8b",
+  "min_keep_rate": 0.9,
+  "min_semantic_valid_rate": 0.98,
+  "min_average_score": 0.95,
+  "max_reject_rate": 0.1,
+  "stable_rounds_required": 3,
+  "min_adversarial_detection_rate": 0.95
+}

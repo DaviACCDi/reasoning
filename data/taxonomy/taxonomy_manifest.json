@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-03-24T09:35:37.035635+00:00",
+    "generated_at": "2026-03-24T15:56:58.205941+00:00",
     "source": "fixed analysis of data/raw/train.csv",
     "is_dynamic_discovery": false,
-    "notes": "Taxonomy is fixed and intentionally hardcoded."
+    "notes": "Taxonomy is fixed and intentionally hardcoded. text/substitution uses nested variants."
   },
   "totals": {
     "raw_train_rows": 9500,
@@ -32,7 +32,11 @@
       "problem_type": "text",
       "observed_count_in_raw_train": 1576,
       "subgroups": [
-        "substitution"
+        "substitution/caesar_shift",
+        "substitution/reverse_alphabet",
+        "substitution/custom_mapping",
+        "substitution/number_mapping",
+        "substitution/mixed"
       ]
     }
   ],
@@ -69,9 +73,38 @@
     },
     {
       "problem_type": "text",
-      "subgroup": "substitution",
-      "path": "text/substitution",
-      "observed_count_in_raw_train": 1576
+      "subgroup": "substitution/caesar_shift",
+      "path": "text/substitution/caesar_shift",
+      "observed_count_in_raw_train": 0,
+      "notes": "synthetic variant; not isolated as own label in raw train"
+    },
+    {
+      "problem_type": "text",
+      "subgroup": "substitution/reverse_alphabet",
+      "path": "text/substitution/reverse_alphabet",
+      "observed_count_in_raw_train": 0,
+      "notes": "synthetic variant; not isolated as own label in raw train"
+    },
+    {
+      "problem_type": "text",
+      "subgroup": "substitution/custom_mapping",
+      "path": "text/substitution/custom_mapping",
+      "observed_count_in_raw_train": 1576,
+      "notes": "train anchor row pattern"
+    },
+    {
+      "problem_type": "text",
+      "subgroup": "substitution/number_mapping",
+      "path": "text/substitution/number_mapping",
+      "observed_count_in_raw_train": 0,
+      "notes": "synthetic variant; not isolated as own label in raw train"
+    },
+    {
+      "problem_type": "text",
+      "subgroup": "substitution/mixed",
+      "path": "text/substitution/mixed",
+      "observed_count_in_raw_train": 0,
+      "notes": "synthetic variant; not isolated as own label in raw train"
     }
   ]
 }

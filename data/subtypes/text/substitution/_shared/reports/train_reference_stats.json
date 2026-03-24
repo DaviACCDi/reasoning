@@ -1,0 +1,33 @@
+{
+  "source": "data/raw/train.csv",
+  "filter": "secret encryption rules are used on text",
+  "stats": {
+    "row_count": 1576,
+    "prompt_length": {
+      "min": 265,
+      "max": 485,
+      "avg": 370.0787
+    },
+    "answer_length_chars": {
+      "min": 13,
+      "max": 39,
+      "avg": 25.453
+    },
+    "examples_per_prompt": {
+      "min": 3,
+      "max": 5,
+      "avg": 4.0
+    },
+    "lines_with_arrow_total": 6304,
+    "decrypt_task": {
+      "now_decrypt_count": 1576
+    }
+  },
+  "sample_ids": [
+    "00189f6a",
+    "001c63cb",
+    "005ad22a",
+    "00674059",
+    "00a3fd23"
+  ]
+}

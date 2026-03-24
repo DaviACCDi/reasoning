@@ -1,0 +1,388 @@
+{
+  "domain": "text/substitution",
+  "provider": "local",
+  "model": "llama3.1:8b",
+  "started_at": "2026-03-24T15:58:39.688689+00:00",
+  "states": [
+    "IN_PROGRESS",
+    "CALIBRATING",
+    "BELOW_THRESHOLD",
+    "STABLE",
+    "READY_FOR_PR",
+    "PR_OPENED",
+    "MERGED"
+  ],
+  "subtypes": {
+    "custom_mapping": {
+      "subtype": "text/substitution/custom_mapping",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "caesar_shift": {
+      "subtype": "text/substitution/caesar_shift",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "reverse_alphabet": {
+      "subtype": "text/substitution/reverse_alphabet",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "number_mapping": {
+      "subtype": "text/substitution/number_mapping",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    },
+    "mixed": {
+      "subtype": "text/substitution/mixed",
+      "state": "READY_FOR_PR",
+      "history": [
+        {
+          "iteration": 1,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 2,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        },
+        {
+          "iteration": 3,
+          "metrics": {
+            "keep_rate": 1.0,
+            "review_rate": 0.0,
+            "reject_rate": 0.0,
+            "semantic_valid_rate": 1.0,
+            "average_score": 1.0,
+            "adversarial_detection_rate": 1.0,
+            "model_parse_failure_rate": 0.0,
+            "raw_parse_success_rate": 1.0,
+            "repaired_parse_success_rate": 0.0,
+            "unsafe_repair_rate": 0.0,
+            "reject_causes": {},
+            "review_causes": {}
+          },
+          "passed": true
+        }
+      ],
+      "metrics": {
+        "keep_rate": 1.0,
+        "review_rate": 0.0,
+        "reject_rate": 0.0,
+        "semantic_valid_rate": 1.0,
+        "average_score": 1.0,
+        "adversarial_detection_rate": 1.0,
+        "model_parse_failure_rate": 0.0,
+        "raw_parse_success_rate": 1.0,
+        "repaired_parse_success_rate": 0.0,
+        "unsafe_repair_rate": 0.0,
+        "reject_causes": {},
+        "review_causes": {}
+      }
+    }
+  },
+  "finished_at": "2026-03-24T15:58:40.011674+00:00"
+}

@@ -14,7 +14,12 @@ Arquitetura orientada por subtipo para operar um subtipo por vez, sem descoberta
 - `logic/mapping` (1594)
 - `logic/roman` (1576)
 - `logic/symbolic` (1555)
-- `text/substitution` (1576)
+- `text/substitution/*` (1576 no total; ver variantes abaixo)
+
+Variantes operacionais sob `data/subtypes/text/substitution/<variant>/` (manifesto em `data/taxonomy/taxonomy_manifest.json`):
+
+- `custom_mapping` — ancora do train (1576 linhas no raw)
+- `caesar_shift`, `reverse_alphabet`, `number_mapping`, `mixed` — extensoes sinteticas (0 linhas isoladas no raw)
 
 Total observado no raw: `9500`.
 
@@ -27,7 +32,7 @@ python jobs/taxonomy/create_taxonomy_structure.py
 Esse script:
 
 1. Define a taxonomia oficial em codigo (hardcoded).
-2. Cria a estrutura `data/subtypes/<problem_type>/<subgroup>/...`.
+2. Cria a estrutura `data/subtypes/<problem_type>/<subgroup>/...` (texto: `text/substitution/<variant>/...` + `_shared/`).
 3. Gera manifesto estatico em `data/taxonomy/taxonomy_manifest.json` (opcional).
 
 ## Estrutura por subtipo
@@ -94,3 +99,22 @@ Processo de PR e qualidade:
 
 - `docs/subtype_branch_quality_process.md`
 - `.github/pull_request_template.md`
+
+## Dominio text/substitution (calibracao)
+
+Especificacao do bloco no train: `docs/text_substitution_train_spec.md`.
+
+Estatisticas de referencia (geradas):
+
+```bash
+python jobs/subtypes/extract_text_substitution_train_stats.py
+```
+
+Orquestrador por variante (geracao + validacao programaticas no estilo train; calibracao com modelo local nas iteracoes seguintes):
+
+```bash
+python jobs/subtypes/orchestrate_text_substitution_subtypes.py --batch-size 100 --max-iterations 5 --subtypes custom_mapping
+python jobs/subtypes/orchestrate_text_substitution_subtypes.py --subtypes all
+```
+
+Relatorio agregado: `data/subtypes/text/substitution/_shared/reports/orchestrator_report.json`.

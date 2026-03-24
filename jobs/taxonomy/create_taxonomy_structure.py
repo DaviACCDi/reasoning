@@ -21,9 +21,16 @@ OFFICIAL_TAXONOMY = {
         "roman": 1576,
         "symbolic": 1555,
     },
-    "text": {
-        "substitution": 1576,
-    },
+}
+
+# text/substitution split into operational variants under data/subtypes/text/substitution/<variant>/
+# Only custom_mapping has non-zero train count (1576); others are synthetic extensions.
+TEXT_SUBSTITUTION_VARIANTS: dict[str, int] = {
+    "caesar_shift": 0,
+    "reverse_alphabet": 0,
+    "custom_mapping": 1576,
+    "number_mapping": 0,
+    "mixed": 0,
 }
 
 SUBTYPE_FOLDERS = (
@@ -58,12 +65,31 @@ def build_manifest_payload() -> dict:
                 }
             )
 
+    text_subst_total = sum(TEXT_SUBSTITUTION_VARIANTS.values())
+    level_totals["text"] = text_subst_total
+    total += text_subst_total
+
+    for variant, observed_count in TEXT_SUBSTITUTION_VARIANTS.items():
+        subtypes.append(
+            {
+                "problem_type": "text",
+                "subgroup": f"substitution/{variant}",
+                "path": f"text/substitution/{variant}",
+                "observed_count_in_raw_train": observed_count,
+                "notes": (
+                    "train anchor row pattern"
+                    if variant == "custom_mapping"
+                    else "synthetic variant; not isolated as own label in raw train"
+                ),
+            }
+        )
+
     return {
         "meta": {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "source": TAXONOMY_SOURCE,
             "is_dynamic_discovery": False,
-            "notes": "Taxonomy is fixed and intentionally hardcoded.",
+            "notes": "Taxonomy is fixed and intentionally hardcoded. text/substitution uses nested variants.",
         },
         "totals": {
             "raw_train_rows": RAW_DATASET_TOTAL,
@@ -77,6 +103,13 @@ def build_manifest_payload() -> dict:
                 "subgroups": list(groups.keys()),
             }
             for problem_type, groups in OFFICIAL_TAXONOMY.items()
+        ]
+        + [
+            {
+                "problem_type": "text",
+                "observed_count_in_raw_train": text_subst_total,
+                "subgroups": [f"substitution/{v}" for v in TEXT_SUBSTITUTION_VARIANTS],
+            }
         ],
         "subtypes": subtypes,
     }
@@ -90,6 +123,16 @@ def create_subtype_structure(output_root: Path) -> int:
             for folder in SUBTYPE_FOLDERS:
                 (subtype_root / folder).mkdir(parents=True, exist_ok=True)
             created += 1
+
+    subst_root = output_root / "text" / "substitution"
+    for variant in TEXT_SUBSTITUTION_VARIANTS:
+        for folder in SUBTYPE_FOLDERS:
+            (subst_root / variant / folder).mkdir(parents=True, exist_ok=True)
+        created += 1
+
+    (subst_root / "_shared" / "reports").mkdir(parents=True, exist_ok=True)
+    (subst_root / "_shared" / "source").mkdir(parents=True, exist_ok=True)
+
     return created
 
 
