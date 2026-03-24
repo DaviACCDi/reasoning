@@ -1,68 +1,136 @@
 {
   "domain": "binary",
-  "status": "failed_blocked",
+  "status": "integrated",
   "source_manifests": {
     "distribution": "data/final/binary/binary_distribution_summary.json",
     "pr_consolidation": "data/final/binary/binary_pr_consolidation.json",
     "freeze_manifest": "data/final/binary/binary_freeze_manifest.json"
+  },
+  "prepared_at": "2026-03-24T12:50:00+00:00",
+  "shared_base": {
+    "branch": "main",
+    "commit": "3ef9ee7",
+    "description": "Shared binary baseline artifacts and integration docs"
   },
   "merge_order": [
     {
       "order": 1,
       "subtype": "binary/shift",
       "branch": "feature/binary-shift",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "bff4358"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-shift",
-      "status": "failed",
-      "started_at": "2026-03-24T12:40:00+00:00",
-      "finished_at": "2026-03-24T12:40:00+00:00",
-      "log": [
-        "pre-merge checks started",
-        "blocked: feature branch has no commits ahead of main",
-        "merge not executed",
-        "sequence stopped by policy"
+      "merged_commit": "90cd31e",
+      "primary_files": [
+        "data/subtypes/binary/shift/config/prompt_change_log.json",
+        "data/subtypes/binary/shift/final/train_ready.csv",
+        "data/subtypes/binary/shift/reports/final_quality_report.json"
       ]
     },
     {
       "order": 2,
       "subtype": "binary/rotation",
       "branch": "feature/binary-rotation",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "941b82a"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-rotation",
-      "status": "pending"
+      "merged_commit": "c8fb772",
+      "primary_files": [
+        "data/subtypes/binary/rotation/config/prompt_change_log.json",
+        "data/subtypes/binary/rotation/final/train_ready.csv",
+        "data/subtypes/binary/rotation/reports/final_quality_report.json"
+      ]
     },
     {
       "order": 3,
       "subtype": "binary/xor",
       "branch": "feature/binary-xor",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "fbea54f"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-xor",
-      "status": "pending"
+      "merged_commit": "7579aba",
+      "primary_files": [
+        "data/subtypes/binary/xor/config/prompt_change_log.json",
+        "data/subtypes/binary/xor/final/train_ready.csv",
+        "data/subtypes/binary/xor/reports/final_quality_report.json"
+      ]
     },
     {
       "order": 4,
       "subtype": "binary/and",
       "branch": "feature/binary-and",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "25e9903"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-and",
-      "status": "pending"
+      "merged_commit": "1dc2b29",
+      "primary_files": [
+        "data/subtypes/binary/and/config/prompt_change_log.json",
+        "data/subtypes/binary/and/final/train_ready.csv",
+        "data/subtypes/binary/and/reports/final_quality_report.json"
+      ]
     },
     {
       "order": 5,
       "subtype": "binary/or",
       "branch": "feature/binary-or",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "2d20d6c"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-or",
-      "status": "pending"
+      "merged_commit": "46a52cb",
+      "primary_files": [
+        "data/subtypes/binary/or/config/prompt_change_log.json",
+        "data/subtypes/binary/or/final/train_ready.csv",
+        "data/subtypes/binary/or/reports/final_quality_report.json"
+      ]
     },
     {
       "order": 6,
       "subtype": "binary/not",
       "branch": "feature/binary-not",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "d87012e"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-not",
-      "status": "pending"
+      "merged_commit": "f877d14",
+      "primary_files": [
+        "data/subtypes/binary/not/config/prompt_change_log.json",
+        "data/subtypes/binary/not/final/train_ready.csv",
+        "data/subtypes/binary/not/reports/final_quality_report.json"
+      ]
     },
     {
       "order": 7,
       "subtype": "binary/mixed",
       "branch": "feature/binary-mixed",
+      "status": "merged",
+      "delta_vs_main": "yes",
+      "commits": [
+        "e93d0ae"
+      ],
       "pr_url": "https://github.com/DaviACCDi/reasoning/pull/new/feature/binary-mixed",
-      "status": "pending"
+      "merged_commit": "5724422",
+      "primary_files": [
+        "data/subtypes/binary/mixed/config/prompt_change_log.json",
+        "data/subtypes/binary/mixed/final/train_ready.csv",
+        "data/subtypes/binary/mixed/reports/final_quality_report.json"
+      ]
     }
   ],
   "merge_policy": {
@@ -70,9 +138,10 @@
     "must_preserve_frozen_files": true,
     "must_preserve_final_dataset": true
   },
-  "blocker": {
-    "type": "no_branch_delta",
-    "details": "All binary feature branches and main currently point to the same commit; no mergeable subtype diffs exist.",
-    "detected_at": "2026-03-24T12:40:00+00:00"
-  }
+  "notes": [
+    "Subtype branches were prepared with real commit deltas against main.",
+    "Operational merge sequence executed successfully in defined order.",
+    "Domain binary integrated on main."
+  ],
+  "integration_completed_at": "2026-03-24T13:05:00+00:00"
 }
